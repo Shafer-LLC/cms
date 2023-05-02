@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Support\ShortCode\View;
+namespace Dply\CMS\Support\ShortCode\View;
 
 use ArrayAccess;
 use Illuminate\Contracts\Support\Renderable;

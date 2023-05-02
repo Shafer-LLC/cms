@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\CMS\Facades;
+namespace Dply\CMS\Facades;
 
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Contracts\View\View;

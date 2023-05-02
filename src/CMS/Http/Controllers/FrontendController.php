@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Http\Controllers;
+namespace Dply\CMS\Http\Controllers;
 
 use Juzaweb\CMS\Abstracts\Action;
 use Juzaweb\CMS\Facades\HookAction;

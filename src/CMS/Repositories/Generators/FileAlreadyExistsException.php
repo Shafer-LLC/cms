@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Repositories\Generators;
+namespace Dply\CMS\Repositories\Generators;
 
 use Exception;
 

@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\Network\Facades;
+namespace Dply\Network\Facades;
 
 use Illuminate\Support\Facades\Facade;
 use Juzaweb\Network\Contracts\NetworkRegistionContract;

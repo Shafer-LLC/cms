@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\API\Http\Resources\Media;
+namespace Dply\API\Http\Resources\Media;
 
 use Illuminate\Http\Resources\Json\ResourceCollection;
 

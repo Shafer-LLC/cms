@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Traits\Criterias;
+namespace Dply\CMS\Traits\Criterias;
 
 /**
  * @property array $searchableFields

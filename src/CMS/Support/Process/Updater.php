@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Support\Process;
+namespace Dply\CMS\Support\Process;
 
 use Juzaweb\CMS\Support\Plugin;
 

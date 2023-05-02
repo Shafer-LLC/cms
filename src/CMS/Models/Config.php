@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Models;
+namespace Dply\CMS\Models;
 
 use Juzaweb\CMS\Facades\GlobalData;
 

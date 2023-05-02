@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Backend\Repositories;
+namespace Dply\Backend\Repositories;
 
 use Juzaweb\Backend\Models\Menu;
 use Juzaweb\CMS\Repositories\BaseRepository;
@@ -8,11 +8,11 @@ use Juzaweb\CMS\Repositories\BaseRepository;
 /**
  * Interface CommentRepository.
  *
- * @package namespace Juzaweb\Backend\Repositories;
+ * @package namespace Dply\Backend\Repositories;
  */
 interface MenuRepository extends BaseRepository
 {
     public function getFrontendDetail(int $menu): Menu;
-    
+
     public function getFrontendDetailByLocation(string $location): Menu;
 }

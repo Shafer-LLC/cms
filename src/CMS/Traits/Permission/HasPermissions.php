@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Traits\Permission;
+namespace Dply\CMS\Traits\Permission;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;

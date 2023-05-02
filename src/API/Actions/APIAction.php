@@ -1,13 +1,13 @@
 <?php
 
 
-namespace Juzaweb\API\Actions;
+namespace Dply\API\Actions;
 
-use Juzaweb\API\Support\Documentation\AuthSwaggerDocumentation;
-use Juzaweb\API\Support\Documentation\PostTypeAdminSwaggerDocumentation;
-use Juzaweb\API\Support\Documentation\PostTypeSwaggerDocumentation;
-use Juzaweb\API\Support\Swagger\SwaggerDocument;
-use Juzaweb\CMS\Abstracts\Action;
+use Dply\API\Support\Documentation\AuthSwaggerDocumentation;
+use Dply\API\Support\Documentation\PostTypeAdminSwaggerDocumentation;
+use Dply\API\Support\Documentation\PostTypeSwaggerDocumentation;
+use Dply\API\Support\Swagger\SwaggerDocument;
+use Dply\CMS\Abstracts\Action;
 
 class APIAction extends Action
 {

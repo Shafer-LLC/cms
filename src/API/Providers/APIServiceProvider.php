@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\API\Providers;
+namespace Dply\API\Providers;
 
 use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Http\Request;
@@ -27,11 +27,11 @@ class APIServiceProvider extends ServiceProvider
             ]
         );
     }
-    
+
     public function register()
     {
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'api');
-        
+
         $this->app->register(RouteServiceProvider::class);
     }
 }

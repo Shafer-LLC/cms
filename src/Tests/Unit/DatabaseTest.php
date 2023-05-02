@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\Tests\Unit;
+namespace Dply\Tests\Unit;
 
 use Juzaweb\CMS\Database\Seeders\DatabaseSeeder;
 use Juzaweb\Tests\TestCase;

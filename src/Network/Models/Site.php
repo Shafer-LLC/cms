@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\Network\Models;
+namespace Dply\Network\Models;
 
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Juzaweb\CMS\Models\Model;

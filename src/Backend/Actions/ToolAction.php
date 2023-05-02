@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Backend\Actions;
+namespace Dply\Backend\Actions;
 
 use Juzaweb\CMS\Abstracts\Action;
 use Juzaweb\CMS\Facades\HookAction;
@@ -11,7 +11,7 @@ class ToolAction extends Action
     {
         $this->addAction(Action::BACKEND_INIT, [$this, 'addAdminMenu']);
     }
-    
+
     public function addAdminMenu()
     {
         HookAction::addAdminMenu(
@@ -22,7 +22,7 @@ class ToolAction extends Action
                 'position' => 99,
             ]
         );
-        
+
         HookAction::registerAdminPage(
             'imports',
             [
@@ -34,7 +34,7 @@ class ToolAction extends Action
                 ],
             ]
         );
-    
+
         if (!config('network.enable')) {
             HookAction::addAdminMenu(
                 'Log Viewer',

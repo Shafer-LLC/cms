@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Support\Collections;
+namespace Dply\CMS\Support\Collections;
 
 use Illuminate\Support\Arr;
 

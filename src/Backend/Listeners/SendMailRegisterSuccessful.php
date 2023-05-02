@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\Backend\Listeners;
+namespace Dply\Backend\Listeners;
 
 use Illuminate\Support\Str;
 use Juzaweb\CMS\Events\EmailHook;

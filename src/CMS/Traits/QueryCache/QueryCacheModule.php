@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Traits\QueryCache;
+namespace Dply\CMS\Traits\QueryCache;
 
 use BadMethodCallException;
 use DateTime;

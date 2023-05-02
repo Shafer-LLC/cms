@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Repositories\Contracts;
+namespace Dply\CMS\Repositories\Contracts;
 
 use Illuminate\Contracts\Cache\Repository as CacheRepository;
 
@@ -20,14 +20,14 @@ interface CacheableInterface
      * @return $this
      */
     public function setCacheRepository(CacheRepository $repository);
-    
+
     /**
      * Return instance of Cache Repository
      *
      * @return CacheRepository
      */
     public function getCacheRepository();
-    
+
     /**
      * Get Cache key for the method
      *
@@ -37,15 +37,15 @@ interface CacheableInterface
      * @return string
      */
     public function getCacheKey($method, $args = null);
-    
+
     /**
      * Get cache time
      *
      * @return int
      */
     public function getCacheTime();
-    
-    
+
+
     /**
      * Skip Cache
      *

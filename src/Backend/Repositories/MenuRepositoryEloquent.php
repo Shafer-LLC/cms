@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Backend\Repositories;
+namespace Dply\Backend\Repositories;
 
 use Juzaweb\Backend\Models\Menu;
 use Juzaweb\CMS\Repositories\BaseRepositoryEloquent;
@@ -8,7 +8,7 @@ use Juzaweb\CMS\Repositories\BaseRepositoryEloquent;
 /**
  * Class CommentRepositoryEloquent.
  *
- * @package namespace Juzaweb\Backend\Repositories;
+ * @package namespace Dply\Backend\Repositories;
  */
 class MenuRepositoryEloquent extends BaseRepositoryEloquent implements MenuRepository
 {
@@ -21,17 +21,17 @@ class MenuRepositoryEloquent extends BaseRepositoryEloquent implements MenuRepos
     {
         return Menu::class;
     }
-    
+
     public function getFrontendDetail(int $menu): Menu
     {
         $result = $this->model->newQuery()
             ->cacheFor(config('juzaweb.performance.query_cache.lifetime'))
             ->where(['id' => $menu])
             ->firstOrFail();
-    
+
         return $this->parserResult($result);
     }
-    
+
     public function getFrontendDetailByLocation(string $location): Menu
     {
         $menu = get_menu_by_theme_location($location);
@@ -39,7 +39,7 @@ class MenuRepositoryEloquent extends BaseRepositoryEloquent implements MenuRepos
             ->cacheFor(config('juzaweb.performance.query_cache.lifetime'))
             ->where(['id' => $menu])
             ->firstOrFail();
-        
+
         return $this->parserResult($result);
     }
 }

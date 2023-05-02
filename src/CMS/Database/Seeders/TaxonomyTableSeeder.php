@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Database\Seeders;
+namespace Dply\CMS\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Juzaweb\Backend\Models\Taxonomy;

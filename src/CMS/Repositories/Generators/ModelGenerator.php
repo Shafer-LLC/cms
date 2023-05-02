@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Repositories\Generators;
+namespace Dply\CMS\Repositories\Generators;
 
 use Juzaweb\CMS\Repositories\Generators\Generator;
 use Juzaweb\CMS\Repositories\Generators\Migrations\SchemaParser;
@@ -13,14 +13,14 @@ use Juzaweb\CMS\Repositories\Generators\Migrations\SchemaParser;
  */
 class ModelGenerator extends Generator
 {
-    
+
     /**
      * Get stub name.
      *
      * @var string
      */
     protected $stub = 'model';
-    
+
     /**
      * Get root namespace.
      *
@@ -30,7 +30,7 @@ class ModelGenerator extends Generator
     {
         return parent::getRootNamespace().parent::getConfigGeneratorClassPath($this->getPathConfigNode());
     }
-    
+
     /**
      * Get generator path config node.
      *
@@ -40,7 +40,7 @@ class ModelGenerator extends Generator
     {
         return 'models';
     }
-    
+
     /**
      * Get destination path for generated file.
      *
@@ -53,18 +53,18 @@ class ModelGenerator extends Generator
             true
         ).'/'.$this->getName().'.php';
     }
-    
+
     /**
      * Get base path of destination file.
      *
      * @return string
      */
-    
+
     public function getBasePath()
     {
         return config('repository.generator.basePath', app()->path());
     }
-    
+
     /**
      * Get array replacements.
      *
@@ -76,7 +76,7 @@ class ModelGenerator extends Generator
             'fillable' => $this->getFillable(),
         ]);
     }
-    
+
     /**
      * Get the fillable attributes.
      *
@@ -88,14 +88,14 @@ class ModelGenerator extends Generator
             return '[]';
         }
         $results = '['.PHP_EOL;
-        
+
         foreach ($this->getSchemaParser()->toArray() as $column => $value) {
             $results .= "\t\t'{$column}',".PHP_EOL;
         }
-        
+
         return $results."\t".']';
     }
-    
+
     /**
      * Get schema parser.
      *

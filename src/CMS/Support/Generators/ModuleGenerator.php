@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Support\Generators;
+namespace Dply\CMS\Support\Generators;
 
 use Illuminate\Config\Repository as Config;
 use Illuminate\Console\Command as Console;

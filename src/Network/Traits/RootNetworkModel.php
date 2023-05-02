@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\Network\Traits;
+namespace Dply\Network\Traits;
 
 use Juzaweb\Network\Facades\Network;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Backend\Http\Controllers\FileManager;
+namespace Dply\Backend\Http\Controllers\FileManager;
 
 use Intervention\Image\Facades\Image;
 use Juzaweb\CMS\Support\FileManager\Events\ImageIsResizing;

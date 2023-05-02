@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\CMS\Events;
+namespace Dply\CMS\Events;
 
 use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Foundation\Events\Dispatchable;

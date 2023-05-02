@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\CMS\Support\Validators;
+namespace Dply\CMS\Support\Validators;
 
 use Illuminate\Contracts\Validation\Rule;
 use Illuminate\Database\Eloquent\Builder;

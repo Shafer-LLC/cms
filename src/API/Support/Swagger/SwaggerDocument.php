@@ -1,11 +1,11 @@
 <?php
 
-namespace Juzaweb\API\Support\Swagger;
+namespace Dply\API\Support\Swagger;
 
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
-use Juzaweb\API\Support\Documentation\APISwaggerDocumentation;
+use Dply\API\Support\Documentation\APISwaggerDocumentation;
 
 class SwaggerDocument implements Arrayable
 {

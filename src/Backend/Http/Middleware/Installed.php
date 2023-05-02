@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\Backend\Http\Middleware;
+namespace Dply\Backend\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Route;

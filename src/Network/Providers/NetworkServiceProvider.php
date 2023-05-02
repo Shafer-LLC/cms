@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\Network\Providers;
+namespace Dply\Network\Providers;
 
 use Illuminate\Contracts\Console\Kernel;
 use Illuminate\Support\Facades\Artisan;

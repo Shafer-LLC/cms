@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\Backend\Observers;
+namespace Dply\Backend\Observers;
 
 use Illuminate\Support\Facades\Cache;
 use Juzaweb\Backend\Models\Taxonomy;

@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\CMS\Providers;
+namespace Dply\CMS\Providers;
 
 use Juzaweb\CMS\Facades\ShortCode;
 use Juzaweb\CMS\Support\ServiceProvider;

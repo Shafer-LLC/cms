@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\CMS\Models;
+namespace Dply\CMS\Models;
 
 use Juzaweb\Network\Interfaces\RootNetworkModelInterface;
 

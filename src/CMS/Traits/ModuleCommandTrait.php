@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Traits;
+namespace Dply\CMS\Traits;
 
 use Juzaweb\CMS\Exceptions\FileAlreadyExistException;
 use Juzaweb\CMS\Support\Generators\FileGenerator;

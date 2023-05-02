@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Repositories\Generators;
+namespace Dply\CMS\Repositories\Generators;
 
 use Juzaweb\CMS\Repositories\Generators\Generator;
 use Juzaweb\CMS\Repositories\Generators\RepositoryEloquentGenerator;
@@ -14,7 +14,7 @@ use Juzaweb\CMS\Repositories\Generators\RepositoryInterfaceGenerator;
  */
 class BindingsGenerator extends Generator
 {
-    
+
     /**
      * The placeholder for repository bindings
      *
@@ -27,11 +27,11 @@ class BindingsGenerator extends Generator
      * @var string
      */
     protected $stub = 'bindings/bindings';
-    
+
     public function run()
     {
-        
-        
+
+
         // Add entity repository binding to the repository service provider
         $provider = \File::get($this->getPath());
         $repositoryInterface = '\\'.$this->getRepository()."::class";
@@ -42,7 +42,7 @@ class BindingsGenerator extends Generator
             $provider
         ));
     }
-    
+
     /**
      * Get destination path for generated file.
      *
@@ -55,7 +55,7 @@ class BindingsGenerator extends Generator
             true
         ).'.php';
     }
-    
+
     /**
      * Get base path of destination file.
      *
@@ -65,7 +65,7 @@ class BindingsGenerator extends Generator
     {
         return config('repository.generator.basePath', app()->path());
     }
-    
+
     /**
      * Get generator path config node.
      *
@@ -75,7 +75,7 @@ class BindingsGenerator extends Generator
     {
         return 'provider';
     }
-    
+
     /**
      * Gets repository full class name
      *
@@ -86,15 +86,15 @@ class BindingsGenerator extends Generator
         $repositoryGenerator = new RepositoryInterfaceGenerator([
             'name' => $this->name,
         ]);
-        
+
         $repository = $repositoryGenerator->getRootNamespace().'\\'.$repositoryGenerator->getName();
-        
+
         return str_replace([
                 "\\",
                 '/',
             ], '\\', $repository).'Repository';
     }
-    
+
     /**
      * Gets eloquent repository full class name
      *
@@ -105,15 +105,15 @@ class BindingsGenerator extends Generator
         $repositoryGenerator = new RepositoryEloquentGenerator([
             'name' => $this->name,
         ]);
-        
+
         $repository = $repositoryGenerator->getRootNamespace().'\\'.$repositoryGenerator->getName();
-        
+
         return str_replace([
                 "\\",
                 '/',
             ], '\\', $repository).'RepositoryEloquent';
     }
-    
+
     /**
      * Get root namespace.
      *
@@ -123,7 +123,7 @@ class BindingsGenerator extends Generator
     {
         return parent::getRootNamespace().parent::getConfigGeneratorClassPath($this->getPathConfigNode());
     }
-    
+
     /**
      * Get array replacements.
      *

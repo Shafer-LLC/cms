@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Support;
+namespace Dply\CMS\Support;
 
 use Juzaweb\CMS\Jobs\SendEmailJob;
 use Juzaweb\Backend\Models\EmailList;

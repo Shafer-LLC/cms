@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\Frontend\Providers;
+namespace Dply\Frontend\Providers;
 
 use Juzaweb\CMS\Support\ServiceProvider;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Models;
+namespace Dply\CMS\Models;
 
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;

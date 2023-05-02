@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\CMS\Support;
+namespace Dply\CMS\Support;
 
 use Illuminate\Cache\CacheManager;
 use Illuminate\Support\Arr;
@@ -90,17 +90,17 @@ class Config implements ConfigContract
 
         return $config;
     }
-    
+
     public function getConfigs(array $keys, mixed $default = null): array
     {
         $data = [];
         foreach ($keys as $key) {
             $data[$key] = $this->getConfig($key, $default);
         }
-        
+
         return $data;
     }
-    
+
     public function all(): Collection
     {
         return collect($this->configs)->map(
@@ -108,7 +108,7 @@ class Config implements ConfigContract
                 if (is_json($value)) {
                     return json_decode($value, true);
                 }
-        
+
                 return $value;
             }
         );

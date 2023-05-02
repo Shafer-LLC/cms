@@ -8,7 +8,7 @@
  * @license    GNU General Public License v2.0
  */
 
-namespace Juzaweb\API\Support\Swagger;
+namespace Dply\API\Support\Swagger;
 
 class SwaggerParameter
 {

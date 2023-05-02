@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\Translation\Http\Controllers;
+namespace Dply\Translation\Http\Controllers;
 
 use Illuminate\Contracts\View\View;
 use Illuminate\Http\JsonResponse;

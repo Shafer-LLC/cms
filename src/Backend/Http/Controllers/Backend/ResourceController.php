@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\Backend\Http\Controllers\Backend;
+namespace Dply\Backend\Http\Controllers\Backend;
 
 use Illuminate\Support\Collection;
 use Juzaweb\Backend\Http\Datatables\ResourceDatatable;

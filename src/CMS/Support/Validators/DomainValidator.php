@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\CMS\Support\Validators;
+namespace Dply\CMS\Support\Validators;
 
 class DomainValidator
 {

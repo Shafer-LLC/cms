@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\CMS\Support;
+namespace Dply\CMS\Support;
 
 use Illuminate\Database\DatabaseManager;
 use Illuminate\Database\Query\Builder;

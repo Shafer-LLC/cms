@@ -12,7 +12,7 @@
  * Time: 10:10 PM
  */
 
-namespace Juzaweb\CMS\Http\Controllers;
+namespace Dply\CMS\Http\Controllers;
 
 use Juzaweb\CMS\Abstracts\Action;
 use Juzaweb\CMS\Traits\ResponseMessage;

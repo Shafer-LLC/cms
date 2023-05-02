@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Backend\Http\Controllers\Backend\Setting;
+namespace Dply\Backend\Http\Controllers\Backend\Setting;
 
 use Illuminate\Contracts\View\View;
 use Illuminate\Http\JsonResponse;

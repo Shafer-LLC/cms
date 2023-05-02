@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Support\Theme;
+namespace Dply\CMS\Support\Theme;
 
 use Illuminate\Config\Repository;
 use Illuminate\Container\Container;

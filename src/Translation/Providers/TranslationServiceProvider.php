@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Translation\Providers;
+namespace Dply\Translation\Providers;
 
 use Juzaweb\CMS\Facades\ActionRegister;
 use Juzaweb\CMS\Support\ServiceProvider;

@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\CMS\Contracts;
+namespace Dply\CMS\Contracts;
 
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Contracts\View\View;

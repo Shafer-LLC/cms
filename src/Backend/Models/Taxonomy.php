@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Backend\Models;
+namespace Dply\Backend\Models;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Relations\HasMany;

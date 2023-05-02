@@ -6,7 +6,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\CMS\Providers;
+namespace Dply\CMS\Providers;
 
 use Illuminate\Support\Facades\Blade;
 use Juzaweb\CMS\Support\ServiceProvider;

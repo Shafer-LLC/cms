@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\API\Http\Controllers\Auth;
+namespace Dply\API\Http\Controllers\Auth;
 
 use Illuminate\Http\JsonResponse;
 use Juzaweb\Backend\Http\Resources\UserResource;

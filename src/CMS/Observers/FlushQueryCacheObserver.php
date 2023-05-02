@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Observers;
+namespace Dply\CMS\Observers;
 
 use Exception;
 use Illuminate\Database\Eloquent\Collection;

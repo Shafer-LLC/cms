@@ -8,7 +8,7 @@
  * @license    GNU General Public License v2.0
  */
 
-namespace Juzaweb\CMS\Interfaces\Repositories;
+namespace Dply\CMS\Interfaces\Repositories;
 
 interface WithAppendSearch
 {

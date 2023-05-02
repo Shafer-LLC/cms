@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\Backend\Http\Resources;
+namespace Dply\Backend\Http\Resources;
 
 use Illuminate\Http\Resources\Json\ResourceCollection;
 

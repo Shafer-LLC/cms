@@ -8,7 +8,7 @@
  * @license    GNU General Public License v2.0
  */
 
-namespace Juzaweb\API\Support\Documentation;
+namespace Dply\API\Support\Documentation;
 
 use Juzaweb\API\Support\Swagger\SwaggerDocument;
 

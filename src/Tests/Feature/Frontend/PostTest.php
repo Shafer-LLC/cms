@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\Tests\Feature\Frontend;
+namespace Dply\Tests\Feature\Frontend;
 
 use Faker\Generator as Faker;
 use Illuminate\Support\Collection;

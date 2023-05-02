@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Support\Permission;
+namespace Dply\CMS\Support\Permission;
 
 use Illuminate\Cache\CacheManager;
 use Illuminate\Contracts\Auth\Access\Authorizable;

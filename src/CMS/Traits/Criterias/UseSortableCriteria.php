@@ -8,7 +8,7 @@
  * @license    GNU General Public License v2.0
  */
 
-namespace Juzaweb\CMS\Traits\Criterias;
+namespace Dply\CMS\Traits\Criterias;
 
 trait UseSortableCriteria
 {
@@ -16,7 +16,7 @@ trait UseSortableCriteria
     {
         return $this->sortableFields ?? [];
     }
-    
+
     public function getSortableDefaults(): array
     {
         return $this->sortableDefaults ?? [];

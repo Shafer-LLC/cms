@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\CMS\Models;
+namespace Dply\CMS\Models;
 
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 

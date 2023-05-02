@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\Backend\Http\Controllers\Backend\Module;
+namespace Dply\Backend\Http\Controllers\Backend\Module;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\RedirectResponse;

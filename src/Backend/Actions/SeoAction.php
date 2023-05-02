@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\Backend\Actions;
+namespace Dply\Backend\Actions;
 
 use Juzaweb\Backend\Http\Controllers\Backend\Setting\SeoController;
 use Juzaweb\Backend\Models\SeoMeta;

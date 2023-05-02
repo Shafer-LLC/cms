@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Repositories\Generators;
+namespace Dply\CMS\Repositories\Generators;
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Str;
@@ -15,29 +15,29 @@ use Juzaweb\CMS\Repositories\Generators\Stub;
  */
 abstract class Generator
 {
-    
+
     /**
      * The filesystem instance.
      *
      * @var \Illuminate\Filesystem\Filesystem
      */
     protected $filesystem;
-    
+
     /**
      * The array of options.
      *
      * @var array
      */
     protected $options;
-    
+
     /**
      * The shortname of stub.
      *
      * @var string
      */
     protected $stub;
-    
-    
+
+
     /**
      * Create new instance of this class.
      *
@@ -48,8 +48,8 @@ abstract class Generator
         $this->filesystem = new Filesystem;
         $this->options = $options;
     }
-    
-    
+
+
     /**
      * Get the filesystem instance.
      *
@@ -59,8 +59,8 @@ abstract class Generator
     {
         return $this->filesystem;
     }
-    
-    
+
+
     /**
      * Set the filesystem instance.
      *
@@ -71,11 +71,11 @@ abstract class Generator
     public function setFilesystem(Filesystem $filesystem)
     {
         $this->filesystem = $filesystem;
-        
+
         return $this;
     }
-    
-    
+
+
     /**
      * Get stub template for generated file.
      *
@@ -84,15 +84,15 @@ abstract class Generator
     public function getStub()
     {
         $path = config('repository.generator.stubsOverridePath', __DIR__);
-        
+
         if (!file_exists($path.'/Stubs/'.$this->stub.'.stub')) {
             $path = __DIR__;
         }
-        
+
         return (new Stub($path.'/Stubs/'.$this->stub.'.stub', $this->getReplacements()))->render();
     }
-    
-    
+
+
     /**
      * Get template replacements.
      *
@@ -106,8 +106,8 @@ abstract class Generator
             'root_namespace' => $this->getRootNamespace(),
         ];
     }
-    
-    
+
+
     /**
      * Get base path of destination file.
      *
@@ -117,8 +117,8 @@ abstract class Generator
     {
         return base_path();
     }
-    
-    
+
+
     /**
      * Get destination path for generated file.
      *
@@ -128,8 +128,8 @@ abstract class Generator
     {
         return $this->getBasePath().'/'.$this->getName().'.php';
     }
-    
-    
+
+
     /**
      * Get name input.
      *
@@ -144,11 +144,11 @@ abstract class Generator
         if (Str::contains($this->name, '/')) {
             $name = str_replace('/', '/', $this->name);
         }
-        
+
         return Str::studly(str_replace(' ', '/', ucwords(str_replace('/', ' ', $name))));
     }
-    
-    
+
+
     /**
      * Get application namespace
      *
@@ -158,8 +158,8 @@ abstract class Generator
     {
         return \Illuminate\Container\Container::getInstance()->getNamespace();
     }
-    
-    
+
+
     /**
      * Get class name.
      *
@@ -169,8 +169,8 @@ abstract class Generator
     {
         return Str::studly(class_basename($this->getName()));
     }
-    
-    
+
+
     /**
      * Get paths of namespace.
      *
@@ -180,8 +180,8 @@ abstract class Generator
     {
         return explode('/', $this->getName());
     }
-    
-    
+
+
     /**
      * Get root namespace.
      *
@@ -191,8 +191,8 @@ abstract class Generator
     {
         return config('repository.generator.rootNamespace', $this->getAppNamespace());
     }
-    
-    
+
+
     /**
      * Get class-specific output paths.
      *
@@ -233,21 +233,21 @@ abstract class Generator
             default:
                 $path = '';
         }
-        
+
         if ($directoryPath) {
             $path = str_replace('\\', '/', $path);
         } else {
             $path = str_replace('/', '\\', $path);
         }
-        
-        
+
+
         return $path;
     }
-    
-    
+
+
     abstract public function getPathConfigNode();
-    
-    
+
+
     /**
      * Get class namespace.
      *
@@ -261,11 +261,11 @@ abstract class Generator
         if ($rootNamespace == false) {
             return null;
         }
-        
+
         return 'namespace '.rtrim($rootNamespace.'\\'.implode('\\', $segments), '\\').';';
     }
-    
-    
+
+
     /**
      * Setup some hook.
      *
@@ -275,8 +275,8 @@ abstract class Generator
     {
         //
     }
-    
-    
+
+
     /**
      * Run the generator.
      *
@@ -292,11 +292,11 @@ abstract class Generator
         if (!$this->filesystem->isDirectory($dir = dirname($path))) {
             $this->filesystem->makeDirectory($dir, 0777, true, true);
         }
-        
+
         return $this->filesystem->put($path, $this->getStub());
     }
-    
-    
+
+
     /**
      * Get options.
      *
@@ -306,8 +306,8 @@ abstract class Generator
     {
         return $this->options;
     }
-    
-    
+
+
     /**
      * Determinte whether the given key exist in options array.
      *
@@ -319,8 +319,8 @@ abstract class Generator
     {
         return array_key_exists($key, $this->options);
     }
-    
-    
+
+
     /**
      * Get value from options by given key.
      *
@@ -334,11 +334,11 @@ abstract class Generator
         if (!$this->hasOption($key)) {
             return $default;
         }
-        
+
         return $this->options[$key] ?: $default;
     }
-    
-    
+
+
     /**
      * Helper method for "getOption".
      *
@@ -351,8 +351,8 @@ abstract class Generator
     {
         return $this->getOption($key, $default);
     }
-    
-    
+
+
     /**
      * Handle call to __get method.
      *
@@ -365,7 +365,7 @@ abstract class Generator
         if (property_exists($this, $key)) {
             return $this->{$key};
         }
-        
+
         return $this->option($key);
     }
 }

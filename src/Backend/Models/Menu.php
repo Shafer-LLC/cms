@@ -12,7 +12,7 @@
  * Time: 12:38 PM
  */
 
-namespace Juzaweb\Backend\Models;
+namespace Dply\Backend\Models;
 
 use Illuminate\Support\Arr;
 use Juzaweb\CMS\Facades\HookAction;

@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\CMS\Support\Html\Traits;
+namespace Dply\CMS\Support\Html\Traits;
 
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Contracts\View\View;

@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\CMS\Facades;
+namespace Dply\CMS\Facades;
 
 use Illuminate\Support\Facades\Facade;
 use Juzaweb\CMS\Contracts\GlobalDataContract;

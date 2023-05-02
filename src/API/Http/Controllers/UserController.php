@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\API\Http\Controllers;
+namespace Dply\API\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Juzaweb\Backend\Http\Resources\UserResource;

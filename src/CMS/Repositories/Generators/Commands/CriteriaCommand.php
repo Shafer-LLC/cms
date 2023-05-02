@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Repositories\Generators\Commands;
+namespace Dply\CMS\Repositories\Generators\Commands;
 
 use Illuminate\Console\Command;
 use Juzaweb\CMS\Repositories\Generators\CriteriaGenerator;
@@ -22,21 +22,21 @@ class CriteriaCommand extends Command
      * @var string
      */
     protected $name = 'make:criteria';
-    
+
     /**
      * The description of command.
      *
      * @var string
      */
     protected $description = 'Create a new criteria.';
-    
+
     /**
      * The type of class being generated.
      *
      * @var string
      */
     protected $type = 'Criteria';
-    
+
     /**
      * Execute the command.
      *
@@ -47,7 +47,7 @@ class CriteriaCommand extends Command
     {
         $this->laravel->call([$this, 'fire'], func_get_args());
     }
-    
+
     /**
      * Execute the command.
      *
@@ -60,15 +60,15 @@ class CriteriaCommand extends Command
                 'name' => $this->argument('name'),
                 'force' => $this->option('force'),
             ]))->run();
-            
+
             $this->info("Criteria created successfully.");
         } catch (FileAlreadyExistsException $ex) {
             $this->error($this->type.' already exists!');
-            
+
             return false;
         }
     }
-    
+
     /**
      * The array of command arguments.
      *
@@ -85,7 +85,7 @@ class CriteriaCommand extends Command
             ],
         ];
     }
-    
+
     /**
      * The array of command options.
      *

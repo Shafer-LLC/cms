@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Support\Notifications;
+namespace Dply\CMS\Support\Notifications;
 
 abstract class NotificationAbstract
 {

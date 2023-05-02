@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\CMS\Support\Manager;
+namespace Dply\CMS\Support\Manager;
 
 use Illuminate\Support\Str;
 use Juzaweb\CMS\Contracts\BackendMessageContract;

@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\Backend\Actions;
+namespace Dply\Backend\Actions;
 
 use Juzaweb\CMS\Abstracts\Action;
 

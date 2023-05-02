@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\Frontend\Http\Requests;
+namespace Dply\Frontend\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Support\Facades\Auth;

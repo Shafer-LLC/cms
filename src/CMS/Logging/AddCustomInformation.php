@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\CMS\Logging;
+namespace Dply\CMS\Logging;
 
 use Illuminate\Http\Request;
 

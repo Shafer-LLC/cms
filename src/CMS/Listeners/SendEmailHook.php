@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Listeners;
+namespace Dply\CMS\Listeners;
 
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Juzaweb\CMS\Events\EmailHook;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Backend\Http\Controllers\Installer;
+namespace Dply\Backend\Http\Controllers\Installer;
 
 use Exception;
 use Illuminate\Http\Request;

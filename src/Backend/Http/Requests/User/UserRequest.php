@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\Backend\Http\Requests\User;
+namespace Dply\Backend\Http\Requests\User;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Juzaweb\CMS\Models\User;

@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\CMS\Contracts;
+namespace Dply\CMS\Contracts;
 
 use Illuminate\Support\Collection;
 use Juzaweb\CMS\Support\Theme;

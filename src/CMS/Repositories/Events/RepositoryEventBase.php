@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Repositories\Events;
+namespace Dply\CMS\Repositories\Events;
 
 use Illuminate\Database\Eloquent\Model;
 use Juzaweb\CMS\Repositories\Contracts\RepositoryInterface;
@@ -17,17 +17,17 @@ abstract class RepositoryEventBase
      * @var Model
      */
     protected $model;
-    
+
     /**
      * @var RepositoryInterface
      */
     protected $repository;
-    
+
     /**
      * @var string
      */
     protected $action;
-    
+
     /**
      * @param  RepositoryInterface  $repository
      * @param  Model  $model
@@ -37,7 +37,7 @@ abstract class RepositoryEventBase
         $this->repository = $repository;
         $this->model = $model;
     }
-    
+
     /**
      * @return Model|array
      */
@@ -45,7 +45,7 @@ abstract class RepositoryEventBase
     {
         return $this->model;
     }
-    
+
     /**
      * @return RepositoryInterface
      */
@@ -53,7 +53,7 @@ abstract class RepositoryEventBase
     {
         return $this->repository;
     }
-    
+
     /**
      * @return string
      */

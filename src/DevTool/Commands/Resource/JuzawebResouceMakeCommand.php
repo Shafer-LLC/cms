@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\DevTool\Commands\Resource;
+namespace Dply\DevTool\Commands\Resource;
 
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Str;

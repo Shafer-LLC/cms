@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Backend\Policies;
+namespace Dply\Backend\Policies;
 
 use Juzaweb\CMS\Abstracts\ResourcePolicy;
 

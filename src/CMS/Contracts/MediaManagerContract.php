@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\CMS\Contracts;
+namespace Dply\CMS\Contracts;
 
 use Juzaweb\CMS\Models\Model;
 use Juzaweb\CMS\Support\FileManager\Media;

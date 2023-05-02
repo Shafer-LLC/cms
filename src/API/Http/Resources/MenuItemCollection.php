@@ -8,7 +8,7 @@
  * @license    GNU General Public License v2.0
  */
 
-namespace Juzaweb\API\Http\Resources;
+namespace Dply\API\Http\Resources;
 
 use Illuminate\Http\Resources\Json\ResourceCollection;
 
@@ -27,11 +27,11 @@ class MenuItemCollection extends ResourceCollection
                     'target' => $item->target,
                     'num_order' => $item->num_order,
                 ];
-                
+
                 if ($item->recursiveChildren->isNotEmpty()) {
                     $result['children'] = MenuItemCollection::make($item->recursiveChildren);
                 }
-                
+
                 return $result;
             }
         )->toArray();

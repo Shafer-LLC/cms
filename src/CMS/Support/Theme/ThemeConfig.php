@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\CMS\Support\Theme;
+namespace Dply\CMS\Support\Theme;
 
 use Illuminate\Cache\CacheManager;
 use Juzaweb\CMS\Contracts\ThemeConfigContract;
@@ -58,14 +58,14 @@ class ThemeConfig implements ThemeConfigContract
     public function getConfig(string $key, string|array $default = null): null|string|array
     {
         $value = $this->configs[$key] ?? $default;
-        
+
         if (is_json($value)) {
             return json_decode($value, true);
         }
 
         return $value;
     }
-    
+
     public function getConfigs(array $keys, string|array $default = null): array
     {
         $configs = [];

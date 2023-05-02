@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Backend\Providers;
+namespace Dply\Backend\Providers;
 
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Routing\Router;

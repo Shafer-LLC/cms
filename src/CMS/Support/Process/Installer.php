@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Support\Process;
+namespace Dply\CMS\Support\Process;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;

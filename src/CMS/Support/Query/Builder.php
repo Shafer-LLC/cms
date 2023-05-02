@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Support\Query;
+namespace Dply\CMS\Support\Query;
 
 use Illuminate\Database\Query\Builder as BaseBuilder;
 use Illuminate\Support\Arr;

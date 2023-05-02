@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Support\Permission;
+namespace Dply\CMS\Support\Permission;
 
 use Illuminate\Support\Collection;
 use Juzaweb\CMS\Exceptions\WildcardPermissionNotProperlyFormatted;

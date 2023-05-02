@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Support\Config;
+namespace Dply\CMS\Support\Config;
 
 class GenerateConfigReader
 {

@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\Backend\Http\Requests\Setting;
+namespace Dply\Backend\Http\Requests\Setting;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Juzaweb\CMS\Facades\HookAction;

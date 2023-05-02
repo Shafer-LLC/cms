@@ -6,7 +6,7 @@
  * Time: 8:45 PM
  */
 
-namespace Juzaweb\CMS\Contracts;
+namespace Dply\CMS\Contracts;
 
 interface ThemeInterface
 {

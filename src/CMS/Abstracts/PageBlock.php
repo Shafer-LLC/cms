@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\CMS\Abstracts;
+namespace Dply\CMS\Abstracts;
 
 use Illuminate\View\View;
 use Juzaweb\CMS\Facades\ThemeLoader;

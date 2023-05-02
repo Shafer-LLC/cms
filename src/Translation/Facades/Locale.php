@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\Translation\Facades;
+namespace Dply\Translation\Facades;
 
 use Illuminate\Support\Facades\Facade;
 use Illuminate\Support\Collection;

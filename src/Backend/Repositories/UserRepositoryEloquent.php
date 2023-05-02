@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Backend\Repositories;
+namespace Dply\Backend\Repositories;
 
 use Juzaweb\CMS\Models\User;
 use Juzaweb\CMS\Repositories\BaseRepositoryEloquent;

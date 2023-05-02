@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Providers;
+namespace Dply\CMS\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -12,14 +12,14 @@ use Illuminate\Support\ServiceProvider;
  */
 class RepositoryServiceProvider extends ServiceProvider
 {
-    
+
     /**
      * Indicates if loading of the provider is deferred.
      *
      * @var bool
      */
     protected bool $defer = false;
-    
+
     /**
      *
      * @return void
@@ -31,11 +31,11 @@ class RepositoryServiceProvider extends ServiceProvider
                 __DIR__.'/../config/repository.php' => config_path('repository.php'),
             ]
         );
-        
+
         $this->mergeConfigFrom(__DIR__.'/../config/repository.php', 'repository');
     }
-    
-    
+
+
     /**
      * Register the service provider.
      *
@@ -53,8 +53,8 @@ class RepositoryServiceProvider extends ServiceProvider
         $this->commands('Juzaweb\CMS\Repositories\Generators\Commands\CriteriaCommand');
         $this->app->register('Juzaweb\CMS\Repositories\Providers\EventServiceProvider');
     }
-    
-    
+
+
     /**
      * Get the services provided by the provider.
      *

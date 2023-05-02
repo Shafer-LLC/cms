@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Repositories\Generators;
+namespace Dply\CMS\Repositories\Generators;
 
 use Juzaweb\CMS\Repositories\Generators\Generator;
 use Juzaweb\CMS\Repositories\Generators\TransformerGenerator;
@@ -19,7 +19,7 @@ class PresenterGenerator extends Generator
      * @var string
      */
     protected $stub = 'presenter/presenter';
-    
+
     /**
      * Get root namespace.
      *
@@ -29,7 +29,7 @@ class PresenterGenerator extends Generator
     {
         return parent::getRootNamespace().parent::getConfigGeneratorClassPath($this->getPathConfigNode());
     }
-    
+
     /**
      * Get generator path config node.
      *
@@ -39,7 +39,7 @@ class PresenterGenerator extends Generator
     {
         return 'presenters';
     }
-    
+
     /**
      * Get array replacements.
      *
@@ -56,12 +56,12 @@ class PresenterGenerator extends Generator
             '/',
         ], '\\', $transformer);
         echo $transformer;
-        
+
         return array_merge(parent::getReplacements(), [
             'transformer' => $transformer,
         ]);
     }
-    
+
     /**
      * Get destination path for generated file.
      *
@@ -74,7 +74,7 @@ class PresenterGenerator extends Generator
             true
         ).'/'.$this->getName().'Presenter.php';
     }
-    
+
     /**
      * Get base path of destination file.
      *

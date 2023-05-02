@@ -8,7 +8,7 @@
  * @license    GNU General Public License v2.0
  */
 
-namespace Juzaweb\API\Http\Controllers;
+namespace Dply\API\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
@@ -25,13 +25,13 @@ class TaxonomyController extends ApiController
     public function __construct(protected TaxonomyRepository $taxonomyRepository)
     {
     }
-    
+
     public function index(Request $request, string $type, string $taxonomy): AnonymousResourceCollection
     {
         $queries = $request->all();
         $queries['post_type'] = $type;
         $queries['taxonomy'] = $taxonomy;
-        
+
         $this->taxonomyRepository->pushCriterias(
             [
                 SearchCriteria::make($queries),
@@ -39,23 +39,23 @@ class TaxonomyController extends ApiController
                 FilterCriteria::make($queries),
             ]
         );
-        
+
         $paginate = $this->taxonomyRepository->frontendListPaginate($this->getQueryLimit($request));
-        
+
         return TaxonomyResource::collection($paginate);
     }
-    
+
     public function show(Request $request, string $type, string $taxonomy, string $slug):
     JsonResource
     {
         $queries = $request->all();
         $queries['post_type'] = $type;
         $queries['taxonomy'] = $taxonomy;
-    
+
         $this->taxonomyRepository->pushCriteria(FilterCriteria::make($queries));
-        
+
         $data = $this->taxonomyRepository->frontendDetail($slug);
-    
+
         return TaxonomyResource::make($data);
     }
 }

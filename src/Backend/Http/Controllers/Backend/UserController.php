@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Backend\Http\Controllers\Backend;
+namespace Dply\Backend\Http\Controllers\Backend;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Hash;

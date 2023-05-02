@@ -8,7 +8,7 @@
  * @license    GNU General Public License v2.0
  */
 
-namespace Juzaweb\API\Http\Resources;
+namespace Dply\API\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 use Juzaweb\Backend\Models\Menu;
@@ -27,7 +27,7 @@ class MenuResource extends JsonResource
                 )
             ]
         );
-        
+
         return [
             'id' => $this->resource->id,
             'name' => $this->resource->name,

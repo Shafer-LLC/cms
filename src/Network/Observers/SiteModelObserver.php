@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\Network\Observers;
+namespace Dply\Network\Observers;
 
 use Juzaweb\Network\Models\Site;
 

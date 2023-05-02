@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Translation;
+namespace Dply\Translation;
 
 use Juzaweb\CMS\Abstracts\Action;
 use Juzaweb\CMS\Facades\HookAction;

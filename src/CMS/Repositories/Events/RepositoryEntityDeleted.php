@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Repositories\Events;
+namespace Dply\CMS\Repositories\Events;
 
 use Juzaweb\CMS\Repositories\Events\RepositoryEventBase;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Repositories\Contracts;
+namespace Dply\CMS\Repositories\Contracts;
 
 use Prettus\Repository\Contracts\closure;
 use Prettus\Repository\Contracts\ValidatorException;
@@ -22,7 +22,7 @@ interface RepositoryInterface
      * @return \Illuminate\Support\Collection|array
      */
     public function lists($column, $key = null);
-    
+
     /**
      * Retrieve data array for populate field select
      * Compatible with Laravel 5.3
@@ -33,7 +33,7 @@ interface RepositoryInterface
      * @return \Illuminate\Support\Collection|array
      */
     public function pluck($column, $key = null);
-    
+
     /**
      * Sync relations
      *
@@ -44,7 +44,7 @@ interface RepositoryInterface
      * @return mixed
      */
     public function sync($id, $relation, $attributes, $detaching = true);
-    
+
     /**
      * SyncWithoutDetaching
      *
@@ -54,7 +54,7 @@ interface RepositoryInterface
      * @return mixed
      */
     public function syncWithoutDetaching($id, $relation, $attributes);
-    
+
     /**
      * Retrieve all data of repository
      *
@@ -63,7 +63,7 @@ interface RepositoryInterface
      * @return mixed
      */
     public function all($columns = ['*']);
-    
+
     /**
      * Retrieve all data of repository, paginated
      *
@@ -73,7 +73,7 @@ interface RepositoryInterface
      * @return mixed
      */
     public function paginate($limit = null, $columns = ['*']);
-    
+
     /**
      * Retrieve all data of repository, simple paginated
      *
@@ -83,7 +83,7 @@ interface RepositoryInterface
      * @return mixed
      */
     public function simplePaginate($limit = null, $columns = ['*']);
-    
+
     /**
      * Find data by id
      *
@@ -93,7 +93,7 @@ interface RepositoryInterface
      * @return mixed
      */
     public function find($id, $columns = ['*']);
-    
+
     /**
      * Find data by field and value
      *
@@ -104,7 +104,7 @@ interface RepositoryInterface
      * @return mixed
      */
     public function findByField($field, $value, $columns = ['*']);
-    
+
     /**
      * Find data by multiple fields
      *
@@ -114,7 +114,7 @@ interface RepositoryInterface
      * @return mixed
      */
     public function findWhere(array $where, $columns = ['*']);
-    
+
     /**
      * Find data by multiple values in one field
      *
@@ -125,7 +125,7 @@ interface RepositoryInterface
      * @return mixed
      */
     public function findWhereIn($field, array $values, $columns = ['*']);
-    
+
     /**
      * Find data by excluding multiple values in one field
      *
@@ -136,7 +136,7 @@ interface RepositoryInterface
      * @return mixed
      */
     public function findWhereNotIn($field, array $values, $columns = ['*']);
-    
+
     /**
      * Find data by between values in one field
      *
@@ -147,7 +147,7 @@ interface RepositoryInterface
      * @return mixed
      */
     public function findWhereBetween($field, array $values, $columns = ['*']);
-    
+
     /**
      * Save a new entity in repository
      *
@@ -156,7 +156,7 @@ interface RepositoryInterface
      * @return mixed
      */
     public function create(array $attributes);
-    
+
     /**
      * Update a entity in repository by id
      *
@@ -166,7 +166,7 @@ interface RepositoryInterface
      * @return mixed
      */
     public function update(array $attributes, $id);
-    
+
     /**
      * Update or Create an entity in repository
      *
@@ -178,7 +178,7 @@ interface RepositoryInterface
      *
      */
     public function updateOrCreate(array $attributes, array $values = []);
-    
+
     /**
      * Delete a entity in repository by id
      *
@@ -187,7 +187,7 @@ interface RepositoryInterface
      * @return int
      */
     public function delete($id);
-    
+
     /**
      * Order collection by a given column
      *
@@ -197,7 +197,7 @@ interface RepositoryInterface
      * @return $this
      */
     public function orderBy($column, $direction = 'asc');
-    
+
     /**
      * Load relations
      *
@@ -206,7 +206,7 @@ interface RepositoryInterface
      * @return $this
      */
     public function with($relations);
-    
+
     /**
      * Load relation with closure
      *
@@ -216,7 +216,7 @@ interface RepositoryInterface
      * @return $this
      */
     public function whereHas($relation, $closure);
-    
+
     /**
      * Add subselect queries to count the relations.
      *
@@ -224,7 +224,7 @@ interface RepositoryInterface
      * @return $this
      */
     public function withCount($relations);
-    
+
     /**
      * Set hidden fields
      *
@@ -233,7 +233,7 @@ interface RepositoryInterface
      * @return $this
      */
     public function hidden(array $fields);
-    
+
     /**
      * Set visible fields
      *
@@ -242,7 +242,7 @@ interface RepositoryInterface
      * @return $this
      */
     public function visible(array $fields);
-    
+
     /**
      * Query Scope
      *
@@ -251,14 +251,14 @@ interface RepositoryInterface
      * @return $this
      */
     public function scopeQuery(\Closure $scope);
-    
+
     /**
      * Reset Query Scope
      *
      * @return $this
      */
     public function resetScope();
-    
+
     /**
      * Set Presenter
      *
@@ -267,7 +267,7 @@ interface RepositoryInterface
      * @return mixed
      */
     public function setPresenter($presenter);
-    
+
     /**
      * Skip Presenter Wrapper
      *
@@ -276,7 +276,7 @@ interface RepositoryInterface
      * @return $this
      */
     public function skipPresenter($status = true);
-    
+
     /**
      * Retrieve first data of repository, or return new Entity
      *
@@ -285,7 +285,7 @@ interface RepositoryInterface
      * @return mixed
      */
     public function firstOrNew(array $attributes = []);
-    
+
     /**
      * Retrieve first data of repository, or create new Entity
      *
@@ -294,7 +294,7 @@ interface RepositoryInterface
      * @return mixed
      */
     public function firstOrCreate(array $attributes = []);
-    
+
     /**
      * Trigger static method calls to the model
      *
@@ -304,7 +304,7 @@ interface RepositoryInterface
      * @return mixed
      */
     public static function __callStatic($method, $arguments);
-    
+
     /**
      * Trigger method calls to the model
      *

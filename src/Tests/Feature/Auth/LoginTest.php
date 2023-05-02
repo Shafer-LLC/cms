@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\Tests\Feature\Auth;
+namespace Dply\Tests\Feature\Auth;
 
 use Juzaweb\CMS\Models\User;
 use Juzaweb\Tests\TestCase;

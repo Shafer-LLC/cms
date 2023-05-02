@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\Backend\Http\Controllers\Backend\Setting;
+namespace Dply\Backend\Http\Controllers\Backend\Setting;
 
 use Illuminate\Contracts\View\View;
 use Juzaweb\CMS\Contracts\HookActionContract as HookAction;

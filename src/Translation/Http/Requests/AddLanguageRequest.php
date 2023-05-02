@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\Translation\Http\Requests;
+namespace Dply\Translation\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

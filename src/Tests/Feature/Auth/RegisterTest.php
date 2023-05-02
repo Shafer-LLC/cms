@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\Tests\Feature\Auth;
+namespace Dply\Tests\Feature\Auth;
 
 use Faker\Generator as Faker;
 use Juzaweb\Backend\Models\EmailList;

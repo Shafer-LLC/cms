@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\Backend\Commands;
+namespace Dply\Backend\Commands;
 
 use Juzaweb\CMS\Contracts\TranslationManager;
 use Symfony\Component\Console\Input\InputOption;

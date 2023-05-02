@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\Backend\Models;
+namespace Dply\Backend\Models;
 
 use Juzaweb\CMS\Models\Model;
 

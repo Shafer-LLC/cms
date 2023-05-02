@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Repositories\Eloquent;
+namespace Dply\CMS\Repositories\Eloquent;
 
 use Closure;
 use Exception;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Contracts;
+namespace Dply\CMS\Contracts;
 
 use Juzaweb\CMS\Repositories\Contracts\RepositoryInterface as BaseRepositoryInterface;
 

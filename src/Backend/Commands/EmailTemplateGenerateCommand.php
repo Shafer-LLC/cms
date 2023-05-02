@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\Backend\Commands;
+namespace Dply\Backend\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;

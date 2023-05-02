@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\Tests;
+namespace Dply\Tests;
 
 use Juzaweb\CMS\Models\User;
 use Juzaweb\CMS\Support\Installer;

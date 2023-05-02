@@ -8,7 +8,7 @@
  * @license    GNU General Public License v2.0
  */
 
-namespace Juzaweb\API\Http\Middleware;
+namespace Dply\API\Http\Middleware;
 
 class SwaggerApiDocumentation
 {
@@ -17,7 +17,7 @@ class SwaggerApiDocumentation
         if (!config('juzaweb.api.enable')) {
             abort(404);
         }
-        
+
         return $next($request);
     }
 }

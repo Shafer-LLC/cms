@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Traits\QueryCache;
+namespace Dply\CMS\Traits\QueryCache;
 
 use Illuminate\Database\Eloquent\Collection;
 use Juzaweb\CMS\Observers\FlushQueryCacheObserver;

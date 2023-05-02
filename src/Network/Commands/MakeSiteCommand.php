@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\Network\Commands;
+namespace Dply\Network\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;

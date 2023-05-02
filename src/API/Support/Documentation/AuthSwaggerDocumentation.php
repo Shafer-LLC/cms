@@ -8,7 +8,7 @@
  * @license    GNU General Public License v2.0
  */
 
-namespace Juzaweb\API\Support\Documentation;
+namespace Dply\API\Support\Documentation;
 
 use Juzaweb\API\Support\Swagger\SwaggerDocument;
 use Juzaweb\API\Support\Swagger\SwaggerMethod;
@@ -60,11 +60,11 @@ class AuthSwaggerDocumentation implements APISwaggerDocumentation
                         return $method;
                     }
                 );
-                
+
                 return $path;
             }
         );
-        
+
         $document->path(
             'auth/register',
             function (SwaggerPath $path) {
@@ -121,11 +121,11 @@ class AuthSwaggerDocumentation implements APISwaggerDocumentation
                         return $method;
                     }
                 );
-    
+
                 return $path;
             }
         );
-        
+
         return $document;
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Providers;
+namespace Dply\CMS\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Juzaweb\CMS\Contracts\LocalPluginRepositoryContract;

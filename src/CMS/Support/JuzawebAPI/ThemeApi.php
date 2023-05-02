@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\CMS\Support\JuzawebAPI;
+namespace Dply\CMS\Support\JuzawebAPI;
 
 use Juzaweb\CMS\Support\JuzawebApi;
 

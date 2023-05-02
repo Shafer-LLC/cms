@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\DevTool\Commands\Theme;
+namespace Dply\DevTool\Commands\Theme;
 
 use Illuminate\Support\Facades\File;
 use Juzaweb\CMS\Support\HtmlDom;

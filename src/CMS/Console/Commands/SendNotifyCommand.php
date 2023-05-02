@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Console\Commands;
+namespace Dply\CMS\Console\Commands;
 
 use Illuminate\Console\Command;
 use Juzaweb\Backend\Models\ManualNotification;

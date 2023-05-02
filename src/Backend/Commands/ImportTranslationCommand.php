@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Backend\Commands;
+namespace Dply\Backend\Commands;
 
 use Juzaweb\CMS\Contracts\TranslationManager;
 use Juzaweb\CMS\Facades\Plugin;

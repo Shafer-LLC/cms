@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Backend\Http\Controllers\Auth;
+namespace Dply\Backend\Http\Controllers\Auth;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\DB;

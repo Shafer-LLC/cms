@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Console\Commands\Permission;
+namespace Dply\CMS\Console\Commands\Permission;
 
 use Illuminate\Console\Command;
 use Juzaweb\CMS\Contracts\Permission as PermissionContract;

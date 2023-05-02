@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\Backend\Http\Datatables;
+namespace Dply\Backend\Http\Datatables;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Collection;

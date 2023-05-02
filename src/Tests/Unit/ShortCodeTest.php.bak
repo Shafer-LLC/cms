@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Tests\Unit;
+namespace Dply\Tests\Unit;
 
 use Juzaweb\CMS\Contracts\ShortCode as ShortCodeContract;
 use Juzaweb\CMS\Support\ShortCode\ShortCode;

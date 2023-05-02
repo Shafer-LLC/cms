@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Providers;
+namespace Dply\CMS\Providers;
 
 use Juzaweb\CMS\Contracts\ActivatorInterface;
 use Juzaweb\CMS\Contracts\ConfigContract;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Support\ShortCode\View;
+namespace Dply\CMS\Support\ShortCode\View;
 
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\View\Engines\EngineResolver;

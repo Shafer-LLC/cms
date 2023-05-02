@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\API\Http\Controllers\Admin;
+namespace Dply\API\Http\Controllers\Admin;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Facades\Storage;
@@ -21,7 +21,7 @@ class SettingController extends ApiController
     public function __construct(protected ConfigContract $config)
     {
     }
-    
+
     /**
      * @OA\Get(
      *      path="/api/admin/setting/configs",

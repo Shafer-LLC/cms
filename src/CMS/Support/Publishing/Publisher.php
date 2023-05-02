@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Support\Publishing;
+namespace Dply\CMS\Support\Publishing;
 
 use Illuminate\Console\Command;
 use Juzaweb\CMS\Contracts\LocalPluginRepositoryContract;

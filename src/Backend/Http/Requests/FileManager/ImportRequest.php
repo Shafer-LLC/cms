@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\Backend\Http\Requests\FileManager;
+namespace Dply\Backend\Http\Requests\FileManager;
 
 use Illuminate\Foundation\Http\FormRequest;
 

@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\Backend\Observers;
+namespace Dply\Backend\Observers;
 
 use Juzaweb\Backend\Models\Menu;
 use Illuminate\Support\Facades\Cache;

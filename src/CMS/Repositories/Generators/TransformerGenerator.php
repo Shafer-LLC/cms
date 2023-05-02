@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Repositories\Generators;
+namespace Dply\CMS\Repositories\Generators;
 
 use Juzaweb\CMS\Repositories\Generators\Generator;
 use Juzaweb\CMS\Repositories\Generators\ModelGenerator;
@@ -19,7 +19,7 @@ class TransformerGenerator extends Generator
      * @var string
      */
     protected $stub = 'transformer/transformer';
-    
+
     /**
      * Get root namespace.
      *
@@ -29,7 +29,7 @@ class TransformerGenerator extends Generator
     {
         return parent::getRootNamespace().parent::getConfigGeneratorClassPath($this->getPathConfigNode());
     }
-    
+
     /**
      * Get generator path config node.
      *
@@ -39,7 +39,7 @@ class TransformerGenerator extends Generator
     {
         return 'transformers';
     }
-    
+
     /**
      * Get destination path for generated file.
      *
@@ -52,7 +52,7 @@ class TransformerGenerator extends Generator
             true
         ).'/'.$this->getName().'Transformer.php';
     }
-    
+
     /**
      * Get base path of destination file.
      *
@@ -62,7 +62,7 @@ class TransformerGenerator extends Generator
     {
         return config('repository.generator.basePath', app()->path());
     }
-    
+
     /**
      * Get array replacements.
      *
@@ -78,7 +78,7 @@ class TransformerGenerator extends Generator
             "\\",
             '/',
         ], '\\', $model);
-        
+
         return array_merge(parent::getReplacements(), [
             'model' => $model,
         ]);

@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\CMS\Traits;
+namespace Dply\CMS\Traits;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Arr;
@@ -55,7 +55,7 @@ trait ResourceModel
 
         return 'name';
     }
-    
+
     public static function getStatuses(): array
     {
         return [

@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\Translation\Providers;
+namespace Dply\Translation\Providers;
 
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 use Illuminate\Support\Facades\Route;

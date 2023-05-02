@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Interfaces;
+namespace Dply\CMS\Interfaces;
 
 interface QueryCacheModuleInterface
 {

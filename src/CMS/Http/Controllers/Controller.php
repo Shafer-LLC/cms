@@ -9,7 +9,7 @@
  * Github: https://juzaweb.com/cms
  */
 
-namespace Juzaweb\CMS\Http\Controllers;
+namespace Dply\CMS\Http\Controllers;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;

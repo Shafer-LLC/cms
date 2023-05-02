@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Frontend\Http\Controllers;
+namespace Dply\Frontend\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;

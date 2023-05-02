@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\Backend\Policies;
+namespace Dply\Backend\Policies;
 
 use Illuminate\Auth\Access\HandlesAuthorization;
 use Juzaweb\CMS\Models\Model;

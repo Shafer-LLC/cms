@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Repositories\Generators\Commands;
+namespace Dply\CMS\Repositories\Generators\Commands;
 
 use Illuminate\Console\Command;
 use Juzaweb\CMS\Repositories\Generators\FileAlreadyExistsException;
@@ -17,28 +17,28 @@ use Symfony\Component\Console\Input\InputOption;
  */
 class PresenterCommand extends Command
 {
-    
+
     /**
      * The name of command.
      *
      * @var string
      */
     protected $name = 'make:presenter';
-    
+
     /**
      * The description of command.
      *
      * @var string
      */
     protected $description = 'Create a new presenter.';
-    
+
     /**
      * The type of class being generated.
      *
      * @var string
      */
     protected $type = 'Presenter';
-    
+
     /**
      * Execute the command.
      *
@@ -49,7 +49,7 @@ class PresenterCommand extends Command
     {
         $this->laravel->call([$this, 'fire'], func_get_args());
     }
-    
+
     /**
      * Execute the command.
      *
@@ -63,7 +63,7 @@ class PresenterCommand extends Command
                 'force' => $this->option('force'),
             ]))->run();
             $this->info("Presenter created successfully.");
-            
+
             if (!\File::exists(app()->path().'/Transformers/'.$this->argument('name').'Transformer.php')) {
                 if ($this->confirm('Would you like to create a Transformer? [y|N]')) {
                     (new TransformerGenerator([
@@ -75,12 +75,12 @@ class PresenterCommand extends Command
             }
         } catch (FileAlreadyExistsException $e) {
             $this->error($this->type.' already exists!');
-            
+
             return false;
         }
     }
-    
-    
+
+
     /**
      * The array of command arguments.
      *
@@ -97,8 +97,8 @@ class PresenterCommand extends Command
             ],
         ];
     }
-    
-    
+
+
     /**
      * The array of command options.
      *

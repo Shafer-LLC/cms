@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Network\Http\Controllers;
+namespace Dply\Network\Http\Controllers;
 
 use Illuminate\Contracts\View\View;
 use Juzaweb\CMS\Http\Controllers\BackendController;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Support\Migrations;
+namespace Dply\CMS\Support\Migrations;
 
 class NameParser
 {

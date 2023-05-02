@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Backend\Http\Datatables;
+namespace Dply\Backend\Http\Datatables;
 
 use Illuminate\Database\Query\Builder;
 use Illuminate\Support\Arr;

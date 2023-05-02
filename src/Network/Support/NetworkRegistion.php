@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\Network\Support;
+namespace Dply\Network\Support;
 
 use Illuminate\Cache\CacheManager;
 use Illuminate\Contracts\Config\Repository as ConfigRepository;
@@ -109,7 +109,7 @@ class NetworkRegistion implements NetworkRegistionContract
     {
         return $this->request->getHttpHost();
     }
-    
+
     public function getCurrentSiteId(): ?int
     {
         return $this->getCurrentSite()->id;

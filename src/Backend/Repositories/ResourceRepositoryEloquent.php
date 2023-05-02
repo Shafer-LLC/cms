@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Backend\Repositories;
+namespace Dply\Backend\Repositories;
 
 use Juzaweb\Backend\Models\Resource;
 use Juzaweb\CMS\Repositories\BaseRepositoryEloquent;
@@ -8,7 +8,7 @@ use Juzaweb\CMS\Repositories\BaseRepositoryEloquent;
 /**
  * Class CommentRepositoryEloquent.
  *
- * @package namespace Juzaweb\Backend\Repositories;
+ * @package namespace Dply\Backend\Repositories;
  */
 class ResourceRepositoryEloquent extends BaseRepositoryEloquent implements ResourceRepository
 {

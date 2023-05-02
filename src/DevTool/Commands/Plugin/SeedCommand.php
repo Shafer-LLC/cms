@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\DevTool\Commands\Plugin;
+namespace Dply\DevTool\Commands\Plugin;
 
 use ErrorException;
 use Illuminate\Console\Command;

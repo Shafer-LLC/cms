@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\API\Http\Requests\Post;
+namespace Dply\API\Http\Requests\Post;
 
 class UpdateRequest extends PostRequest
 {

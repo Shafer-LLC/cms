@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Backend\Http\Controllers\FileManager;
+namespace Dply\Backend\Http\Controllers\FileManager;
 
 use Illuminate\Support\Facades\DB;
 use Juzaweb\Backend\Models\MediaFile;

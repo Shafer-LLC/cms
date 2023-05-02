@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\Network\Contracts;
+namespace Dply\Network\Contracts;
 
 /**
  * @see \Juzaweb\Network\Support\SiteSetup

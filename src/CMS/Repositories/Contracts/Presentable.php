@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Repositories\Contracts;
+namespace Dply\CMS\Repositories\Contracts;
 
 /**
  * Interface Presentable
@@ -16,7 +16,7 @@ interface Presentable
      * @return mixed
      */
     public function setPresenter(PresenterInterface $presenter);
-    
+
     /**
      * @return mixed
      */

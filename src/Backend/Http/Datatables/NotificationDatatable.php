@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\Backend\Http\Datatables;
+namespace Dply\Backend\Http\Datatables;
 
 use Illuminate\Database\Eloquent\Builder;
 use Juzaweb\Backend\Repositories\NotificationRepository;
@@ -67,7 +67,7 @@ class NotificationDatatable extends DataTable
             case 'viewed':
                 foreach ($ids as $id) {
                     $notify = $this->notificationRepository->find($id);
-                    
+
                     if (empty($notify->read_at)) {
                         $notify->update(['read_at' => now()]);
                     }

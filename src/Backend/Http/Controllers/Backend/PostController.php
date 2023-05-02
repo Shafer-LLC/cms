@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Backend\Http\Controllers\Backend;
+namespace Dply\Backend\Http\Controllers\Backend;
 
 use Juzaweb\CMS\Http\Controllers\BackendController;
 use Juzaweb\Backend\Models\Post;

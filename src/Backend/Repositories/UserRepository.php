@@ -1,13 +1,13 @@
 <?php
 
-namespace Juzaweb\Backend\Repositories;
+namespace Dply\Backend\Repositories;
 
 use Juzaweb\CMS\Repositories\BaseRepository;
 
 /**
  * Interface UserRepository.
  *
- * @package namespace Juzaweb\Backend\Repositories;
+ * @package namespace Dply\Backend\Repositories;
  */
 interface UserRepository extends BaseRepository
 {

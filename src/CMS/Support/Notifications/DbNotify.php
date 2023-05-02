@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Support\Notifications;
+namespace Dply\CMS\Support\Notifications;
 
 use Illuminate\Notifications\Notification;
 

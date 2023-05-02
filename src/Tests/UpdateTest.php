@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Tests;
+namespace Dply\Tests;
 
 use Illuminate\Support\Facades\File;
 

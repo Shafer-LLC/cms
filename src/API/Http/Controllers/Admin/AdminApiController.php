@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\API\Http\Controllers\Admin;
+namespace Dply\API\Http\Controllers\Admin;
 
 use Juzaweb\CMS\Abstracts\Action;
 use Juzaweb\CMS\Http\Controllers\ApiController;

@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\CMS\Support\Translations;
+namespace Dply\CMS\Support\Translations;
 
 use Illuminate\Support\Str;
 use Juzaweb\CMS\Contracts\TranslationFinder as TranslationFinderContract;

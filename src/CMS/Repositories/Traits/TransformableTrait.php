@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Repositories\Traits;
+namespace Dply\CMS\Repositories\Traits;
 
 /**
  * Class TransformableTrait

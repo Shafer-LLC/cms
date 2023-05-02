@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Backend\Http\Middleware;
+namespace Dply\Backend\Http\Middleware;
 
 use Closure;
 use Juzaweb\CMS\Traits\MigrationsHelper;

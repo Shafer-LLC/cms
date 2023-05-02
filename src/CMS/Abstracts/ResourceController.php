@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\CMS\Abstracts;
+namespace Dply\CMS\Abstracts;
 
 use Juzaweb\CMS\Traits\ResourceController as ResourceControllerTrait;
 

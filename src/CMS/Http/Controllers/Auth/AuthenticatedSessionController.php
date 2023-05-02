@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Http\Controllers\Auth;
+namespace Dply\CMS\Http\Controllers\Auth;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;

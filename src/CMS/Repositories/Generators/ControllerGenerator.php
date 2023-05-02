@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Repositories\Generators;
+namespace Dply\CMS\Repositories\Generators;
 
 use Illuminate\Support\Str;
 use Juzaweb\CMS\Repositories\Generators\Generator;
@@ -15,14 +15,14 @@ use Juzaweb\CMS\Repositories\Generators\RepositoryInterfaceGenerator;
  */
 class ControllerGenerator extends Generator
 {
-    
+
     /**
      * Get stub name.
      *
      * @var string
      */
     protected $stub = 'controller/controller';
-    
+
     /**
      * Get root namespace.
      *
@@ -36,7 +36,7 @@ class ControllerGenerator extends Generator
             parent::getRootNamespace().parent::getConfigGeneratorClassPath($this->getPathConfigNode())
         );
     }
-    
+
     /**
      * Get generator path config node.
      *
@@ -46,7 +46,7 @@ class ControllerGenerator extends Generator
     {
         return 'controllers';
     }
-    
+
     /**
      * Get destination path for generated file.
      *
@@ -59,7 +59,7 @@ class ControllerGenerator extends Generator
             true
         ).'/'.$this->getControllerName().'Controller.php';
     }
-    
+
     /**
      * Get base path of destination file.
      *
@@ -69,7 +69,7 @@ class ControllerGenerator extends Generator
     {
         return config('repository.generator.basePath', app()->path());
     }
-    
+
     /**
      * Gets controller name based on model
      *
@@ -79,7 +79,7 @@ class ControllerGenerator extends Generator
     {
         return ucfirst($this->getPluralName());
     }
-    
+
     /**
      * Gets plural name based on model
      *
@@ -89,7 +89,7 @@ class ControllerGenerator extends Generator
     {
         return Str::plural(lcfirst(ucwords($this->getClass())));
     }
-    
+
     /**
      * Get array replacements.
      *
@@ -106,7 +106,7 @@ class ControllerGenerator extends Generator
             'appname' => $this->getAppNamespace(),
         ]);
     }
-    
+
     /**
      * Gets singular name based on model
      *
@@ -116,7 +116,7 @@ class ControllerGenerator extends Generator
     {
         return Str::singular(lcfirst(ucwords($this->getClass())));
     }
-    
+
     /**
      * Gets validator full class name
      *
@@ -127,16 +127,16 @@ class ControllerGenerator extends Generator
         $validatorGenerator = new ValidatorGenerator([
             'name' => $this->name,
         ]);
-        
+
         $validator = $validatorGenerator->getRootNamespace().'\\'.$validatorGenerator->getName();
-        
+
         return 'use '.str_replace([
                 "\\",
                 '/',
             ], '\\', $validator).'Validator;';
     }
-    
-    
+
+
     /**
      * Gets repository full class name
      *
@@ -147,9 +147,9 @@ class ControllerGenerator extends Generator
         $repositoryGenerator = new RepositoryInterfaceGenerator([
             'name' => $this->name,
         ]);
-        
+
         $repository = $repositoryGenerator->getRootNamespace().'\\'.$repositoryGenerator->getName();
-        
+
         return 'use '.str_replace([
                 "\\",
                 '/',

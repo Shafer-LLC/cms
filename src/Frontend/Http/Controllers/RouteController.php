@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\Frontend\Http\Controllers;
+namespace Dply\Frontend\Http\Controllers;
 
 use Illuminate\Support\Facades\App;
 use Juzaweb\CMS\Http\Controllers\FrontendController;

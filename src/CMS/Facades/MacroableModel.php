@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\CMS\Facades;
+namespace Dply\CMS\Facades;
 
 use Juzaweb\CMS\Contracts\MacroableModelContract;
 use Illuminate\Support\Facades\Facade;

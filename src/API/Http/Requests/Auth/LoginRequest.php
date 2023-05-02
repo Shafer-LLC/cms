@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\API\Http\Requests\Auth;
+namespace Dply\API\Http\Requests\Auth;
 
 use Illuminate\Auth\Events\Lockout;
 use Illuminate\Foundation\Http\FormRequest;
@@ -22,11 +22,11 @@ class LoginRequest extends FormRequest
             'email' => ['required', 'string', 'email'],
             'password' => ['required', 'string'],
         ];
-    
+
         if (get_config('captcha')) {
             $rules['g-recaptcha-response'] = 'bail|required|recaptcha';
         }
-        
+
         return $rules;
     }
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Support\Macros;
+namespace Dply\CMS\Support\Macros;
 
 use Illuminate\Support\Str;
 use Juzaweb\Backend\Http\Controllers\Backend\TaxonomyController;

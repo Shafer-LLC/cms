@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Database\Factories;
+namespace Dply\CMS\Database\Factories;
 
 use Illuminate\Support\Str;
 use Juzaweb\Backend\Models\Taxonomy;

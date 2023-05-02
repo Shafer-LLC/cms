@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\CMS;
+namespace Dply\CMS;
 
 class Version
 {

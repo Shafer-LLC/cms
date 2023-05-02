@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\CMS\Traits\Auth;
+namespace Dply\CMS\Traits\Auth;
 
 use Illuminate\Contracts\View\View;
 use Illuminate\Http\JsonResponse;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Backend\Repositories;
+namespace Dply\Backend\Repositories;
 
 use Juzaweb\Backend\Models\Notification;
 use Juzaweb\CMS\Repositories\BaseRepositoryEloquent;

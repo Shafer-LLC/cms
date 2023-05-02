@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Backend\Models;
+namespace Dply\Backend\Models;
 
 use Illuminate\Database\Eloquent\Builder;
 use Juzaweb\CMS\Facades\HookAction;

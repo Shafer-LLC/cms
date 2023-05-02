@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Support\Updater;
+namespace Dply\CMS\Support\Updater;
 
 use Juzaweb\Backend\Events\DumpAutoloadPlugin;
 use Juzaweb\CMS\Abstracts\UpdateManager;

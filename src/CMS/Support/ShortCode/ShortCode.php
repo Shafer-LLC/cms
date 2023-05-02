@@ -1,4 +1,4 @@
-<?php namespace Juzaweb\CMS\Support\ShortCode;
+<?php namespace Dply\CMS\Support\ShortCode;
 
 use Juzaweb\CMS\Contracts\ShortCode as ShortCodeContract;
 use Juzaweb\CMS\Support\ShortCode\Compilers\ShortCodeCompiler;

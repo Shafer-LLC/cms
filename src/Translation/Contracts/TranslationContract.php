@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\Translation\Contracts;
+namespace Dply\Translation\Contracts;
 
 use Illuminate\Support\Collection;
 

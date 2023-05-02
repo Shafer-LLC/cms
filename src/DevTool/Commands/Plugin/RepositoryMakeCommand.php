@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\DevTool\Commands\Plugin;
+namespace Dply\DevTool\Commands\Plugin;
 
 use Illuminate\Support\Str;
 use Juzaweb\CMS\Exceptions\FileAlreadyExistException;

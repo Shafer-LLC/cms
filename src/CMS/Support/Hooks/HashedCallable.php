@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Support\Hooks;
+namespace Dply\CMS\Support\Hooks;
 
 use Laravel\SerializableClosure\SerializableClosure;
 

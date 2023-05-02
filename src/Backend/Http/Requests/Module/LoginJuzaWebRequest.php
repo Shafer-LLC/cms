@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\Backend\Http\Requests\Module;
+namespace Dply\Backend\Http\Requests\Module;
 
 use Illuminate\Foundation\Http\FormRequest;
 

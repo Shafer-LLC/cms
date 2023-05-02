@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Backend\Http\Requests\Tool;
+namespace Dply\Backend\Http\Requests\Tool;
 
 use Illuminate\Foundation\Http\FormRequest;
 

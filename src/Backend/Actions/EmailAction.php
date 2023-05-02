@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\Backend\Actions;
+namespace Dply\Backend\Actions;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\File;

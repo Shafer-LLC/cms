@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Support;
+namespace Dply\CMS\Support;
 
 use Illuminate\Support\Facades\DB;
 use Juzaweb\Backend\Models\ManualNotification;
@@ -8,7 +8,7 @@ use Juzaweb\Backend\Models\ManualNotification;
 class SendNotification
 {
     protected ManualNotification $notification;
-    
+
     public static function make(ManualNotification $notification): static
     {
         return new static($notification);
@@ -35,7 +35,7 @@ class SendNotification
             if (!in_array($key, $methods)) {
                 continue;
             }
-    
+
             DB::beginTransaction();
             try {
                 (new $method['class']($this->notification))->handle();
@@ -51,7 +51,7 @@ class SendNotification
             } catch (\Exception $exception) {
                 DB::rollBack();
                 report($exception);
-                
+
                 $this->notification->update(
                     [
                         'status' => ManualNotification::STATUS_ERROR,

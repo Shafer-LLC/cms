@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\Backend\Listeners;
+namespace Dply\Backend\Listeners;
 
 use Illuminate\Support\Facades\Storage;
 use Intervention\Image\Facades\Image;

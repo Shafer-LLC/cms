@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Backend\Models;
+namespace Dply\Backend\Models;
 
 use Juzaweb\CMS\Models\Model;
 use Juzaweb\CMS\Traits\ResourceModel;

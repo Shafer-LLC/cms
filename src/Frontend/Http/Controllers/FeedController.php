@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Frontend\Http\Controllers;
+namespace Dply\Frontend\Http\Controllers;
 
 use Juzaweb\Backend\Models\Post;
 use Juzaweb\Backend\Models\Taxonomy;

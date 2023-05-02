@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Repositories\Helpers;
+namespace Dply\CMS\Repositories\Helpers;
 
 /**
  * Class CacheKeys
@@ -10,17 +10,17 @@ namespace Juzaweb\CMS\Repositories\Helpers;
  */
 class CacheKeys
 {
-    
+
     /**
      * @var string
      */
     protected static $storeFile = "repository-cache-keys.json";
-    
+
     /**
      * @var array
      */
     protected static $keys = null;
-    
+
     /**
      * @param $group
      * @param $key
@@ -30,16 +30,16 @@ class CacheKeys
     public static function putKey($group, $key)
     {
         self::loadKeys();
-        
+
         self::$keys[$group] = self::getKeys($group);
-        
+
         if (!in_array($key, self::$keys[$group])) {
             self::$keys[$group][] = $key;
         }
-        
+
         self::storeKeys();
     }
-    
+
     /**
      * @return array|mixed
      */
@@ -48,29 +48,29 @@ class CacheKeys
         if (!is_null(self::$keys) && is_array(self::$keys)) {
             return self::$keys;
         }
-        
+
         $file = self::getFileKeys();
-        
+
         if (!file_exists($file)) {
             self::storeKeys();
         }
-        
+
         $content = file_get_contents($file);
         self::$keys = json_decode($content, true);
-        
+
         return self::$keys;
     }
-    
+
     /**
      * @return string
      */
     public static function getFileKeys()
     {
         $file = storage_path("framework/cache/".self::$storeFile);
-        
+
         return $file;
     }
-    
+
     /**
      * @return int
      */
@@ -79,10 +79,10 @@ class CacheKeys
         $file = self::getFileKeys();
         self::$keys = is_null(self::$keys) ? [] : self::$keys;
         $content = json_encode(self::$keys);
-        
+
         return file_put_contents($file, $content);
     }
-    
+
     /**
      * @param $group
      *
@@ -92,10 +92,10 @@ class CacheKeys
     {
         self::loadKeys();
         self::$keys[$group] = isset(self::$keys[$group]) ? self::$keys[$group] : [];
-        
+
         return self::$keys[$group];
     }
-    
+
     /**
      * @param $method
      * @param $parameters
@@ -105,13 +105,13 @@ class CacheKeys
     public static function __callStatic($method, $parameters)
     {
         $instance = new static;
-        
+
         return call_user_func_array([
             $instance,
             $method,
         ], $parameters);
     }
-    
+
     /**
      * @param $method
      * @param $parameters
@@ -121,7 +121,7 @@ class CacheKeys
     public function __call($method, $parameters)
     {
         $instance = new static;
-        
+
         return call_user_func_array([
             $instance,
             $method,

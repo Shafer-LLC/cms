@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\CMS\Support\Registers;
+namespace Dply\CMS\Support\Registers;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;

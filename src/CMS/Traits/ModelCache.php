@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\CMS\Traits;
+namespace Dply\CMS\Traits;
 
 //use Rennokki\QueryCache\Traits\QueryCacheable;
 

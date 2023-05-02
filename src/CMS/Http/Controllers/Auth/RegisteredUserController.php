@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Http\Controllers\Auth;
+namespace Dply\CMS\Http\Controllers\Auth;
 
 use Juzaweb\CMS\Http\Controllers\Controller;
 use App\Models\User;

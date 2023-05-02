@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\Network\Http\Middleware;
+namespace Dply\Network\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;

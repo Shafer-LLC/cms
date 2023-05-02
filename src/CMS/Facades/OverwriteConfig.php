@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Facades;
+namespace Dply\CMS\Facades;
 
 use Illuminate\Support\Facades\Facade;
 use Juzaweb\CMS\Contracts\OverwriteConfigContract;

@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\CMS\Support\Translations;
+namespace Dply\CMS\Support\Translations;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;

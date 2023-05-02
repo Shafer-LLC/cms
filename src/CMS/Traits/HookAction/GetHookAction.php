@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Traits\HookAction;
+namespace Dply\CMS\Traits\HookAction;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;

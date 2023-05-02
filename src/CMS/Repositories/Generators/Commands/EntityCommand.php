@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Repositories\Generators\Commands;
+namespace Dply\CMS\Repositories\Generators\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Collection;
@@ -15,26 +15,26 @@ use Symfony\Component\Console\Input\InputOption;
  */
 class EntityCommand extends Command
 {
-    
+
     /**
      * The name of command.
      *
      * @var string
      */
     protected $name = 'make:entity';
-    
+
     /**
      * The description of command.
      *
      * @var string
      */
     protected $description = 'Create a new entity.';
-    
+
     /**
      * @var Collection
      */
     protected $generators = null;
-    
+
     /**
      * Execute the command.
      *
@@ -45,7 +45,7 @@ class EntityCommand extends Command
     {
         $this->laravel->call([$this, 'fire'], func_get_args());
     }
-    
+
     /**
      * Execute the command.
      *
@@ -59,12 +59,12 @@ class EntityCommand extends Command
                 '--force' => $this->option('force'),
             ]);
         }
-        
+
         $validator = $this->option('validator');
         if (is_null($validator) && $this->confirm('Would you like to create a Validator? [y|N]')) {
             $validator = 'yes';
         }
-        
+
         if ($validator == 'yes') {
             $this->call('make:validator', [
                 'name' => $this->argument('name'),
@@ -72,17 +72,17 @@ class EntityCommand extends Command
                 '--force' => $this->option('force'),
             ]);
         }
-        
+
         if ($this->confirm('Would you like to create a Controller? [y|N]')) {
             $resource_args = [
                 'name' => $this->argument('name'),
             ];
-            
+
             // Generate a controller resource
             $controller_command = ((float) app()->version() >= 5.5 ? 'make:rest-controller' : 'make:resource');
             $this->call($controller_command, $resource_args);
         }
-        
+
         $this->call('make:repository', [
             'name' => $this->argument('name'),
             '--fillable' => $this->option('fillable'),
@@ -90,14 +90,14 @@ class EntityCommand extends Command
             '--validator' => $validator,
             '--force' => $this->option('force'),
         ]);
-        
+
         $this->call('make:bindings', [
             'name' => $this->argument('name'),
             '--force' => $this->option('force'),
         ]);
     }
-    
-    
+
+
     /**
      * The array of command arguments.
      *
@@ -114,8 +114,8 @@ class EntityCommand extends Command
             ],
         ];
     }
-    
-    
+
+
     /**
      * The array of command options.
      *

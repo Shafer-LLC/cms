@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Backend\Observers;
+namespace Dply\Backend\Observers;
 
 use Juzaweb\Backend\Models\Comment;
 

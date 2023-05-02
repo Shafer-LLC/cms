@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\Backend\Support;
+namespace Dply\Backend\Support;
 
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\File;

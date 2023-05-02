@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\CMS\Abstracts;
+namespace Dply\CMS\Abstracts;
 
 abstract class ResourceManagement
 {

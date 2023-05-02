@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\DevTool\Commands\Theme;
+namespace Dply\DevTool\Commands\Theme;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;

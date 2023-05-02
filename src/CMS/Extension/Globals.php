@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Juzaweb\CMS\Extension;
+namespace Dply\CMS\Extension;
 
 use Twig\Extension\AbstractExtension;
 use Twig\Extension\GlobalsInterface;

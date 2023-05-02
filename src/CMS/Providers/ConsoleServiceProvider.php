@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\CMS\Providers;
+namespace Dply\CMS\Providers;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Juzaweb\CMS\Console\Commands\AutoClearSlotCommand;

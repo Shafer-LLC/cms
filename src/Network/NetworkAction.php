@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\Network;
+namespace Dply\Network;
 
 use Juzaweb\CMS\Abstracts\Action;
 use Juzaweb\CMS\Facades\HookAction;
@@ -72,7 +72,7 @@ class NetworkAction extends Action
                 'position' => 45,
             ]
         );
-    
+
         HookAction::addAdminMenu(
             'Log Viewer',
             'log-viewer',

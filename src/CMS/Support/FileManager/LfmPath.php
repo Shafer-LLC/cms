@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Support\FileManager;
+namespace Dply\CMS\Support\FileManager;
 
 use Illuminate\Container\Container;
 use Intervention\Image\Facades\Image;

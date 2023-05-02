@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\CMS\Abstracts;
+namespace Dply\CMS\Abstracts;
 
 use Juzaweb\CMS\Contracts\HookActionContract;
 use Juzaweb\CMS\Facades\Hook;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Support;
+namespace Dply\CMS\Support;
 
 use Illuminate\Support\Arr;
 use Juzaweb\CMS\Contracts\GlobalDataContract;

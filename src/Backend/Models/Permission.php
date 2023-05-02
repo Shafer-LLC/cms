@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\Backend\Models;
+namespace Dply\Backend\Models;
 
 use Juzaweb\CMS\Models\Permission as BasePermission;
 

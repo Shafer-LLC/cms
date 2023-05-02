@@ -8,7 +8,7 @@
  * @license    GNU General Public License v2.0
  */
 
-namespace Juzaweb\API\Http\Controllers;
+namespace Dply\API\Http\Controllers;
 
 use Juzaweb\API\Http\Resources\MenuResource;
 use Juzaweb\Backend\Repositories\MenuRepository;
@@ -19,11 +19,11 @@ class MenuController extends ApiController
     public function __construct(protected MenuRepository $menuRepository)
     {
     }
-    
+
     public function show(string $location): MenuResource
     {
         $menu = $this->menuRepository->getFrontendDetailByLocation($location);
-        
+
         return MenuResource::make($menu);
     }
 }

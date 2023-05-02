@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Backend\Commands;
+namespace Dply\Backend\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;

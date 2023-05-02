@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Juzaweb\DevTool\Commands\Plugin;
+namespace Dply\DevTool\Commands\Plugin;
 
 use Illuminate\Console\Command;
 use Juzaweb\CMS\Contracts\LocalPluginRepositoryContract;

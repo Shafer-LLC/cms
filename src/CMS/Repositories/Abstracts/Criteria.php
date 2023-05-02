@@ -8,7 +8,7 @@
  * @license    GNU General Public License v2.0
  */
 
-namespace Juzaweb\CMS\Repositories\Abstracts;
+namespace Dply\CMS\Repositories\Abstracts;
 
 abstract class Criteria
 {

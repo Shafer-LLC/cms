@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\CMS\Console\Commands;
+namespace Dply\CMS\Console\Commands;
 
 use Illuminate\Console\Command;
 use Juzaweb\CMS\Support\Updater\CmsUpdater;

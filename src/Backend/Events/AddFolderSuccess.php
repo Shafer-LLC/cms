@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\Backend\Events;
+namespace Dply\Backend\Events;
 
 use Juzaweb\Backend\Models\MediaFolder;
 

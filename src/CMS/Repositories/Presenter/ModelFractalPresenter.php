@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Repositories\Presenter;
+namespace Dply\CMS\Repositories\Presenter;
 
 use Exception;
 use Juzaweb\CMS\Repositories\Transformer\ModelTransformer;
@@ -14,7 +14,7 @@ use Juzaweb\CMS\Repositories\Presenter\FractalPresenter;
  */
 class ModelFractalPresenter extends FractalPresenter
 {
-    
+
     /**
      * Transformer
      *
@@ -26,7 +26,7 @@ class ModelFractalPresenter extends FractalPresenter
         if (!class_exists('League\Fractal\Manager')) {
             throw new Exception("Package required. Please install: 'composer require league/fractal' (0.12.*)");
         }
-        
+
         return new ModelTransformer();
     }
 }

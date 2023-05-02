@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Backend\Models;
+namespace Dply\Backend\Models;
 
 use Illuminate\Support\Arr;
 use Juzaweb\CMS\Models\Role as BaseRole;

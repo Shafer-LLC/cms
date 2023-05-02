@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Backend\Http\Controllers\Backend;
+namespace Dply\Backend\Http\Controllers\Backend;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Route;
@@ -16,14 +16,14 @@ class PageController extends BackendController
     public function callAction($method, $parameters): Response|View
     {
         $this->page = $this->findPageOrFail();
-        
+
         return parent::callAction($method, $parameters);
     }
 
     protected function findPageOrFail(): Collection
     {
         $page = HookAction::getAdminPages($this->getPageSlug());
-        
+
         if (empty($page)) {
             abort(404);
         }
@@ -31,7 +31,7 @@ class PageController extends BackendController
         if (is_array($page)) {
             $page = $this->recursiveGetPage($page);
         }
-        
+
         return $page;
     }
 

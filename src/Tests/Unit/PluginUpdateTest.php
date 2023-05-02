@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\Tests\Unit;
+namespace Dply\Tests\Unit;
 
 use Illuminate\Support\Facades\File;
 use Juzaweb\CMS\Facades\Plugin;

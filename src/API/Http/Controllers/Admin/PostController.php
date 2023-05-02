@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\API\Http\Controllers\Admin;
+namespace Dply\API\Http\Controllers\Admin;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Example\Actions;
+namespace Dply\Example\Actions;
 
 use Juzaweb\CMS\Abstracts\Action;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Backend\Providers;
+namespace Dply\Backend\Providers;
 
 use Illuminate\Auth\Notifications\ResetPassword;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;

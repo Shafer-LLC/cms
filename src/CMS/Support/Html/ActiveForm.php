@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\CMS\Support\Html;
+namespace Dply\CMS\Support\Html;
 
 class ActiveForm
 {

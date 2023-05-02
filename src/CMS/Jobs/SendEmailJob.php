@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Jobs;
+namespace Dply\CMS\Jobs;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;

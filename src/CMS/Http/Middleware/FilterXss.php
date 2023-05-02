@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\CMS\Http\Middleware;
+namespace Dply\CMS\Http\Middleware;
 
 use Illuminate\Foundation\Http\Middleware\TransformsRequest;
 use Juzaweb\CMS\Support\XssCleaner;

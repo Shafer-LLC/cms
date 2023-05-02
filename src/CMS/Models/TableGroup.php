@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\CMS\Models;
+namespace Dply\CMS\Models;
 
 /**
  * Juzaweb\CMS\Models\TableGroup

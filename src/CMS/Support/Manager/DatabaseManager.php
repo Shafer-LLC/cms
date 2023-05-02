@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Support\Manager;
+namespace Dply\CMS\Support\Manager;
 
 use Exception;
 use Illuminate\Database\SQLiteConnection;

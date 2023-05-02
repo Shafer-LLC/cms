@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\Network\Support;
+namespace Dply\Network\Support;
 
 use Illuminate\Database\ConnectionResolverInterface;
 use Illuminate\Support\Arr;

@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\CMS\Exceptions;
+namespace Dply\CMS\Exceptions;
 
 use Exception;
 

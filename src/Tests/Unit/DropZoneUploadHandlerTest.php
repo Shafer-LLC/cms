@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Tests\Unit;
+namespace Dply\Tests\Unit;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;

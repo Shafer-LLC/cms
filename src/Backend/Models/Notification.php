@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Backend\Models;
+namespace Dply\Backend\Models;
 
 use Illuminate\Notifications\DatabaseNotification;
 use Illuminate\Support\Arr;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Support\Config;
+namespace Dply\CMS\Support\Config;
 
 use Illuminate\Contracts\Config\Repository as ConfigRepository;
 use Illuminate\Support\Facades\URL;

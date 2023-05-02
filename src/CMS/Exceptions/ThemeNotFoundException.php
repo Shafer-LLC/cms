@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Exceptions;
+namespace Dply\CMS\Exceptions;
 
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 

@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\DevTool\Commands;
+namespace Dply\DevTool\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;

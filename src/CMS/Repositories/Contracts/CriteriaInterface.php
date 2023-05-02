@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Repositories\Contracts;
+namespace Dply\CMS\Repositories\Contracts;
 
 /**
  * Interface CriteriaInterface

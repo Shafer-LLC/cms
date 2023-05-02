@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\API\Http\Controllers\Auth;
+namespace Dply\API\Http\Controllers\Auth;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
@@ -31,13 +31,13 @@ class LoginController extends ApiController
 
         return $this->respondWithToken($token, $user);
     }
-    
+
     public function profile(Request $request): JsonResponse
     {
         $user = $request->user('api');
-        
+
         $token = $user->token();
-        
+
         return $this->respondWithToken(
             new PersonalAccessTokenResult($request->bearerToken(), $token),
             $user

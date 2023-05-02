@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\CMS\Support\Theme;
+namespace Dply\CMS\Support\Theme;
 
 use Illuminate\Support\Collection;
 use Juzaweb\Backend\Http\Resources\MenuItemResource;

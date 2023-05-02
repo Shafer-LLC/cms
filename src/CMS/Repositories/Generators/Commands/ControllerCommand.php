@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Repositories\Generators\Commands;
+namespace Dply\CMS\Repositories\Generators\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Collection;
@@ -17,28 +17,28 @@ use Symfony\Component\Console\Input\InputOption;
  */
 class ControllerCommand extends Command
 {
-    
+
     /**
      * The name of command.
      *
      * @var string
      */
     protected $name = 'make:resource';
-    
+
     /**
      * The description of command.
      *
      * @var string
      */
     protected $description = 'Create a new RESTful controller.';
-    
+
     /**
      * The type of class being generated.
      *
      * @var string
      */
     protected $type = 'Controller';
-    
+
     /**
      * ControllerCommand constructor.
      */
@@ -47,7 +47,7 @@ class ControllerCommand extends Command
         $this->name = ((float) app()->version() >= 5.5 ? 'make:rest-controller' : 'make:resource');
         parent::__construct();
     }
-    
+
     /**
      * Execute the command.
      *
@@ -58,7 +58,7 @@ class ControllerCommand extends Command
     {
         $this->laravel->call([$this, 'fire'], func_get_args());
     }
-    
+
     /**
      * Execute the command.
      *
@@ -71,26 +71,26 @@ class ControllerCommand extends Command
             $this->call('make:request', [
                 'name' => $this->argument('name').'CreateRequest',
             ]);
-            
+
             // Generate update request for controller
             $this->call('make:request', [
                 'name' => $this->argument('name').'UpdateRequest',
             ]);
-            
+
             (new ControllerGenerator([
                 'name' => $this->argument('name'),
                 'force' => $this->option('force'),
             ]))->run();
-            
+
             $this->info($this->type.' created successfully.');
         } catch (FileAlreadyExistsException $e) {
             $this->error($this->type.' already exists!');
-            
+
             return false;
         }
     }
-    
-    
+
+
     /**
      * The array of command arguments.
      *
@@ -107,8 +107,8 @@ class ControllerCommand extends Command
             ],
         ];
     }
-    
-    
+
+
     /**
      * The array of command options.
      *

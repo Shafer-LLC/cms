@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\CMS\Support\Route;
+namespace Dply\CMS\Support\Route;
 
 use Illuminate\Support\Facades\Route;
 use Juzaweb\Backend\Http\Controllers\Auth\LoginController;

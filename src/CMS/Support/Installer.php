@@ -9,7 +9,7 @@
  * @license    GNU V2
 */
 
-namespace Juzaweb\CMS\Support;
+namespace Dply\CMS\Support;
 
 class Installer
 {

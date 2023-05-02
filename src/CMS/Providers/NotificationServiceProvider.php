@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Providers;
+namespace Dply\CMS\Providers;
 
 use Juzaweb\CMS\Console\Commands\SendNotifyCommand;
 use Juzaweb\CMS\Support\Notification;

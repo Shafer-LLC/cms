@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\API\Http\Middleware;
+namespace Dply\API\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;
@@ -21,13 +21,13 @@ class Admin
         if (!$user = Auth::guard('api')->user()) {
             abort(403, __('You can not access this page.'));
         }
-        
+
         if (!has_permission($user)) {
             abort(403, __('You can not access this page.'));
         }
-        
+
         do_action(Action::BACKEND_INIT, $request);
-        
+
         return $next($request);
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\Backend\Http\Controllers\Auth;
+namespace Dply\Backend\Http\Controllers\Auth;
 
 use Juzaweb\CMS\Http\Controllers\Controller;
 use Juzaweb\CMS\Traits\Auth\AuthLoginForm;

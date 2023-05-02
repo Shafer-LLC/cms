@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Traits;
+namespace Dply\CMS\Traits;
 
 trait UseThumbnail
 {

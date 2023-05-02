@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\CMS\Support\Translations;
+namespace Dply\CMS\Support\Translations;
 
 use Closure;
 use Illuminate\Database\Query\Builder;

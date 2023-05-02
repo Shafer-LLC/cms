@@ -6,7 +6,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\CMS\Support;
+namespace Dply\CMS\Support;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;

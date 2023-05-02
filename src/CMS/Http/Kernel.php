@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Http;
+namespace Dply\CMS\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 

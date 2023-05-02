@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Repositories\Generators\Migrations;
+namespace Dply\CMS\Repositories\Generators\Migrations;
 
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Support\Arr;
@@ -13,15 +13,15 @@ use Illuminate\Support\Arr;
  */
 class RulesParser implements Arrayable
 {
-    
+
     /**
      * The set of rules.
      *
      * @var string
      */
     protected $rules;
-    
-    
+
+
     /**
      * Create new instance.
      *
@@ -31,7 +31,7 @@ class RulesParser implements Arrayable
     {
         $this->rules = $rules;
     }
-    
+
     /**
      * Convert string migration to array.
      *
@@ -41,7 +41,7 @@ class RulesParser implements Arrayable
     {
         return $this->parse($this->rules);
     }
-    
+
     /**
      * Parse a string to array of formatted rules.
      *
@@ -58,10 +58,10 @@ class RulesParser implements Arrayable
             $attributes = $this->getAttributes($column, $rulesArray);
             $parsed[$column] = $attributes;
         }
-        
+
         return $parsed;
     }
-    
+
     /**
      * Get array of rules.
      *
@@ -72,10 +72,10 @@ class RulesParser implements Arrayable
         if (is_null($this->rules)) {
             return [];
         }
-        
+
         return explode(',', str_replace(' ', '', $this->rules));
     }
-    
+
     /**
      * Get column name from rules.
      *
@@ -89,8 +89,8 @@ class RulesParser implements Arrayable
             return $value;
         });
     }
-    
-    
+
+
     /**
      * Get column attributes.
      *

@@ -1,6 +1,6 @@
 <?php
 
-namespace Juzaweb\CMS\Support\Updater;
+namespace Dply\CMS\Support\Updater;
 
 use Illuminate\Support\Facades\Artisan;
 use Juzaweb\Backend\Events\DumpAutoloadPlugin;

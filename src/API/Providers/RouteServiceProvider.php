@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\API\Providers;
+namespace Dply\API\Providers;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
@@ -20,7 +20,7 @@ class RouteServiceProvider extends ServiceProvider
         $this->mapAdminRoutes();
         $this->mapApiRoutes();
     }
-    
+
     protected function mapApiRoutes(): void
     {
         Route::prefix('api')
@@ -28,7 +28,7 @@ class RouteServiceProvider extends ServiceProvider
             ->as('api.')
             ->group(__DIR__.'/../routes/api.php');
     }
-    
+
     protected function mapAdminRoutes(): void
     {
         Route::prefix(config('juzaweb.admin_prefix'))

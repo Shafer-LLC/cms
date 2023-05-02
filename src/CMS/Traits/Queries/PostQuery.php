@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\CMS\Traits\Queries;
+namespace Dply\CMS\Traits\Queries;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Arr;

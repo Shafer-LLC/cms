@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\Network\Contracts;
+namespace Dply\Network\Contracts;
 
 use Juzaweb\CMS\Models\User;
 

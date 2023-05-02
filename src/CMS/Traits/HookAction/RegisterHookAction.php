@@ -6,7 +6,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\CMS\Traits\HookAction;
+namespace Dply\CMS\Traits\HookAction;
 
 use Exception;
 use Illuminate\Support\Collection;

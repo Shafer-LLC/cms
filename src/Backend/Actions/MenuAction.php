@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\Backend\Actions;
+namespace Dply\Backend\Actions;
 
 use Illuminate\Support\Facades\Cache;
 use Juzaweb\Backend\Models\Post;

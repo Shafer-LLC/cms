@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-namespace Juzaweb\Network\Interfaces;
+namespace Dply\Network\Interfaces;
 
 interface RootNetworkModelInterface
 {

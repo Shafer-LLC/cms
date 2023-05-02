@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\Backend\Actions;
+namespace Dply\Backend\Actions;
 
 use Illuminate\Support\Arr;
 use Juzaweb\CMS\Abstracts\Action;

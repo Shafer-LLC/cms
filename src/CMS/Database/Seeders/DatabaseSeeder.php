@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-namespace Juzaweb\CMS\Database\Seeders;
+namespace Dply\CMS\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 
