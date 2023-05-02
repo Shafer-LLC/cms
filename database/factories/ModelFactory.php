@@ -1,6 +1,6 @@
 <?php
 
-namespace dply\Cms\Database\Factories;
+namespace Dply\Cms\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 

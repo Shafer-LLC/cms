@@ -1,6 +1,6 @@
 <?php
 
-namespace dply\Cms;
+namespace Dply\Cms;
 
 class Cms
 {

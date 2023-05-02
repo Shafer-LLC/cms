@@ -1,10 +1,10 @@
 <?php
 
-namespace dply\Cms;
+namespace Dply\Cms;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use dply\Cms\Commands\CmsCommand;
+use Dply\Cms\Commands\CmsCommand;
 
 class CmsServiceProvider extends PackageServiceProvider
 {

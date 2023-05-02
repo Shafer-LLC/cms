@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "dply\\Cms\\": "src/",
-            "dply\\Cms\\Database\\Factories\\": "database/factories/"
+            "Dply\\Cms\\": "src/",
+            "Dply\\Cms\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "dply\\Cms\\Tests\\": "tests/"
+            "Dply\\Cms\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "dply\\Cms\\CmsServiceProvider"
+                "Dply\\Cms\\CmsServiceProvider"
             ],
             "aliases": {
-                "Cms": "dply\\Cms\\Facades\\Cms"
+                "Cms": "Dply\\Cms\\Facades\\Cms"
             }
         }
     },

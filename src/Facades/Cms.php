@@ -1,16 +1,16 @@
 <?php
 
-namespace dply\Cms\Facades;
+namespace Dply\Cms\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \dply\Cms\Cms
+ * @see \Dply\Cms\Cms
  */
 class Cms extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \dply\Cms\Cms::class;
+        return \Dply\Cms\Cms::class;
     }
 }

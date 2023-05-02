@@ -52,8 +52,8 @@ php artisan vendor:publish --tag="cms-views"
 ## Usage
 
 ```php
-$cms = new dply\Cms();
-echo $cms->echoPhrase('Hello, dply!');
+$cms = new Dply\Cms();
+echo $cms->echoPhrase('Hello, Dply!');
 ```
 
 ## Testing

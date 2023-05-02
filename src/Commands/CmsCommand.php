@@ -1,6 +1,6 @@
 <?php
 
-namespace dply\Cms\Commands;
+namespace Dply\Cms\Commands;
 
 use Illuminate\Console\Command;
 

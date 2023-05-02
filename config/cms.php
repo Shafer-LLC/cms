@@ -1,6 +1,6 @@
 <?php
 
-// config for dply/Cms
+// config for Dply/Cms
 return [
 
 ];

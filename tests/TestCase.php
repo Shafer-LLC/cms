@@ -1,10 +1,10 @@
 <?php
 
-namespace dply\Cms\Tests;
+namespace Dply\Cms\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use dply\Cms\CmsServiceProvider;
+use Dply\Cms\CmsServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -13,7 +13,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'dply\\Cms\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn (string $modelName) => 'Dply\\Cms\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 

@@ -16,7 +16,7 @@
     backupStaticProperties="false"
 >
     <testsuites>
-        <testsuite name="dply Test Suite">
+        <testsuite name="Dply Test Suite">
             <directory>tests</directory>
         </testsuite>
     </testsuites>
