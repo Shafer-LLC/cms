@@ -10,7 +10,7 @@
 
 namespace Dply\Backend\Models;
 
-use Juzaweb\CMS\Models\Model;
+use Dply\CMS\Models\Model;
 
 /**
  * Juzaweb\Seo\Models\SeoMeta

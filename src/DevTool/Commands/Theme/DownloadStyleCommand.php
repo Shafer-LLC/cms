@@ -3,7 +3,7 @@
 namespace Dply\DevTool\Commands\Theme;
 
 use Illuminate\Support\Facades\File;
-use Juzaweb\CMS\Support\HtmlDom;
+use Dply\CMS\Support\HtmlDom;
 
 class DownloadStyleCommand extends DownloadTemplateCommandAbstract
 {

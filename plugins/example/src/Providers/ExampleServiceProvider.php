@@ -2,9 +2,9 @@
 
 namespace Dply\Example\Providers;
 
-use Juzaweb\CMS\Facades\ActionRegister;
-use Juzaweb\CMS\Support\ServiceProvider;
-use Juzaweb\Example\Actions\ExampleAction;
+use Dply\CMS\Facades\ActionRegister;
+use Dply\CMS\Support\ServiceProvider;
+use Dply\Example\Actions\ExampleAction;
 
 class ExampleServiceProvider extends ServiceProvider
 {

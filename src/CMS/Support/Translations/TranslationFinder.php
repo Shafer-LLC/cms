@@ -11,7 +11,7 @@
 namespace Dply\CMS\Support\Translations;
 
 use Illuminate\Support\Str;
-use Juzaweb\CMS\Contracts\TranslationFinder as TranslationFinderContract;
+use Dply\CMS\Contracts\TranslationFinder as TranslationFinderContract;
 use Symfony\Component\Finder\Finder;
 use Symfony\Component\Finder\SplFileInfo;
 

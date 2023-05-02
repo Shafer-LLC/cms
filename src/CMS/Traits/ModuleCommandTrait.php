@@ -2,9 +2,9 @@
 
 namespace Dply\CMS\Traits;
 
-use Juzaweb\CMS\Exceptions\FileAlreadyExistException;
-use Juzaweb\CMS\Support\Generators\FileGenerator;
-use Juzaweb\CMS\Support\Stub;
+use Dply\CMS\Exceptions\FileAlreadyExistException;
+use Dply\CMS\Support\Generators\FileGenerator;
+use Dply\CMS\Support\Stub;
 
 trait ModuleCommandTrait
 {

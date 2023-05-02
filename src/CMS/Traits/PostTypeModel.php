@@ -16,13 +16,13 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
-use Juzaweb\Backend\Http\Resources\TaxonomyResource;
-use Juzaweb\Backend\Models\Comment;
-use Juzaweb\Backend\Models\Post;
-use Juzaweb\Backend\Models\PostMeta;
-use Juzaweb\Backend\Models\Taxonomy;
-use Juzaweb\CMS\Facades\HookAction;
-use Juzaweb\CMS\Facades\ShortCode;
+use Dply\Backend\Http\Resources\TaxonomyResource;
+use Dply\Backend\Models\Comment;
+use Dply\Backend\Models\Post;
+use Dply\Backend\Models\PostMeta;
+use Dply\Backend\Models\Taxonomy;
+use Dply\CMS\Facades\HookAction;
+use Dply\CMS\Facades\ShortCode;
 
 /**
  * @method Builder wherePublish()

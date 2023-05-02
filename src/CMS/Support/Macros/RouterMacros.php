@@ -3,8 +3,8 @@
 namespace Dply\CMS\Support\Macros;
 
 use Illuminate\Support\Str;
-use Juzaweb\Backend\Http\Controllers\Backend\TaxonomyController;
-use Juzaweb\Backend\Http\Controllers\Backend\CommentController;
+use Dply\Backend\Http\Controllers\Backend\TaxonomyController;
+use Dply\Backend\Http\Controllers\Backend\CommentController;
 
 class RouterMacros
 {

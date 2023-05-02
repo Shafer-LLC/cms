@@ -5,10 +5,10 @@ namespace Dply\CMS\Repositories\Criterias;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
-use Juzaweb\CMS\Interfaces\Repositories\WithAppendSearch;
-use Juzaweb\CMS\Repositories\Abstracts\Criteria;
-use Juzaweb\CMS\Repositories\Contracts\CriteriaInterface;
-use Juzaweb\CMS\Repositories\Contracts\RepositoryInterface;
+use Dply\CMS\Interfaces\Repositories\WithAppendSearch;
+use Dply\CMS\Repositories\Abstracts\Criteria;
+use Dply\CMS\Repositories\Contracts\CriteriaInterface;
+use Dply\CMS\Repositories\Contracts\RepositoryInterface;
 
 class SearchCriteria extends Criteria implements CriteriaInterface
 {

@@ -12,15 +12,15 @@ use Exception;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use JetBrains\PhpStorm\ArrayShape;
-use Juzaweb\API\Support\Swagger\SwaggerDocument;
-use Juzaweb\Backend\Models\Post;
-use Juzaweb\Backend\Models\Taxonomy;
-use Juzaweb\CMS\Models\User;
-use Juzaweb\CMS\Support\Registers\ResourceRegister;
-use Juzaweb\CMS\Support\Theme\PostTypeMenuBox;
-use Juzaweb\CMS\Support\Theme\TaxonomyMenuBox;
-use Juzaweb\Frontend\Http\Controllers\PostController;
-use Juzaweb\Frontend\Http\Controllers\TaxonomyController;
+use Dply\API\Support\Swagger\SwaggerDocument;
+use Dply\Backend\Models\Post;
+use Dply\Backend\Models\Taxonomy;
+use Dply\CMS\Models\User;
+use Dply\CMS\Support\Registers\ResourceRegister;
+use Dply\CMS\Support\Theme\PostTypeMenuBox;
+use Dply\CMS\Support\Theme\TaxonomyMenuBox;
+use Dply\Frontend\Http\Controllers\PostController;
+use Dply\Frontend\Http\Controllers\TaxonomyController;
 
 trait RegisterHookAction
 {

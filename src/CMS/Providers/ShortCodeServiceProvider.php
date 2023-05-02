@@ -10,8 +10,8 @@
 
 namespace Dply\CMS\Providers;
 
-use Juzaweb\CMS\Facades\ShortCode;
-use Juzaweb\CMS\Support\ServiceProvider;
+use Dply\CMS\Facades\ShortCode;
+use Dply\CMS\Support\ServiceProvider;
 
 class ShortCodeServiceProvider extends ServiceProvider
 {

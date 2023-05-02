@@ -2,9 +2,9 @@
 
 namespace Dply\CMS\Support;
 
-use Juzaweb\CMS\Jobs\SendEmailJob;
-use Juzaweb\Backend\Models\EmailList;
-use Juzaweb\Backend\Models\EmailTemplate;
+use Dply\CMS\Jobs\SendEmailJob;
+use Dply\Backend\Models\EmailList;
+use Dply\Backend\Models\EmailTemplate;
 
 class Email
 {

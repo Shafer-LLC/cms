@@ -3,7 +3,7 @@
 namespace Dply\CMS\Database\Factories;
 
 use Illuminate\Support\Str;
-use Juzaweb\Backend\Models\Taxonomy;
+use Dply\Backend\Models\Taxonomy;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class TaxonomyFactory extends Factory

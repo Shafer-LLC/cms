@@ -13,7 +13,7 @@ namespace Dply\Backend\Events;
 use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;
-use Juzaweb\Backend\Models\Post;
+use Dply\Backend\Models\Post;
 
 class AfterPostSave
 {

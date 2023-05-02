@@ -12,7 +12,7 @@ namespace Dply\Translation\Facades;
 
 use Illuminate\Support\Facades\Facade;
 use Illuminate\Support\Collection;
-use Juzaweb\Translation\Contracts\TranslationContract;
+use Dply\Translation\Contracts\TranslationContract;
 
 /**
  * @method static Collection[] all()

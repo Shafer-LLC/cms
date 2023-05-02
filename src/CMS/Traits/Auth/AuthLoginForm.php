@@ -14,9 +14,9 @@ use Illuminate\Contracts\View\View;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Support\Facades\Auth;
-use Juzaweb\CMS\Http\Requests\Auth\LoginRequest;
-use Juzaweb\CMS\Models\User;
-use Juzaweb\CMS\Traits\ResponseMessage;
+use Dply\CMS\Http\Requests\Auth\LoginRequest;
+use Dply\CMS\Models\User;
+use Dply\CMS\Traits\ResponseMessage;
 
 trait AuthLoginForm
 {

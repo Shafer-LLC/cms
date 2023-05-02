@@ -11,7 +11,7 @@
 namespace Dply\CMS\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Juzaweb\CMS\Contracts\BackendMessageContract;
+use Dply\CMS\Contracts\BackendMessageContract;
 
 class BackendMessage extends Facade
 {

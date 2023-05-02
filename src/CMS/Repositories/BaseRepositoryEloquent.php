@@ -2,7 +2,7 @@
 
 namespace Dply\CMS\Repositories;
 
-use Juzaweb\CMS\Repositories\Eloquent\BaseRepository as PackageBaseRepository;
+use Dply\CMS\Repositories\Eloquent\BaseRepository as PackageBaseRepository;
 
 abstract class BaseRepositoryEloquent extends PackageBaseRepository
 {

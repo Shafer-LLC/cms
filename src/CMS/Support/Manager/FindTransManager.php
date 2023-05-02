@@ -2,7 +2,7 @@
 
 namespace Dply\CMS\Support\Manager;
 
-use Juzaweb\CMS\Models\Translation;
+use Dply\CMS\Models\Translation;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use Symfony\Component\Finder\Finder;

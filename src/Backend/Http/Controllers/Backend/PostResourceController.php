@@ -12,7 +12,7 @@ namespace Dply\Backend\Http\Controllers\Backend;
 
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Facades\Route;
-use Juzaweb\Backend\Models\Post;
+use Dply\Backend\Models\Post;
 
 class PostResourceController extends ResourceController
 {

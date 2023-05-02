@@ -3,9 +3,9 @@
 namespace Dply\CMS\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Juzaweb\CMS\Contracts\LocalPluginRepositoryContract;
-use Juzaweb\CMS\Facades\ActionRegister;
-use Juzaweb\Frontend\Providers\RouteServiceProvider;
+use Dply\CMS\Contracts\LocalPluginRepositoryContract;
+use Dply\CMS\Facades\ActionRegister;
+use Dply\Frontend\Providers\RouteServiceProvider;
 
 class BootstrapServiceProvider extends ServiceProvider
 {

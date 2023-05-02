@@ -10,7 +10,7 @@
 
 namespace Dply\API\Http\Controllers;
 
-use Juzaweb\CMS\Http\Controllers\ApiController;
+use Dply\CMS\Http\Controllers\ApiController;
 
 class SidebarController extends ApiController
 {

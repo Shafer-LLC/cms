@@ -10,7 +10,7 @@
 
 namespace Dply\Frontend\Providers;
 
-use Juzaweb\CMS\Support\ServiceProvider;
+use Dply\CMS\Support\ServiceProvider;
 
 class FrontendServiceProvider extends ServiceProvider
 {

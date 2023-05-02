@@ -3,7 +3,7 @@
 namespace Dply\CMS\Support\Permission;
 
 use Illuminate\Support\Collection;
-use Juzaweb\CMS\Exceptions\WildcardPermissionNotProperlyFormatted;
+use Dply\CMS\Exceptions\WildcardPermissionNotProperlyFormatted;
 
 class WildcardPermission
 {

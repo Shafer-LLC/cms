@@ -12,7 +12,7 @@ namespace Dply\Backend\Http\Requests\Media;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;
-use Juzaweb\Backend\Models\MediaFolder;
+use Dply\Backend\Models\MediaFolder;
 
 class AddFolderRequest extends FormRequest
 {

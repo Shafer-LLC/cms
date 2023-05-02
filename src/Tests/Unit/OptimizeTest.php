@@ -10,7 +10,7 @@
 
 namespace Dply\Tests\Unit;
 
-use Juzaweb\Tests\TestCase;
+use Dply\Tests\TestCase;
 
 class OptimizeTest extends TestCase
 {

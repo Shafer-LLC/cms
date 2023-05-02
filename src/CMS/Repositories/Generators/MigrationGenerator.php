@@ -2,10 +2,10 @@
 
 namespace Dply\CMS\Repositories\Generators;
 
-use Juzaweb\CMS\Repositories\Generators\Generator;
-use Juzaweb\CMS\Repositories\Generators\Stub;
-use Juzaweb\CMS\Repositories\Generators\Migrations\NameParser;
-use Juzaweb\CMS\Repositories\Generators\Migrations\SchemaParser;
+use Dply\CMS\Repositories\Generators\Generator;
+use Dply\CMS\Repositories\Generators\Stub;
+use Dply\CMS\Repositories\Generators\Migrations\NameParser;
+use Dply\CMS\Repositories\Generators\Migrations\SchemaParser;
 use Symfony\Component\HttpFoundation\File\Exception\FileNotFoundException;
 
 /**

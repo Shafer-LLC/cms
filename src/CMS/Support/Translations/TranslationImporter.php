@@ -13,8 +13,8 @@ namespace Dply\CMS\Support\Translations;
 use Closure;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\File;
-use Juzaweb\CMS\Contracts\TranslationManager;
-use Juzaweb\CMS\Contracts\TranslationFinder;
+use Dply\CMS\Contracts\TranslationManager;
+use Dply\CMS\Contracts\TranslationFinder;
 
 class TranslationImporter
 {

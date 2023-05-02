@@ -3,8 +3,8 @@
 namespace Dply\DevTool\Commands\Plugin;
 
 use Illuminate\Console\Command;
-use Juzaweb\CMS\Exceptions\FileAlreadyExistException;
-use Juzaweb\CMS\Support\Generators\FileGenerator;
+use Dply\CMS\Exceptions\FileAlreadyExistException;
+use Dply\CMS\Support\Generators\FileGenerator;
 
 abstract class GeneratorCommand extends Command
 {

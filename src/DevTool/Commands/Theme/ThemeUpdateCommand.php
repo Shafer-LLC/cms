@@ -11,8 +11,8 @@
 namespace Dply\DevTool\Commands\Theme;
 
 use Illuminate\Console\Command;
-use Juzaweb\CMS\Facades\Theme;
-use Juzaweb\CMS\Support\Updater\ThemeUpdater;
+use Dply\CMS\Facades\Theme;
+use Dply\CMS\Support\Updater\ThemeUpdater;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 

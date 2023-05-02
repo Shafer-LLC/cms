@@ -13,9 +13,9 @@ namespace Dply\Network\Http\Datatables;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
-use Juzaweb\CMS\Abstracts\DataTable;
-use Juzaweb\Network\Contracts\SiteManagerContract;
-use Juzaweb\Network\Models\Site;
+use Dply\CMS\Abstracts\DataTable;
+use Dply\Network\Contracts\SiteManagerContract;
+use Dply\Network\Models\Site;
 
 class SiteDatatable extends DataTable
 {

@@ -10,7 +10,7 @@
 
 namespace Dply\API\Support\Documentation;
 
-use Juzaweb\API\Support\Swagger\SwaggerDocument;
+use Dply\API\Support\Swagger\SwaggerDocument;
 
 interface APISwaggerDocumentation
 {

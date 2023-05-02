@@ -3,7 +3,7 @@
 namespace Dply\Backend\Http\Middleware;
 
 use Closure;
-use Juzaweb\CMS\Traits\MigrationsHelper;
+use Dply\CMS\Traits\MigrationsHelper;
 
 class CanUpdate
 {

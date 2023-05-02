@@ -2,9 +2,9 @@
 
 namespace Dply\CMS\Repositories\Generators;
 
-use Juzaweb\CMS\Repositories\Generators\Generator;
-use Juzaweb\CMS\Repositories\Generators\ValidatorGenerator;
-use Juzaweb\CMS\Repositories\Generators\Migrations\SchemaParser;
+use Dply\CMS\Repositories\Generators\Generator;
+use Dply\CMS\Repositories\Generators\ValidatorGenerator;
+use Dply\CMS\Repositories\Generators\Migrations\SchemaParser;
 
 /**
  * Class RepositoryEloquentGenerator

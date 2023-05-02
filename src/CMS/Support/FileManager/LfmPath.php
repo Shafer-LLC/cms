@@ -4,8 +4,8 @@ namespace Dply\CMS\Support\FileManager;
 
 use Illuminate\Container\Container;
 use Intervention\Image\Facades\Image;
-use Juzaweb\CMS\Support\FileManager\Events\ImageIsUploading;
-use Juzaweb\CMS\Support\FileManager\Events\ImageWasUploaded;
+use Dply\CMS\Support\FileManager\Events\ImageIsUploading;
+use Dply\CMS\Support\FileManager\Events\ImageWasUploaded;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 
 class LfmPath

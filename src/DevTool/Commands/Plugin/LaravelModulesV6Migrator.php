@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace Dply\DevTool\Commands\Plugin;
 
 use Illuminate\Console\Command;
-use Juzaweb\CMS\Contracts\LocalPluginRepositoryContract;
-use Juzaweb\CMS\Support\Plugin;
+use Dply\CMS\Contracts\LocalPluginRepositoryContract;
+use Dply\CMS\Support\Plugin;
 
 class LaravelModulesV6Migrator extends Command
 {

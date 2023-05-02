@@ -12,22 +12,22 @@ namespace Dply\Network\Providers;
 
 use Illuminate\Contracts\Console\Kernel;
 use Illuminate\Support\Facades\Artisan;
-use Juzaweb\CMS\Facades\ActionRegister;
-use Juzaweb\CMS\Support\ServiceProvider;
-use Juzaweb\Network\Commands\ArtisanCommand;
-use Juzaweb\Network\Commands\MakeSiteCommand;
-use Juzaweb\Network\Contracts\NetworkRegistionContract;
-use Juzaweb\Network\Contracts\SiteCreaterContract;
-use Juzaweb\Network\Contracts\SiteManagerContract;
-use Juzaweb\Network\Contracts\SiteSetupContract;
-use Juzaweb\Network\Facades\Network;
-use Juzaweb\Network\Models\Site;
-use Juzaweb\Network\NetworkAction;
-use Juzaweb\Network\Observers\SiteModelObserver;
-use Juzaweb\Network\Support\NetworkRegistion;
-use Juzaweb\Network\Support\SiteCreater;
-use Juzaweb\Network\Support\SiteManager;
-use Juzaweb\Network\Support\SiteSetup;
+use Dply\CMS\Facades\ActionRegister;
+use Dply\CMS\Support\ServiceProvider;
+use Dply\Network\Commands\ArtisanCommand;
+use Dply\Network\Commands\MakeSiteCommand;
+use Dply\Network\Contracts\NetworkRegistionContract;
+use Dply\Network\Contracts\SiteCreaterContract;
+use Dply\Network\Contracts\SiteManagerContract;
+use Dply\Network\Contracts\SiteSetupContract;
+use Dply\Network\Facades\Network;
+use Dply\Network\Models\Site;
+use Dply\Network\NetworkAction;
+use Dply\Network\Observers\SiteModelObserver;
+use Dply\Network\Support\NetworkRegistion;
+use Dply\Network\Support\SiteCreater;
+use Dply\Network\Support\SiteManager;
+use Dply\Network\Support\SiteSetup;
 
 class NetworkServiceProvider extends ServiceProvider
 {

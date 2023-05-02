@@ -11,8 +11,8 @@
 namespace Dply\Tests\Feature\Backend;
 
 use Faker\Generator as Faker;
-use Juzaweb\Tests\TestCase;
-use Juzaweb\CMS\Models\User;
+use Dply\Tests\TestCase;
+use Dply\CMS\Models\User;
 
 class UserTest extends TestCase
 {

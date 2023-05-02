@@ -2,7 +2,7 @@
 
 namespace Dply\CMS\Support\Manager;
 
-use Juzaweb\CMS\Support\Installer;
+use Dply\CMS\Support\Installer;
 
 class InstalledFileManager
 {

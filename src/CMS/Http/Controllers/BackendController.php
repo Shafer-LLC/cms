@@ -14,8 +14,8 @@
 
 namespace Dply\CMS\Http\Controllers;
 
-use Juzaweb\CMS\Abstracts\Action;
-use Juzaweb\CMS\Traits\ResponseMessage;
+use Dply\CMS\Abstracts\Action;
+use Dply\CMS\Traits\ResponseMessage;
 
 class BackendController extends Controller
 {

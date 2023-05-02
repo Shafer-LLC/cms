@@ -3,7 +3,7 @@
 namespace Dply\CMS\Repositories\Traits;
 
 use Illuminate\Support\Arr;
-use Juzaweb\CMS\Repositories\Contracts\PresenterInterface;
+use Dply\CMS\Repositories\Contracts\PresenterInterface;
 
 /**
  * Class PresentableTrait

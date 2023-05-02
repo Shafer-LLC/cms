@@ -4,7 +4,7 @@ namespace Dply\CMS\Traits;
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Schema;
-use Juzaweb\CMS\Models\User;
+use Dply\CMS\Models\User;
 
 trait UseChangeBy
 {

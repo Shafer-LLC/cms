@@ -11,11 +11,11 @@
 namespace Dply\CMS\Contracts;
 
 use Illuminate\Support\Collection;
-use Juzaweb\CMS\Models\Translation;
-use Juzaweb\CMS\Support\Translations\TranslationExporter;
-use Juzaweb\CMS\Support\Translations\TranslationImporter;
-use Juzaweb\CMS\Support\Translations\TranslationLocale;
-use Juzaweb\CMS\Support\Translations\TranslationTranslate;
+use Dply\CMS\Models\Translation;
+use Dply\CMS\Support\Translations\TranslationExporter;
+use Dply\CMS\Support\Translations\TranslationImporter;
+use Dply\CMS\Support\Translations\TranslationLocale;
+use Dply\CMS\Support\Translations\TranslationTranslate;
 
 /**
  * @see \Juzaweb\CMS\Support\Manager\TranslationManager

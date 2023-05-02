@@ -3,8 +3,8 @@
 namespace Dply\CMS\Traits\QueryCache;
 
 use Illuminate\Database\Eloquent\Collection;
-use Juzaweb\CMS\Observers\FlushQueryCacheObserver;
-use Juzaweb\CMS\Support\Query\Builder;
+use Dply\CMS\Observers\FlushQueryCacheObserver;
+use Dply\CMS\Support\Query\Builder;
 
 /**
  * @method static bool flushQueryCache(array $tags = [])

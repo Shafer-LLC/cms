@@ -3,9 +3,9 @@
 namespace Dply\CMS\Console\Commands\Permission;
 
 use Illuminate\Console\Command;
-use Juzaweb\CMS\Contracts\Permission as PermissionContract;
-use Juzaweb\CMS\Contracts\Role as RoleContract;
-use Juzaweb\CMS\Support\Permission\PermissionRegistrar;
+use Dply\CMS\Contracts\Permission as PermissionContract;
+use Dply\CMS\Contracts\Role as RoleContract;
+use Dply\CMS\Support\Permission\PermissionRegistrar;
 
 class CreateRole extends Command
 {

@@ -3,7 +3,7 @@
 namespace Dply\CMS\Support;
 
 use Illuminate\Filesystem\Filesystem;
-use Juzaweb\CMS\Exceptions\InvalidJsonException;
+use Dply\CMS\Exceptions\InvalidJsonException;
 
 class Json
 {

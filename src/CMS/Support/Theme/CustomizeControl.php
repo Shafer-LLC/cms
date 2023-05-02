@@ -10,7 +10,7 @@
 
 namespace Dply\CMS\Support\Theme;
 
-use Juzaweb\CMS\Abstracts\CustomizeControl as BaseCustomizeControl;
+use Dply\CMS\Abstracts\CustomizeControl as BaseCustomizeControl;
 
 class CustomizeControl extends BaseCustomizeControl
 {

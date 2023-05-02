@@ -4,7 +4,7 @@ namespace Dply\CMS\Support\Process;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
-use Juzaweb\CMS\Contracts\LocalPluginRepositoryContract;
+use Dply\CMS\Contracts\LocalPluginRepositoryContract;
 use Symfony\Component\Process\Process;
 
 class Installer

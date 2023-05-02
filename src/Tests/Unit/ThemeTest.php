@@ -12,8 +12,8 @@ namespace Dply\Tests\Unit;
 
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
-use Juzaweb\CMS\Support\Theme;
-use Juzaweb\Tests\TestCase;
+use Dply\CMS\Support\Theme;
+use Dply\Tests\TestCase;
 
 class ThemeTest extends TestCase
 {

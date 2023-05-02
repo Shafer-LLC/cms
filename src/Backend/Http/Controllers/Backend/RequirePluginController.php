@@ -12,8 +12,8 @@ namespace Dply\Backend\Http\Controllers\Backend;
 
 use Illuminate\Contracts\View\View;
 use Illuminate\Http\JsonResponse;
-use Juzaweb\CMS\Facades\ThemeLoader;
-use Juzaweb\CMS\Http\Controllers\BackendController;
+use Dply\CMS\Facades\ThemeLoader;
+use Dply\CMS\Http\Controllers\BackendController;
 
 class RequirePluginController extends BackendController
 {

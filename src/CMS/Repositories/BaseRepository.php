@@ -3,8 +3,8 @@
 namespace Dply\CMS\Repositories;
 
 use Illuminate\Database\Eloquent\Builder;
-use Juzaweb\CMS\Repositories\Contracts\RepositoryCriteriaInterface;
-use Juzaweb\CMS\Repositories\Contracts\RepositoryInterface;
+use Dply\CMS\Repositories\Contracts\RepositoryCriteriaInterface;
+use Dply\CMS\Repositories\Contracts\RepositoryInterface;
 
 /**
  * Interface BaseRepository.

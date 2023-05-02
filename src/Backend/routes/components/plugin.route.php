@@ -8,9 +8,9 @@
  * @license    GNU V2
  */
 
-use Juzaweb\Backend\Http\Controllers\Backend\Plugin\EditorController;
-use Juzaweb\Backend\Http\Controllers\Backend\Plugin\PluginController;
-use Juzaweb\Backend\Http\Controllers\Backend\Plugin\PluginInstallController;
+use Dply\Backend\Http\Controllers\Backend\Plugin\EditorController;
+use Dply\Backend\Http\Controllers\Backend\Plugin\PluginController;
+use Dply\Backend\Http\Controllers\Backend\Plugin\PluginInstallController;
 
 Route::group(
     ['prefix' => 'plugins'],

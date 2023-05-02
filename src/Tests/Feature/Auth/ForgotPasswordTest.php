@@ -10,10 +10,10 @@
 
 namespace Dply\Tests\Feature\Auth;
 
-use Juzaweb\Backend\Models\EmailTemplate;
-use Juzaweb\Backend\Models\PasswordReset;
-use Juzaweb\CMS\Models\User;
-use Juzaweb\Tests\TestCase;
+use Dply\Backend\Models\EmailTemplate;
+use Dply\Backend\Models\PasswordReset;
+use Dply\CMS\Models\User;
+use Dply\Tests\TestCase;
 
 class ForgotPasswordTest extends TestCase
 {

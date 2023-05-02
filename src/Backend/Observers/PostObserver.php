@@ -11,7 +11,7 @@
 namespace Dply\Backend\Observers;
 
 use Illuminate\Support\Facades\DB;
-use Juzaweb\Backend\Models\Post;
+use Dply\Backend\Models\Post;
 use Illuminate\Support\Facades\Cache;
 
 class PostObserver

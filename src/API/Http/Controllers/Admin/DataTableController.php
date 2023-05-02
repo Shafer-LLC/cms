@@ -12,8 +12,8 @@ namespace Dply\API\Http\Controllers\Admin;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
-use Juzaweb\Backend\Http\Datatables\UserDataTable;
-use Juzaweb\CMS\Http\Controllers\ApiController;
+use Dply\Backend\Http\Datatables\UserDataTable;
+use Dply\CMS\Http\Controllers\ApiController;
 
 class DataTableController extends ApiController
 {

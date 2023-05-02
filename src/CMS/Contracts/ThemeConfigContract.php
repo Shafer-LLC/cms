@@ -11,7 +11,7 @@
 namespace Dply\CMS\Contracts;
 
 use Illuminate\Database\Eloquent\Model;
-use Juzaweb\CMS\Models\ThemeConfig as ConfigModel;
+use Dply\CMS\Models\ThemeConfig as ConfigModel;
 
 interface ThemeConfigContract
 {

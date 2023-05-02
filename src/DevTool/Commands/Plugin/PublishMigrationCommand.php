@@ -3,8 +3,8 @@
 namespace Dply\DevTool\Commands\Plugin;
 
 use Illuminate\Console\Command;
-use Juzaweb\CMS\Support\Migrations\Migrator;
-use Juzaweb\CMS\Support\Publishing\MigrationPublisher;
+use Dply\CMS\Support\Migrations\Migrator;
+use Dply\CMS\Support\Publishing\MigrationPublisher;
 use Symfony\Component\Console\Input\InputArgument;
 
 class PublishMigrationCommand extends Command

@@ -1,6 +1,6 @@
 <?php
 
-use Juzaweb\API\Http\Controllers\Admin\GeneralController;
+use Dply\API\Http\Controllers\Admin\GeneralController;
 
 Route::group(
     [

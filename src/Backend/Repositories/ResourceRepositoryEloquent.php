@@ -2,8 +2,8 @@
 
 namespace Dply\Backend\Repositories;
 
-use Juzaweb\Backend\Models\Resource;
-use Juzaweb\CMS\Repositories\BaseRepositoryEloquent;
+use Dply\Backend\Models\Resource;
+use Dply\CMS\Repositories\BaseRepositoryEloquent;
 
 /**
  * Class CommentRepositoryEloquent.

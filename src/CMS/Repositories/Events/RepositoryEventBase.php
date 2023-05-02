@@ -3,7 +3,7 @@
 namespace Dply\CMS\Repositories\Events;
 
 use Illuminate\Database\Eloquent\Model;
-use Juzaweb\CMS\Repositories\Contracts\RepositoryInterface;
+use Dply\CMS\Repositories\Contracts\RepositoryInterface;
 
 /**
  * Class RepositoryEventBase

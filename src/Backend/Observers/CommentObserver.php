@@ -2,7 +2,7 @@
 
 namespace Dply\Backend\Observers;
 
-use Juzaweb\Backend\Models\Comment;
+use Dply\Backend\Models\Comment;
 
 class CommentObserver
 {

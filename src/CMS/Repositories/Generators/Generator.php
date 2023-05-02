@@ -4,8 +4,8 @@ namespace Dply\CMS\Repositories\Generators;
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Str;
-use Juzaweb\CMS\Repositories\Generators\FileAlreadyExistsException;
-use Juzaweb\CMS\Repositories\Generators\Stub;
+use Dply\CMS\Repositories\Generators\FileAlreadyExistsException;
+use Dply\CMS\Repositories\Generators\Stub;
 
 /**
  * Class Generator

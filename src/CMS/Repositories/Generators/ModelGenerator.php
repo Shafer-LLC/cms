@@ -2,8 +2,8 @@
 
 namespace Dply\CMS\Repositories\Generators;
 
-use Juzaweb\CMS\Repositories\Generators\Generator;
-use Juzaweb\CMS\Repositories\Generators\Migrations\SchemaParser;
+use Dply\CMS\Repositories\Generators\Generator;
+use Dply\CMS\Repositories\Generators\Migrations\SchemaParser;
 
 /**
  * Class ModelGenerator

@@ -4,10 +4,10 @@ namespace Dply\Backend\Repositories;
 
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Database\Eloquent\Builder;
-use Juzaweb\Backend\Models\Post;
-use Juzaweb\Backend\Models\Taxonomy;
-use Juzaweb\CMS\Repositories\BaseRepository;
-use Juzaweb\CMS\Repositories\Exceptions\RepositoryException;
+use Dply\Backend\Models\Post;
+use Dply\Backend\Models\Taxonomy;
+use Dply\CMS\Repositories\BaseRepository;
+use Dply\CMS\Repositories\Exceptions\RepositoryException;
 
 /**
  * Interface PostRepository.

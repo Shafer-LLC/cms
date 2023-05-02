@@ -6,14 +6,14 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
-use Juzaweb\CMS\Contracts\Permission;
-use Juzaweb\CMS\Contracts\Role;
-use Juzaweb\CMS\Exceptions\GuardDoesNotMatch;
-use Juzaweb\CMS\Exceptions\PermissionDoesNotExist;
-use Juzaweb\CMS\Exceptions\WildcardPermissionInvalidArgument;
-use Juzaweb\CMS\Support\Permission\Guard;
-use Juzaweb\CMS\Support\Permission\PermissionRegistrar;
-use Juzaweb\CMS\Support\Permission\WildcardPermission;
+use Dply\CMS\Contracts\Permission;
+use Dply\CMS\Contracts\Role;
+use Dply\CMS\Exceptions\GuardDoesNotMatch;
+use Dply\CMS\Exceptions\PermissionDoesNotExist;
+use Dply\CMS\Exceptions\WildcardPermissionInvalidArgument;
+use Dply\CMS\Support\Permission\Guard;
+use Dply\CMS\Support\Permission\PermissionRegistrar;
+use Dply\CMS\Support\Permission\WildcardPermission;
 
 trait HasPermissions
 {

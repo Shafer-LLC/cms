@@ -5,13 +5,13 @@ namespace Dply\CMS\Support\Imports;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Storage;
-use Juzaweb\CMS\Support\Collections\BloggerXMLCollection;
+use Dply\CMS\Support\Collections\BloggerXMLCollection;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
-use Juzaweb\Backend\Models\Post;
-use Juzaweb\Backend\Models\Taxonomy;
-use Juzaweb\CMS\Support\Collections\WordpressXMLCollection;
-use Juzaweb\CMS\Support\FileManager;
+use Dply\Backend\Models\Post;
+use Dply\Backend\Models\Taxonomy;
+use Dply\CMS\Support\Collections\WordpressXMLCollection;
+use Dply\CMS\Support\FileManager;
 
 class PostImportFromXml
 {

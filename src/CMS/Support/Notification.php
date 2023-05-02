@@ -2,8 +2,8 @@
 
 namespace Dply\CMS\Support;
 
-use Juzaweb\CMS\Jobs\SendNotification as SendNotificationJob;
-use Juzaweb\Backend\Models\ManualNotification;
+use Dply\CMS\Jobs\SendNotification as SendNotificationJob;
+use Dply\Backend\Models\ManualNotification;
 use Illuminate\Foundation\Auth\User;
 
 class Notification

@@ -3,8 +3,8 @@
 namespace Dply\CMS\Console\Commands;
 
 use Illuminate\Console\Command;
-use Juzaweb\Backend\Models\ManualNotification;
-use Juzaweb\CMS\Support\SendNotification;
+use Dply\Backend\Models\ManualNotification;
+use Dply\CMS\Support\SendNotification;
 
 class SendNotifyCommand extends Command
 {

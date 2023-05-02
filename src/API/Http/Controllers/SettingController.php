@@ -11,11 +11,11 @@
 namespace Dply\API\Http\Controllers;
 
 use Illuminate\Support\Arr;
-use Juzaweb\CMS\Contracts\ConfigContract;
-use Juzaweb\CMS\Contracts\HookActionContract;
-use Juzaweb\CMS\Contracts\ThemeConfigContract;
-use Juzaweb\CMS\Facades\Theme;
-use Juzaweb\CMS\Http\Controllers\ApiController;
+use Dply\CMS\Contracts\ConfigContract;
+use Dply\CMS\Contracts\HookActionContract;
+use Dply\CMS\Contracts\ThemeConfigContract;
+use Dply\CMS\Facades\Theme;
+use Dply\CMS\Http\Controllers\ApiController;
 
 class SettingController extends ApiController
 {

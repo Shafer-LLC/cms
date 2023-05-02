@@ -12,9 +12,9 @@ use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use Illuminate\Support\Traits\Macroable;
-use Juzaweb\CMS\Contracts\LocalPluginRepositoryContract;
-use Juzaweb\CMS\Exceptions\InvalidAssetPath;
-use Juzaweb\CMS\Exceptions\PluginNotFoundException;
+use Dply\CMS\Contracts\LocalPluginRepositoryContract;
+use Dply\CMS\Exceptions\InvalidAssetPath;
+use Dply\CMS\Exceptions\PluginNotFoundException;
 
 class LocalPluginRepository implements LocalPluginRepositoryContract, Countable
 {

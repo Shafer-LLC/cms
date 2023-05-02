@@ -11,16 +11,16 @@
 namespace Dply\CMS\Providers;
 
 use Illuminate\Console\Scheduling\Schedule;
-use Juzaweb\CMS\Console\Commands\AutoClearSlotCommand;
-use Juzaweb\CMS\Console\Commands\ClearCacheCommand;
-use Juzaweb\CMS\Console\Commands\ClearCacheExpiredCommand;
-use Juzaweb\CMS\Console\Commands\InstallCommand;
-use Juzaweb\CMS\Console\Commands\PluginAutoloadCommand;
-use Juzaweb\CMS\Console\Commands\SendMailCommand;
-use Juzaweb\CMS\Console\Commands\ShowSlotCommand;
-use Juzaweb\CMS\Console\Commands\UpdateCommand;
-use Juzaweb\CMS\Console\Commands\VersionCommand;
-use Juzaweb\CMS\Support\ServiceProvider;
+use Dply\CMS\Console\Commands\AutoClearSlotCommand;
+use Dply\CMS\Console\Commands\ClearCacheCommand;
+use Dply\CMS\Console\Commands\ClearCacheExpiredCommand;
+use Dply\CMS\Console\Commands\InstallCommand;
+use Dply\CMS\Console\Commands\PluginAutoloadCommand;
+use Dply\CMS\Console\Commands\SendMailCommand;
+use Dply\CMS\Console\Commands\ShowSlotCommand;
+use Dply\CMS\Console\Commands\UpdateCommand;
+use Dply\CMS\Console\Commands\VersionCommand;
+use Dply\CMS\Support\ServiceProvider;
 
 class ConsoleServiceProvider extends ServiceProvider
 {

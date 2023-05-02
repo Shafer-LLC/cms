@@ -16,12 +16,12 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
-use Juzaweb\Backend\Models\Post;
-use Juzaweb\Backend\Models\PostRating;
-use Juzaweb\CMS\Facades\HookAction;
-use Juzaweb\CMS\Http\Controllers\FrontendController;
-use Juzaweb\Frontend\Http\Requests\LikeRequest;
-use Juzaweb\Frontend\Http\Requests\RatingRequest;
+use Dply\Backend\Models\Post;
+use Dply\Backend\Models\PostRating;
+use Dply\CMS\Facades\HookAction;
+use Dply\CMS\Http\Controllers\FrontendController;
+use Dply\Frontend\Http\Requests\LikeRequest;
+use Dply\Frontend\Http\Requests\RatingRequest;
 
 class AjaxController extends FrontendController
 {

@@ -12,8 +12,8 @@ namespace Dply\CMS\Traits\Queries;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Arr;
-use Juzaweb\Backend\Http\Resources\PostResourceCollection;
-use Juzaweb\Backend\Models\Post;
+use Dply\Backend\Http\Resources\PostResourceCollection;
+use Dply\Backend\Models\Post;
 
 trait PostQuery
 {

@@ -11,8 +11,8 @@
 namespace Dply\Backend\Http\Datatables;
 
 use Illuminate\Database\Eloquent\Builder;
-use Juzaweb\Backend\Repositories\NotificationRepository;
-use Juzaweb\CMS\Abstracts\DataTable;
+use Dply\Backend\Repositories\NotificationRepository;
+use Dply\CMS\Abstracts\DataTable;
 
 class NotificationDatatable extends DataTable
 {

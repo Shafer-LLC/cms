@@ -17,8 +17,8 @@ use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
-use Juzaweb\CMS\Contracts\JuzawebApiContract;
-use Juzaweb\CMS\Support\Curl;
+use Dply\CMS\Contracts\JuzawebApiContract;
+use Dply\CMS\Support\Curl;
 
 /**
  * @method void beforeFinish()

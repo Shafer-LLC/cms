@@ -5,8 +5,8 @@ namespace Dply\CMS\Support;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
 use Illuminate\Contracts\Filesystem\Factory as Filesystem;
-use Juzaweb\CMS\Contracts\GoogleTranslate as GoogleTranslateContract;
-use Juzaweb\CMS\Exceptions\GoogleTranslateException;
+use Dply\CMS\Contracts\GoogleTranslate as GoogleTranslateContract;
+use Dply\CMS\Exceptions\GoogleTranslateException;
 
 class GoogleTranslate implements GoogleTranslateContract
 {

@@ -11,8 +11,8 @@
 namespace Dply\CMS\Contracts;
 
 use Illuminate\Support\Collection;
-use Juzaweb\CMS\Models\Config;
-use Juzaweb\CMS\Models\Config as ConfigModel;
+use Dply\CMS\Models\Config;
+use Dply\CMS\Models\Config as ConfigModel;
 
 interface ConfigContract
 {

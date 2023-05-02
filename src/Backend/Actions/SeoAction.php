@@ -10,11 +10,11 @@
 
 namespace Dply\Backend\Actions;
 
-use Juzaweb\Backend\Http\Controllers\Backend\Setting\SeoController;
-use Juzaweb\Backend\Models\SeoMeta;
-use Juzaweb\CMS\Abstracts\Action;
-use Juzaweb\CMS\Facades\HookAction;
-use Juzaweb\CMS\Models\Model;
+use Dply\Backend\Http\Controllers\Backend\Setting\SeoController;
+use Dply\Backend\Models\SeoMeta;
+use Dply\CMS\Abstracts\Action;
+use Dply\CMS\Facades\HookAction;
+use Dply\CMS\Models\Model;
 
 class SeoAction extends Action
 {

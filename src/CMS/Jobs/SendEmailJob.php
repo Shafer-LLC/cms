@@ -7,8 +7,8 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
-use Juzaweb\Backend\Models\EmailList;
-use Juzaweb\CMS\Support\SendEmail;
+use Dply\Backend\Models\EmailList;
+use Dply\CMS\Support\SendEmail;
 
 class SendEmailJob implements ShouldQueue
 {

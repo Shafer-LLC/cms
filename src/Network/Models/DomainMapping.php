@@ -10,7 +10,7 @@
 
 namespace Dply\Network\Models;
 
-use Juzaweb\CMS\Models\Model;
+use Dply\CMS\Models\Model;
 
 /**
  * Juzaweb\Network\Models\DomainMapping

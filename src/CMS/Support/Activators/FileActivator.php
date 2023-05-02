@@ -7,9 +7,9 @@ use Illuminate\Config\Repository as Config;
 use Illuminate\Container\Container;
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use Illuminate\Filesystem\Filesystem;
-use Juzaweb\CMS\Contracts\ActivatorInterface;
-use Juzaweb\CMS\Exceptions\PluginNotFoundException;
-use Juzaweb\CMS\Support\Plugin;
+use Dply\CMS\Contracts\ActivatorInterface;
+use Dply\CMS\Exceptions\PluginNotFoundException;
+use Dply\CMS\Support\Plugin;
 
 class FileActivator implements ActivatorInterface
 {

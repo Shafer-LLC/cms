@@ -13,8 +13,8 @@ namespace Dply\CMS\Support;
 use Illuminate\Container\Container;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\File;
-use Juzaweb\CMS\Contracts\LocalThemeRepositoryContract;
-use Juzaweb\CMS\Exceptions\ThemeNotFoundException;
+use Dply\CMS\Contracts\LocalThemeRepositoryContract;
+use Dply\CMS\Exceptions\ThemeNotFoundException;
 
 class LocalThemeRepository implements LocalThemeRepositoryContract
 {

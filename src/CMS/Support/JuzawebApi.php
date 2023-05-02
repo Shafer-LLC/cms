@@ -13,8 +13,8 @@ namespace Dply\CMS\Support;
 use GuzzleHttp\Exception\ClientException;
 use Exception;
 use Illuminate\Support\Str;
-use Juzaweb\CMS\Contracts\ConfigContract;
-use Juzaweb\CMS\Contracts\JuzawebApiContract;
+use Dply\CMS\Contracts\ConfigContract;
+use Dply\CMS\Contracts\JuzawebApiContract;
 
 class JuzawebApi implements JuzawebApiContract
 {

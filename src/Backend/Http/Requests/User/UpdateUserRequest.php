@@ -11,7 +11,7 @@
 namespace Dply\Backend\Http\Requests\User;
 
 use Illuminate\Validation\Rule;
-use Juzaweb\CMS\Models\User;
+use Dply\CMS\Models\User;
 
 class UpdateUserRequest extends UserRequest
 {

@@ -12,7 +12,7 @@ namespace Dply\Backend\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Route;
-use Juzaweb\CMS\Support\Installer;
+use Dply\CMS\Support\Installer;
 
 class Installed
 {

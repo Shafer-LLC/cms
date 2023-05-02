@@ -11,9 +11,9 @@
 namespace Dply\Network\Support;
 
 use Illuminate\Support\Str;
-use Juzaweb\CMS\Models\User;
-use Juzaweb\Network\Contracts\NetworkSiteContract;
-use Juzaweb\Network\Models\Site;
+use Dply\CMS\Models\User;
+use Dply\Network\Contracts\NetworkSiteContract;
+use Dply\Network\Models\Site;
 
 class NetworkSite implements NetworkSiteContract
 {

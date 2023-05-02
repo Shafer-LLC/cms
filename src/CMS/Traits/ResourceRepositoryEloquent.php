@@ -11,7 +11,7 @@
 namespace Dply\CMS\Traits;
 
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
-use Juzaweb\CMS\Repositories\Exceptions\RepositoryException;
+use Dply\CMS\Repositories\Exceptions\RepositoryException;
 
 trait ResourceRepositoryEloquent
 {

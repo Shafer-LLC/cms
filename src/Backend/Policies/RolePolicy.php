@@ -10,7 +10,7 @@
 
 namespace Dply\Backend\Policies;
 
-use Juzaweb\CMS\Abstracts\ResourcePolicy;
+use Dply\CMS\Abstracts\ResourcePolicy;
 
 class RolePolicy extends ResourcePolicy
 {

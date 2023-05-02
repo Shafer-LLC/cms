@@ -2,9 +2,9 @@
 
 namespace Dply\Backend\Http\Controllers\Backend;
 
-use Juzaweb\CMS\Http\Controllers\BackendController;
-use Juzaweb\Backend\Models\Post;
-use Juzaweb\CMS\Traits\PostTypeController;
+use Dply\CMS\Http\Controllers\BackendController;
+use Dply\Backend\Models\Post;
+use Dply\CMS\Traits\PostTypeController;
 
 class PostController extends BackendController
 {

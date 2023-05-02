@@ -11,9 +11,9 @@
 namespace Dply\Backend\Actions;
 
 use Illuminate\Support\Arr;
-use Juzaweb\CMS\Abstracts\Action;
-use Juzaweb\CMS\Facades\HookAction;
-use Juzaweb\CMS\Models\User;
+use Dply\CMS\Abstracts\Action;
+use Dply\CMS\Facades\HookAction;
+use Dply\CMS\Models\User;
 
 class PermissionAction extends Action
 {

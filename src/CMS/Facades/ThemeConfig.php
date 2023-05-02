@@ -11,7 +11,7 @@
 namespace Dply\CMS\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Juzaweb\CMS\Contracts\ThemeConfigContract;
+use Dply\CMS\Contracts\ThemeConfigContract;
 
 /**
  * @method static mixed setConfig($key, $value)

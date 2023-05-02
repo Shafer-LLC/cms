@@ -16,9 +16,9 @@ use Illuminate\Contracts\Console\Kernel;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Database\DatabaseManager;
 use Illuminate\Http\Request;
-use Juzaweb\Network\Contracts\NetworkRegistionContract;
-use Juzaweb\Network\Contracts\SiteSetupContract;
-use Juzaweb\Network\Models\Site;
+use Dply\Network\Contracts\NetworkRegistionContract;
+use Dply\Network\Contracts\SiteSetupContract;
+use Dply\Network\Models\Site;
 use Illuminate\Support\Facades\URL;
 
 class NetworkRegistion implements NetworkRegistionContract

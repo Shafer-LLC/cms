@@ -3,7 +3,7 @@
 namespace Dply\CMS\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Juzaweb\CMS\Contracts\EventyContract;
+use Dply\CMS\Contracts\EventyContract;
 
 class Eventy extends Facade
 {

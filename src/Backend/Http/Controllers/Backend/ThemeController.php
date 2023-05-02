@@ -9,15 +9,15 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
-use Juzaweb\CMS\Contracts\BackendMessageContract;
-use Juzaweb\CMS\Contracts\JuzawebApiContract;
-use Juzaweb\CMS\Facades\CacheGroup;
-use Juzaweb\CMS\Facades\Theme;
-use Juzaweb\CMS\Http\Controllers\BackendController;
-use Juzaweb\CMS\Facades\ThemeLoader;
-use Juzaweb\CMS\Facades\Plugin;
-use Juzaweb\CMS\Support\ArrayPagination;
-use Juzaweb\CMS\Version;
+use Dply\CMS\Contracts\BackendMessageContract;
+use Dply\CMS\Contracts\JuzawebApiContract;
+use Dply\CMS\Facades\CacheGroup;
+use Dply\CMS\Facades\Theme;
+use Dply\CMS\Http\Controllers\BackendController;
+use Dply\CMS\Facades\ThemeLoader;
+use Dply\CMS\Facades\Plugin;
+use Dply\CMS\Support\ArrayPagination;
+use Dply\CMS\Version;
 
 class ThemeController extends BackendController
 {

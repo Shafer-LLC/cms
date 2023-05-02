@@ -10,8 +10,8 @@
 
 namespace Dply\CMS\Support\Theme;
 
-use Juzaweb\CMS\Abstracts\MenuBox;
-use Juzaweb\CMS\Facades\HookAction;
+use Dply\CMS\Abstracts\MenuBox;
+use Dply\CMS\Facades\HookAction;
 
 class PostTypeMenuBox extends MenuBox
 {

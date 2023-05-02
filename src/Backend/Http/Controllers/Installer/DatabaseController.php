@@ -3,8 +3,8 @@
 namespace Dply\Backend\Http\Controllers\Installer;
 
 use Illuminate\Http\RedirectResponse;
-use Juzaweb\CMS\Http\Controllers\Controller;
-use Juzaweb\CMS\Support\Manager\DatabaseManager;
+use Dply\CMS\Http\Controllers\Controller;
+use Dply\CMS\Support\Manager\DatabaseManager;
 
 class DatabaseController extends Controller
 {

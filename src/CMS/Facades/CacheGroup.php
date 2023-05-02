@@ -3,7 +3,7 @@
 namespace Dply\CMS\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Juzaweb\CMS\Contracts\CacheGroupContract;
+use Dply\CMS\Contracts\CacheGroupContract;
 
 /**
  * @method static void add(string $group, string $key, int|null $ttl = null)

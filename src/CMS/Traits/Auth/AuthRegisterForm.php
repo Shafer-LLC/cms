@@ -15,10 +15,10 @@ use Illuminate\Http\JsonResponse;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
-use Juzaweb\Backend\Events\RegisterSuccessful;
-use Juzaweb\CMS\Http\Requests\Auth\RegisterRequest;
-use Juzaweb\CMS\Models\User;
-use Juzaweb\CMS\Traits\ResponseMessage;
+use Dply\Backend\Events\RegisterSuccessful;
+use Dply\CMS\Http\Requests\Auth\RegisterRequest;
+use Dply\CMS\Models\User;
+use Dply\CMS\Traits\ResponseMessage;
 
 trait AuthRegisterForm
 {

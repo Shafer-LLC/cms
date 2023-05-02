@@ -11,7 +11,7 @@
 namespace Dply\CMS\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Juzaweb\CMS\Contracts\GoogleTranslate as GoogleTranslateContract;
+use Dply\CMS\Contracts\GoogleTranslate as GoogleTranslateContract;
 
 class GoogleTranslate extends Facade
 {

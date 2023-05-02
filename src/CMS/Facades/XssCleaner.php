@@ -11,7 +11,7 @@
 namespace Dply\CMS\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Juzaweb\CMS\Contracts\XssCleanerContract;
+use Dply\CMS\Contracts\XssCleanerContract;
 
 /**
  * @method static string clean(string $value)

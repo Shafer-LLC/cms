@@ -10,11 +10,11 @@
 
 namespace Dply\CMS\Support\FileManager;
 
-use Juzaweb\Backend\Repositories\MediaFileRepository;
-use Juzaweb\Backend\Repositories\MediaFolderRepository;
-use Juzaweb\CMS\Contracts\MediaManagerContract;
-use Juzaweb\CMS\Models\Model;
-use Juzaweb\CMS\Repositories\BaseRepository;
+use Dply\Backend\Repositories\MediaFileRepository;
+use Dply\Backend\Repositories\MediaFolderRepository;
+use Dply\CMS\Contracts\MediaManagerContract;
+use Dply\CMS\Models\Model;
+use Dply\CMS\Repositories\BaseRepository;
 
 class MediaManager implements MediaManagerContract
 {

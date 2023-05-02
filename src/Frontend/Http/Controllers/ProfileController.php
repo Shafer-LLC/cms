@@ -7,10 +7,10 @@ use Illuminate\Http\RedirectResponse;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
-use Juzaweb\CMS\Facades\HookAction;
-use Juzaweb\CMS\Http\Controllers\FrontendController;
-use Juzaweb\Frontend\Http\Requests\ChangePasswordRequest;
-use Juzaweb\Frontend\Http\Requests\UpdateProfileRequest;
+use Dply\CMS\Facades\HookAction;
+use Dply\CMS\Http\Controllers\FrontendController;
+use Dply\Frontend\Http\Requests\ChangePasswordRequest;
+use Dply\Frontend\Http\Requests\UpdateProfileRequest;
 
 class ProfileController extends FrontendController
 {

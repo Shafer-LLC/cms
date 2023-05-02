@@ -13,9 +13,9 @@ namespace Dply\API\Providers;
 use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\RateLimiter;
-use Juzaweb\API\Actions\APIAction;
-use Juzaweb\CMS\Facades\ActionRegister;
-use Juzaweb\CMS\Support\ServiceProvider;
+use Dply\API\Actions\APIAction;
+use Dply\CMS\Facades\ActionRegister;
+use Dply\CMS\Support\ServiceProvider;
 
 class APIServiceProvider extends ServiceProvider
 {

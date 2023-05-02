@@ -2,9 +2,9 @@
 
 namespace Dply\Backend\Models;
 
-use Juzaweb\CMS\Models\Model;
-use Juzaweb\CMS\Traits\ResourceModel;
-use Juzaweb\CMS\Traits\UseUUIDColumn;
+use Dply\CMS\Models\Model;
+use Dply\CMS\Traits\ResourceModel;
+use Dply\CMS\Traits\UseUUIDColumn;
 
 /**
  * Juzaweb\Backend\Models\EmailTemplate

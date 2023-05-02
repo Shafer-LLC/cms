@@ -10,7 +10,7 @@
 
 namespace Dply\CMS\Abstracts;
 
-use Juzaweb\CMS\Traits\PostTypeController as PostTypeControllerTrait;
+use Dply\CMS\Traits\PostTypeController as PostTypeControllerTrait;
 
 abstract class PostTypeController
 {

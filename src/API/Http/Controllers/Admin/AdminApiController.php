@@ -10,8 +10,8 @@
 
 namespace Dply\API\Http\Controllers\Admin;
 
-use Juzaweb\CMS\Abstracts\Action;
-use Juzaweb\CMS\Http\Controllers\ApiController;
+use Dply\CMS\Abstracts\Action;
+use Dply\CMS\Http\Controllers\ApiController;
 
 class AdminApiController extends ApiController
 {

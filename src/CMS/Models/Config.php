@@ -2,7 +2,7 @@
 
 namespace Dply\CMS\Models;
 
-use Juzaweb\CMS\Facades\GlobalData;
+use Dply\CMS\Facades\GlobalData;
 
 /**
  * Juzaweb\CMS\Models\Config

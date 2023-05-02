@@ -10,7 +10,7 @@
 
 namespace Dply\CMS\Models;
 
-use Juzaweb\Network\Interfaces\RootNetworkModelInterface;
+use Dply\Network\Interfaces\RootNetworkModelInterface;
 
 /**
  * Juzaweb\CMS\Models\Job

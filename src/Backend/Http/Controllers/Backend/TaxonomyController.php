@@ -8,11 +8,11 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Str;
-use Juzaweb\CMS\Facades\GlobalData;
-use Juzaweb\CMS\Http\Controllers\BackendController;
-use Juzaweb\Backend\Http\Datatables\TaxonomyDataTable;
-use Juzaweb\Backend\Models\Taxonomy;
-use Juzaweb\CMS\Traits\ResourceController;
+use Dply\CMS\Facades\GlobalData;
+use Dply\CMS\Http\Controllers\BackendController;
+use Dply\Backend\Http\Datatables\TaxonomyDataTable;
+use Dply\Backend\Models\Taxonomy;
+use Dply\CMS\Traits\ResourceController;
 
 class TaxonomyController extends BackendController
 {

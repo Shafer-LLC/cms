@@ -15,8 +15,8 @@ use Illuminate\Database\Query\Builder;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Traits\Macroable;
-use Juzaweb\CMS\Contracts\JWQueryContract;
-use Juzaweb\CMS\Traits\Queries\PostQuery;
+use Dply\CMS\Contracts\JWQueryContract;
+use Dply\CMS\Traits\Queries\PostQuery;
 use Illuminate\Support\Collection;
 
 class JWQuery implements JWQueryContract

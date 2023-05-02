@@ -11,7 +11,7 @@
 namespace Dply\DevTool\Commands\Plugin;
 
 use Illuminate\Console\Command;
-use Juzaweb\CMS\Contracts\TranslationManager;
+use Dply\CMS\Contracts\TranslationManager;
 use Symfony\Component\Console\Input\InputArgument;
 
 class TranslateViaGoogleCommand extends Command

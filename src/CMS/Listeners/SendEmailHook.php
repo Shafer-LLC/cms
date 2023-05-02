@@ -3,9 +3,9 @@
 namespace Dply\CMS\Listeners;
 
 use Illuminate\Contracts\Queue\ShouldQueue;
-use Juzaweb\CMS\Events\EmailHook;
-use Juzaweb\Backend\Models\EmailTemplate;
-use Juzaweb\CMS\Support\Email;
+use Dply\CMS\Events\EmailHook;
+use Dply\Backend\Models\EmailTemplate;
+use Dply\CMS\Support\Email;
 
 class SendEmailHook implements ShouldQueue
 {

@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-use Juzaweb\CMS\Support\Activators\DbActivator;
+use Dply\CMS\Support\Activators\DbActivator;
 
 return [
     /**

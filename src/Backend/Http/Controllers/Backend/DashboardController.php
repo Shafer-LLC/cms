@@ -8,12 +8,12 @@ use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Cache;
-use Juzaweb\CMS\Abstracts\Action;
-use Juzaweb\CMS\Http\Controllers\BackendController;
-use Juzaweb\Backend\Models\MediaFile;
-use Juzaweb\Backend\Models\Post;
-use Juzaweb\Backend\Models\PostView;
-use Juzaweb\CMS\Models\User;
+use Dply\CMS\Abstracts\Action;
+use Dply\CMS\Http\Controllers\BackendController;
+use Dply\Backend\Models\MediaFile;
+use Dply\Backend\Models\Post;
+use Dply\Backend\Models\PostView;
+use Dply\CMS\Models\User;
 
 class DashboardController extends BackendController
 {

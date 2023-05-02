@@ -12,8 +12,8 @@ namespace Dply\Backend\Http\Controllers\Backend;
 
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Facades\Route;
-use Juzaweb\Backend\Models\Post;
-use Juzaweb\CMS\Facades\HookAction;
+use Dply\Backend\Models\Post;
+use Dply\CMS\Facades\HookAction;
 
 class ChildResourceController extends ResourceController
 {

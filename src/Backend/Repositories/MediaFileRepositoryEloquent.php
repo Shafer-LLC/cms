@@ -2,11 +2,11 @@
 
 namespace Dply\Backend\Repositories;
 
-use Juzaweb\Backend\Models\MediaFile;
-use Juzaweb\CMS\Repositories\BaseRepositoryEloquent;
-use Juzaweb\CMS\Traits\Criterias\UseFilterCriteria;
-use Juzaweb\CMS\Traits\Criterias\UseSearchCriteria;
-use Juzaweb\CMS\Traits\Criterias\UseSortableCriteria;
+use Dply\Backend\Models\MediaFile;
+use Dply\CMS\Repositories\BaseRepositoryEloquent;
+use Dply\CMS\Traits\Criterias\UseFilterCriteria;
+use Dply\CMS\Traits\Criterias\UseSearchCriteria;
+use Dply\CMS\Traits\Criterias\UseSortableCriteria;
 
 /**
  * Class MediaFileRepositoryEloquent.

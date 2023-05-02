@@ -12,7 +12,7 @@ namespace Dply\Tests\Feature\Backend;
 
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
-use Juzaweb\Tests\TestCase;
+use Dply\Tests\TestCase;
 
 class PluginTest extends TestCase
 {

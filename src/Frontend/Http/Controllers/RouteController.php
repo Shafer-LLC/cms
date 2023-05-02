@@ -11,7 +11,7 @@
 namespace Dply\Frontend\Http\Controllers;
 
 use Illuminate\Support\Facades\App;
-use Juzaweb\CMS\Http\Controllers\FrontendController;
+use Dply\CMS\Http\Controllers\FrontendController;
 
 class RouteController extends FrontendController
 {

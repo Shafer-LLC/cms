@@ -4,7 +4,7 @@ namespace Dply\Tests;
 
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
 use Illuminate\Support\Facades\Auth;
-use Juzaweb\CMS\Models\User;
+use Dply\CMS\Models\User;
 
 abstract class TestCase extends BaseTestCase
 {

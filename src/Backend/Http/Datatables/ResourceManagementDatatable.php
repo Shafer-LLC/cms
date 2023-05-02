@@ -11,8 +11,8 @@
 namespace Dply\Backend\Http\Datatables;
 
 use Illuminate\Support\Facades\DB;
-use Juzaweb\CMS\Abstracts\DataTable;
-use Juzaweb\CMS\Repositories\BaseRepository;
+use Dply\CMS\Abstracts\DataTable;
+use Dply\CMS\Repositories\BaseRepository;
 
 class ResourceManagementDatatable extends DataTable
 {

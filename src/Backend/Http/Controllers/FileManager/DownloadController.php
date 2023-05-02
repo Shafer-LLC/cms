@@ -3,7 +3,7 @@
 namespace Dply\Backend\Http\Controllers\FileManager;
 
 use Illuminate\Support\Facades\Storage;
-use Juzaweb\Backend\Models\MediaFile;
+use Dply\Backend\Models\MediaFile;
 
 class DownloadController extends FileManagerController
 {

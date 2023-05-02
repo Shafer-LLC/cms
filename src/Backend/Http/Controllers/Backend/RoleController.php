@@ -4,15 +4,15 @@ namespace Dply\Backend\Http\Controllers\Backend;
 
 use Illuminate\Support\Arr;
 use Illuminate\Validation\Rule;
-use Juzaweb\CMS\Abstracts\Action;
-use Juzaweb\CMS\Abstracts\DataTable;
-use Juzaweb\CMS\Facades\HookAction;
-use Juzaweb\CMS\Models\Permission;
-use Juzaweb\CMS\Traits\ResourceController;
+use Dply\CMS\Abstracts\Action;
+use Dply\CMS\Abstracts\DataTable;
+use Dply\CMS\Facades\HookAction;
+use Dply\CMS\Models\Permission;
+use Dply\CMS\Traits\ResourceController;
 use Illuminate\Support\Facades\Validator;
-use Juzaweb\CMS\Http\Controllers\BackendController;
-use Juzaweb\Backend\Http\Datatables\RoleDatatable;
-use Juzaweb\Backend\Models\Role;
+use Dply\CMS\Http\Controllers\BackendController;
+use Dply\Backend\Http\Datatables\RoleDatatable;
+use Dply\Backend\Models\Role;
 
 class RoleController extends BackendController
 {

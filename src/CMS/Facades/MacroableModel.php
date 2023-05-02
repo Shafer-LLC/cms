@@ -10,7 +10,7 @@
 
 namespace Dply\CMS\Facades;
 
-use Juzaweb\CMS\Contracts\MacroableModelContract;
+use Dply\CMS\Contracts\MacroableModelContract;
 use Illuminate\Support\Facades\Facade;
 
 class MacroableModel extends Facade

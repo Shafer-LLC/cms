@@ -14,12 +14,12 @@ use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
-use Juzaweb\Backend\Http\Resources\CommentResource;
-use Juzaweb\Backend\Repositories\CommentRepository;
-use Juzaweb\Backend\Repositories\PostRepository;
-use Juzaweb\CMS\Facades\HookAction;
-use Juzaweb\CMS\Http\Controllers\ApiController;
-use Juzaweb\Frontend\Http\Requests\CommentRequest;
+use Dply\Backend\Http\Resources\CommentResource;
+use Dply\Backend\Repositories\CommentRepository;
+use Dply\Backend\Repositories\PostRepository;
+use Dply\CMS\Facades\HookAction;
+use Dply\CMS\Http\Controllers\ApiController;
+use Dply\Frontend\Http\Requests\CommentRequest;
 
 class CommentController extends ApiController
 {

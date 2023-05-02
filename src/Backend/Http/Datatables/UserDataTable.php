@@ -12,8 +12,8 @@ namespace Dply\Backend\Http\Datatables;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Arr;
-use Juzaweb\CMS\Abstracts\DataTable;
-use Juzaweb\CMS\Models\User;
+use Dply\CMS\Abstracts\DataTable;
+use Dply\CMS\Models\User;
 
 class UserDataTable extends DataTable
 {

@@ -2,7 +2,7 @@
 
 namespace Dply\CMS\Support\Process;
 
-use Juzaweb\CMS\Support\Plugin;
+use Dply\CMS\Support\Plugin;
 
 class Updater extends Runner
 {

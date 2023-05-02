@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-use Juzaweb\API\Http\Controllers\Admin\UserController;
+use Dply\API\Http\Controllers\Admin\UserController;
 
 Route::group(
     [],

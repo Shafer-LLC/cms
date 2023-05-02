@@ -10,7 +10,7 @@
 
 namespace Dply\CMS\Support\JuzawebAPI;
 
-use Juzaweb\CMS\Support\JuzawebApi;
+use Dply\CMS\Support\JuzawebApi;
 
 class ThemeApi extends JuzawebApi
 {

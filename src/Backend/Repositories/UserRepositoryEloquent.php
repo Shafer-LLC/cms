@@ -2,8 +2,8 @@
 
 namespace Dply\Backend\Repositories;
 
-use Juzaweb\CMS\Models\User;
-use Juzaweb\CMS\Repositories\BaseRepositoryEloquent;
+use Dply\CMS\Models\User;
+use Dply\CMS\Repositories\BaseRepositoryEloquent;
 
 /**
  * Class UserRepositoryEloquent.

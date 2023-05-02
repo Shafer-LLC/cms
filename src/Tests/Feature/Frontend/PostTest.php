@@ -12,9 +12,9 @@ namespace Dply\Tests\Feature\Frontend;
 
 use Faker\Generator as Faker;
 use Illuminate\Support\Collection;
-use Juzaweb\Backend\Models\Post;
-use Juzaweb\CMS\Facades\HookAction;
-use Juzaweb\Tests\TestCase;
+use Dply\Backend\Models\Post;
+use Dply\CMS\Facades\HookAction;
+use Dply\Tests\TestCase;
 
 class PostTest extends TestCase
 {

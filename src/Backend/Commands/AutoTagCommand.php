@@ -13,8 +13,8 @@ namespace Dply\Backend\Commands;
 use Illuminate\Console\Command;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Collection;
-use Juzaweb\Backend\Models\Post;
-use Juzaweb\Backend\Models\Taxonomy;
+use Dply\Backend\Models\Post;
+use Dply\Backend\Models\Taxonomy;
 
 class AutoTagCommand extends Command
 {

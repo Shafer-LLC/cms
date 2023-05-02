@@ -4,10 +4,10 @@ namespace Dply\Frontend\Http\Controllers;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
-use Juzaweb\Backend\Http\Resources\PostResourceCollection;
-use Juzaweb\Backend\Models\Post;
-use Juzaweb\Backend\Repositories\PostRepository;
-use Juzaweb\CMS\Http\Controllers\FrontendController;
+use Dply\Backend\Http\Resources\PostResourceCollection;
+use Dply\Backend\Models\Post;
+use Dply\Backend\Repositories\PostRepository;
+use Dply\CMS\Http\Controllers\FrontendController;
 
 class SearchController extends FrontendController
 {

@@ -15,12 +15,12 @@ use Illuminate\Http\JsonResponse;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
-use Juzaweb\Backend\Http\Datatables\NotificationDatatable;
-use Juzaweb\Backend\Http\Requests\User\ChangePasswordRequest;
-use Juzaweb\Backend\Http\Requests\User\ProfileUpdateRequest;
-use Juzaweb\Backend\Repositories\NotificationRepository;
-use Juzaweb\CMS\Http\Controllers\BackendController;
-use Juzaweb\CMS\Models\Language;
+use Dply\Backend\Http\Datatables\NotificationDatatable;
+use Dply\Backend\Http\Requests\User\ChangePasswordRequest;
+use Dply\Backend\Http\Requests\User\ProfileUpdateRequest;
+use Dply\Backend\Repositories\NotificationRepository;
+use Dply\CMS\Http\Controllers\BackendController;
+use Dply\CMS\Models\Language;
 
 class ProfileController extends BackendController
 {

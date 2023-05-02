@@ -11,9 +11,9 @@
 namespace Dply\Network\Models;
 
 use Illuminate\Database\Eloquent\Relations\HasMany;
-use Juzaweb\CMS\Models\Model;
-use Juzaweb\Network\Interfaces\RootNetworkModelInterface;
-use Juzaweb\Network\Traits\RootNetworkModel;
+use Dply\CMS\Models\Model;
+use Dply\Network\Interfaces\RootNetworkModelInterface;
+use Dply\Network\Traits\RootNetworkModel;
 
 /**
  * Juzaweb\Network\Models\Site

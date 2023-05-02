@@ -11,11 +11,11 @@
 namespace Dply\CMS\Support\Route;
 
 use Illuminate\Support\Facades\Route;
-use Juzaweb\Backend\Http\Controllers\Auth\LoginController;
-use Juzaweb\Backend\Http\Controllers\Auth\RegisterController;
-use Juzaweb\Backend\Http\Controllers\Auth\ForgotPasswordController;
-use Juzaweb\Backend\Http\Controllers\Auth\ResetPasswordController;
-use Juzaweb\Backend\Http\Controllers\Auth\SocialLoginController;
+use Dply\Backend\Http\Controllers\Auth\LoginController;
+use Dply\Backend\Http\Controllers\Auth\RegisterController;
+use Dply\Backend\Http\Controllers\Auth\ForgotPasswordController;
+use Dply\Backend\Http\Controllers\Auth\ResetPasswordController;
+use Dply\Backend\Http\Controllers\Auth\SocialLoginController;
 
 class Auth
 {

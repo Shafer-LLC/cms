@@ -10,8 +10,8 @@
 
 namespace Dply\Frontend\Actions;
 
-use Juzaweb\CMS\Abstracts\Action;
-use Juzaweb\CMS\Facades\HookAction;
+use Dply\CMS\Abstracts\Action;
+use Dply\CMS\Facades\HookAction;
 
 class FrontendAction extends Action
 {

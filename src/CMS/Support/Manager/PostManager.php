@@ -11,9 +11,9 @@
 namespace Dply\CMS\Support\Manager;
 
 use Illuminate\Support\Arr;
-use Juzaweb\Backend\Models\Post;
-use Juzaweb\Backend\Repositories\PostRepository;
-use Juzaweb\CMS\Contracts\PostManagerContract;
+use Dply\Backend\Models\Post;
+use Dply\Backend\Repositories\PostRepository;
+use Dply\CMS\Contracts\PostManagerContract;
 
 class PostManager implements PostManagerContract
 {

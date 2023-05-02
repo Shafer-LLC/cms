@@ -14,8 +14,8 @@ use Illuminate\Contracts\View\View;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
-use Juzaweb\CMS\Facades\Theme;
-use Juzaweb\CMS\Http\Controllers\BackendController;
+use Dply\CMS\Facades\Theme;
+use Dply\CMS\Http\Controllers\BackendController;
 
 class SettingController extends BackendController
 {

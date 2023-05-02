@@ -10,15 +10,15 @@
 
 require __DIR__ . '/components/profile.route.php';
 
-use Juzaweb\CMS\Support\Installer;
-use Juzaweb\CMS\Support\Route\Auth;
-use Juzaweb\Frontend\Http\Controllers\AjaxController;
-use Juzaweb\Frontend\Http\Controllers\FeedController;
-use Juzaweb\Frontend\Http\Controllers\HomeController;
-use Juzaweb\Frontend\Http\Controllers\PostController;
-use Juzaweb\Frontend\Http\Controllers\RouteController;
-use Juzaweb\Frontend\Http\Controllers\SearchController;
-use Juzaweb\Frontend\Http\Controllers\SitemapController;
+use Dply\CMS\Support\Installer;
+use Dply\CMS\Support\Route\Auth;
+use Dply\Frontend\Http\Controllers\AjaxController;
+use Dply\Frontend\Http\Controllers\FeedController;
+use Dply\Frontend\Http\Controllers\HomeController;
+use Dply\Frontend\Http\Controllers\PostController;
+use Dply\Frontend\Http\Controllers\RouteController;
+use Dply\Frontend\Http\Controllers\SearchController;
+use Dply\Frontend\Http\Controllers\SitemapController;
 
 Auth::routes();
 

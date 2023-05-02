@@ -8,10 +8,10 @@
  * @license    GNU V2
  */
 
-use Juzaweb\Backend\Http\Controllers\Backend\DashboardController;
-use Juzaweb\Backend\Http\Controllers\Backend\LoadDataController;
-use Juzaweb\Backend\Http\Controllers\Backend\UpdateController;
-use Juzaweb\Backend\Http\Controllers\Backend\AjaxController;
+use Dply\Backend\Http\Controllers\Backend\DashboardController;
+use Dply\Backend\Http\Controllers\Backend\LoadDataController;
+use Dply\Backend\Http\Controllers\Backend\UpdateController;
+use Dply\Backend\Http\Controllers\Backend\AjaxController;
 
 Route::group(
     ['prefix' => '/'],

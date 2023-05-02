@@ -12,7 +12,7 @@ namespace Dply\CMS\Abstracts;
 
 use Illuminate\Support\Arr;
 use Illuminate\View\View;
-use Juzaweb\CMS\Facades\ThemeLoader;
+use Dply\CMS\Facades\ThemeLoader;
 use TwigBridge\Facade\Twig;
 
 abstract class Widget

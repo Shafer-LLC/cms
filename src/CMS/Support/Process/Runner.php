@@ -2,8 +2,8 @@
 
 namespace Dply\CMS\Support\Process;
 
-use Juzaweb\CMS\Contracts\LocalPluginRepositoryContract;
-use Juzaweb\CMS\Contracts\RunableInterface;
+use Dply\CMS\Contracts\LocalPluginRepositoryContract;
+use Dply\CMS\Contracts\RunableInterface;
 
 class Runner implements RunableInterface
 {

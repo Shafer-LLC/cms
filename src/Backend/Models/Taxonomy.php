@@ -4,13 +4,13 @@ namespace Dply\Backend\Models;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Relations\HasMany;
-use Juzaweb\CMS\Database\Factories\TaxonomyFactory;
+use Dply\CMS\Database\Factories\TaxonomyFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Juzaweb\CMS\Traits\QueryCache\QueryCacheable;
-use Juzaweb\CMS\Traits\TaxonomyModel;
-use Juzaweb\CMS\Models\Model;
-use Juzaweb\CMS\Traits\UseUUIDColumn;
+use Dply\CMS\Traits\QueryCache\QueryCacheable;
+use Dply\CMS\Traits\TaxonomyModel;
+use Dply\CMS\Models\Model;
+use Dply\CMS\Traits\UseUUIDColumn;
 
 /**
  * Juzaweb\Backend\Models\Taxonomy

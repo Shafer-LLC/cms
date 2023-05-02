@@ -5,7 +5,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
-use Juzaweb\CMS\Support\Permission\PermissionRegistrar;
+use Dply\CMS\Support\Permission\PermissionRegistrar;
 
 return new class extends Migration {
     /**

@@ -4,9 +4,9 @@ namespace Dply\Frontend\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
-use Juzaweb\Backend\Http\Resources\PostResourceCollection;
-use Juzaweb\Backend\Models\Post;
-use Juzaweb\CMS\Http\Controllers\FrontendController;
+use Dply\Backend\Http\Resources\PostResourceCollection;
+use Dply\Backend\Models\Post;
+use Dply\CMS\Http\Controllers\FrontendController;
 
 class HomeController extends FrontendController
 {

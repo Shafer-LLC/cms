@@ -3,7 +3,7 @@
 namespace Dply\CMS\Support\Generators;
 
 use Illuminate\Filesystem\Filesystem;
-use Juzaweb\CMS\Exceptions\FileAlreadyExistException;
+use Dply\CMS\Exceptions\FileAlreadyExistException;
 
 class FileGenerator extends Generator
 {

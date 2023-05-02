@@ -4,7 +4,7 @@ namespace Dply\CMS\Facades;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Facade;
-use Juzaweb\CMS\Contracts\HookActionContract;
+use Dply\CMS\Contracts\HookActionContract;
 
 /**
  * @method static void addAdminMenu(string $menuTitle, $menuSlug, array $args)

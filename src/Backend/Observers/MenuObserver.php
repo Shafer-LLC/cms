@@ -10,7 +10,7 @@
 
 namespace Dply\Backend\Observers;
 
-use Juzaweb\Backend\Models\Menu;
+use Dply\Backend\Models\Menu;
 use Illuminate\Support\Facades\Cache;
 
 class MenuObserver

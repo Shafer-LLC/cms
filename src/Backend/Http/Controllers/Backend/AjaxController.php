@@ -13,8 +13,8 @@ namespace Dply\Backend\Http\Controllers\Backend;
 use Illuminate\Http\Request;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\App;
-use Juzaweb\CMS\Facades\HookAction;
-use Juzaweb\CMS\Http\Controllers\BackendController;
+use Dply\CMS\Facades\HookAction;
+use Dply\CMS\Http\Controllers\BackendController;
 
 class AjaxController extends BackendController
 {

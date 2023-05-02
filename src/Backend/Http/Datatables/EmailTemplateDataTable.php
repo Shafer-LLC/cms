@@ -14,9 +14,9 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Http\Request;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
-use Juzaweb\CMS\Abstracts\DataTable;
-use Juzaweb\Backend\Models\EmailTemplate;
-use Juzaweb\CMS\Contracts\HookActionContract;
+use Dply\CMS\Abstracts\DataTable;
+use Dply\Backend\Models\EmailTemplate;
+use Dply\CMS\Contracts\HookActionContract;
 
 class EmailTemplateDataTable extends DataTable
 {

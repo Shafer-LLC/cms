@@ -15,13 +15,13 @@ use Illuminate\Support\Collection;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\DB;
-use Juzaweb\Backend\Models\Resource;
-use Juzaweb\CMS\Abstracts\DataTable;
-use Juzaweb\CMS\Facades\HookAction;
-use Juzaweb\CMS\Repositories\BaseRepository;
-use Juzaweb\CMS\Repositories\Criterias\FilterCriteria;
-use Juzaweb\CMS\Repositories\Criterias\SearchCriteria;
-use Juzaweb\CMS\Repositories\Criterias\SortCriteria;
+use Dply\Backend\Models\Resource;
+use Dply\CMS\Abstracts\DataTable;
+use Dply\CMS\Facades\HookAction;
+use Dply\CMS\Repositories\BaseRepository;
+use Dply\CMS\Repositories\Criterias\FilterCriteria;
+use Dply\CMS\Repositories\Criterias\SearchCriteria;
+use Dply\CMS\Repositories\Criterias\SortCriteria;
 
 class ResourceDatatable extends DataTable
 {

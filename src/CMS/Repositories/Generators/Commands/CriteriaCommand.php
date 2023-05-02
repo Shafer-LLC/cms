@@ -3,8 +3,8 @@
 namespace Dply\CMS\Repositories\Generators\Commands;
 
 use Illuminate\Console\Command;
-use Juzaweb\CMS\Repositories\Generators\CriteriaGenerator;
-use Juzaweb\CMS\Repositories\Generators\FileAlreadyExistsException;
+use Dply\CMS\Repositories\Generators\CriteriaGenerator;
+use Dply\CMS\Repositories\Generators\FileAlreadyExistsException;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 

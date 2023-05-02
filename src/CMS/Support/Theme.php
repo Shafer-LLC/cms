@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\File;
 use Noodlehaus\Config as ReadConfig;
-use Juzaweb\CMS\Facades\Config;
+use Dply\CMS\Facades\Config;
 
 class Theme
 {

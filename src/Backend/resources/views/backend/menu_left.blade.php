@@ -1,7 +1,7 @@
 <ul class="juzaweb__menuLeft__navigation">
     @php
-        use Juzaweb\CMS\Facades\HookAction;
-        use Juzaweb\CMS\Support\MenuCollection;
+        use Dply\CMS\Facades\HookAction;
+        use Dply\CMS\Support\MenuCollection;
 
         global $jw_user;
         $adminPrefix = config('juzaweb.admin_prefix');

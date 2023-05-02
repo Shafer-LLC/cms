@@ -2,7 +2,7 @@
 
 namespace Dply\Backend\Http\Controllers\Backend;
 
-use Juzaweb\CMS\Http\Controllers\BackendController;
+use Dply\CMS\Http\Controllers\BackendController;
 
 class ToolController extends BackendController
 {

@@ -10,7 +10,7 @@
 
 namespace Dply\Backend\Events;
 
-use Juzaweb\Backend\Models\MediaFile;
+use Dply\Backend\Models\MediaFile;
 
 class UploadFileSuccess
 {

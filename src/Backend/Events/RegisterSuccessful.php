@@ -10,7 +10,7 @@
 
 namespace Dply\Backend\Events;
 
-use Juzaweb\CMS\Models\User;
+use Dply\CMS\Models\User;
 
 class RegisterSuccessful
 {

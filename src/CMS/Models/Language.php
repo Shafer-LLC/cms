@@ -11,7 +11,7 @@
 namespace Dply\CMS\Models;
 
 use Illuminate\Database\Eloquent\Collection;
-use Juzaweb\CMS\Traits\QueryCache\QueryCacheable;
+use Dply\CMS\Traits\QueryCache\QueryCacheable;
 
 /**
  * Juzaweb\CMS\Models\Language

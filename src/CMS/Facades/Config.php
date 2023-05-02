@@ -12,7 +12,7 @@ namespace Dply\CMS\Facades;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Facade;
-use Juzaweb\CMS\Contracts\ConfigContract;
+use Dply\CMS\Contracts\ConfigContract;
 
 /**
  * @method static \Juzaweb\CMS\Models\Config setConfig($key, $value)

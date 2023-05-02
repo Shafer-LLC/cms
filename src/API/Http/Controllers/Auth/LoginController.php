@@ -12,10 +12,10 @@ namespace Dply\API\Http\Controllers\Auth;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
-use Juzaweb\API\Http\Requests\Auth\LoginRequest;
-use Juzaweb\Backend\Http\Resources\UserResource;
-use Juzaweb\CMS\Http\Controllers\ApiController;
-use Juzaweb\CMS\Models\User;
+use Dply\API\Http\Requests\Auth\LoginRequest;
+use Dply\Backend\Http\Resources\UserResource;
+use Dply\CMS\Http\Controllers\ApiController;
+use Dply\CMS\Models\User;
 use Laravel\Passport\PersonalAccessTokenResult;
 use OpenApi\Annotations as OA;
 

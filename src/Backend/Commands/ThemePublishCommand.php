@@ -4,7 +4,7 @@ namespace Dply\Backend\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
-use Juzaweb\CMS\Facades\ThemeLoader;
+use Dply\CMS\Facades\ThemeLoader;
 
 class ThemePublishCommand extends Command
 {

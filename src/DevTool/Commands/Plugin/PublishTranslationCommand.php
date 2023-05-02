@@ -3,8 +3,8 @@
 namespace Dply\DevTool\Commands\Plugin;
 
 use Illuminate\Console\Command;
-use Juzaweb\CMS\Console\Commands\Plugin\Module;
-use Juzaweb\CMS\Support\Publishing\LangPublisher;
+use Dply\CMS\Console\Commands\Plugin\Module;
+use Dply\CMS\Support\Publishing\LangPublisher;
 use Symfony\Component\Console\Input\InputArgument;
 
 class PublishTranslationCommand extends Command

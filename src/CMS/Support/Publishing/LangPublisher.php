@@ -2,7 +2,7 @@
 
 namespace Dply\CMS\Support\Publishing;
 
-use Juzaweb\CMS\Support\Config\GenerateConfigReader;
+use Dply\CMS\Support\Config\GenerateConfigReader;
 
 class LangPublisher extends Publisher
 {

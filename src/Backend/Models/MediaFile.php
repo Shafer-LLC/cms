@@ -3,7 +3,7 @@
 namespace Dply\Backend\Models;
 
 use Illuminate\Support\Facades\Storage;
-use Juzaweb\CMS\Models\Model;
+use Dply\CMS\Models\Model;
 
 /**
  * Juzaweb\Backend\Models\MediaFile

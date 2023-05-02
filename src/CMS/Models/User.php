@@ -20,16 +20,16 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\DatabaseNotificationCollection;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Arr;
-use Juzaweb\Backend\Models\Notification;
-use Juzaweb\Backend\Models\PasswordReset;
-use Juzaweb\Backend\Models\SocialToken;
-use Juzaweb\CMS\Abstracts\Action;
-use Juzaweb\CMS\Database\Factories\UserFactory;
-use Juzaweb\CMS\Traits\Permission\HasRoles;
-use Juzaweb\CMS\Traits\QueryCache\QueryCacheable;
-use Juzaweb\CMS\Traits\ResourceModel;
-use Juzaweb\Network\Facades\Network;
-use Juzaweb\Network\Traits\RootNetworkModel;
+use Dply\Backend\Models\Notification;
+use Dply\Backend\Models\PasswordReset;
+use Dply\Backend\Models\SocialToken;
+use Dply\CMS\Abstracts\Action;
+use Dply\CMS\Database\Factories\UserFactory;
+use Dply\CMS\Traits\Permission\HasRoles;
+use Dply\CMS\Traits\QueryCache\QueryCacheable;
+use Dply\CMS\Traits\ResourceModel;
+use Dply\Network\Facades\Network;
+use Dply\Network\Traits\RootNetworkModel;
 use Laravel\Passport\HasApiTokens;
 
 /**

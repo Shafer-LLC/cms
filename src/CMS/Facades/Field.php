@@ -14,7 +14,7 @@ use Illuminate\Contracts\View\Factory;
 use Illuminate\Contracts\View\View;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Facade;
-use Juzaweb\CMS\Contracts\Field as FieldContract;
+use Dply\CMS\Contracts\Field as FieldContract;
 
 /**
  * @method static fieldByType($fields)

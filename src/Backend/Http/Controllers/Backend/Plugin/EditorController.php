@@ -16,9 +16,9 @@ use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Crypt;
 use Illuminate\Support\Facades\File;
-use Juzaweb\Backend\Http\Requests\Theme\EditorRequest;
-use Juzaweb\CMS\Contracts\LocalPluginRepositoryContract;
-use Juzaweb\CMS\Http\Controllers\BackendController;
+use Dply\Backend\Http\Requests\Theme\EditorRequest;
+use Dply\CMS\Contracts\LocalPluginRepositoryContract;
+use Dply\CMS\Http\Controllers\BackendController;
 
 class EditorController extends BackendController
 {

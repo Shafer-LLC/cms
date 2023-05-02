@@ -3,9 +3,9 @@
 namespace Dply\CMS\Support\Publishing;
 
 use Illuminate\Console\Command;
-use Juzaweb\CMS\Contracts\LocalPluginRepositoryContract;
-use Juzaweb\CMS\Contracts\PublisherInterface;
-use Juzaweb\CMS\Support\Plugin;
+use Dply\CMS\Contracts\LocalPluginRepositoryContract;
+use Dply\CMS\Contracts\PublisherInterface;
+use Dply\CMS\Support\Plugin;
 
 abstract class Publisher implements PublisherInterface
 {

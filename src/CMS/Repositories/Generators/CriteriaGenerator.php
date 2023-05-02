@@ -2,7 +2,7 @@
 
 namespace Dply\CMS\Repositories\Generators;
 
-use Juzaweb\CMS\Repositories\Generators\Generator;
+use Dply\CMS\Repositories\Generators\Generator;
 
 /**
  * Class CriteriaGenerator

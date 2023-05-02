@@ -12,10 +12,10 @@ namespace Dply\Translation\Support;
 
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use Illuminate\Support\Collection;
-use Juzaweb\CMS\Facades\Plugin;
-use Juzaweb\CMS\Facades\ThemeLoader;
+use Dply\CMS\Facades\Plugin;
+use Dply\CMS\Facades\ThemeLoader;
 use Illuminate\Support\Facades\File;
-use Juzaweb\Translation\Contracts\TranslationContract;
+use Dply\Translation\Contracts\TranslationContract;
 use Symfony\Component\Finder\SplFileInfo;
 
 class Locale implements TranslationContract

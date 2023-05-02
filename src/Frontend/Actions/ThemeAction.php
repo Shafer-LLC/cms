@@ -11,12 +11,12 @@
 namespace Dply\Frontend\Actions;
 
 use Illuminate\Support\Arr;
-use Juzaweb\CMS\Abstracts\Action;
-use Juzaweb\CMS\Facades\HookAction;
-use Juzaweb\CMS\Facades\ThemeLoader;
-use Juzaweb\CMS\Support\DefaultPageBlock;
-use Juzaweb\CMS\Support\DefaultWidget;
-use Juzaweb\Frontend\Http\Controllers\AjaxController;
+use Dply\CMS\Abstracts\Action;
+use Dply\CMS\Facades\HookAction;
+use Dply\CMS\Facades\ThemeLoader;
+use Dply\CMS\Support\DefaultPageBlock;
+use Dply\CMS\Support\DefaultWidget;
+use Dply\Frontend\Http\Controllers\AjaxController;
 use TwigBridge\Facade\Twig;
 
 class ThemeAction extends Action

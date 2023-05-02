@@ -11,8 +11,8 @@
 namespace Dply\API\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Juzaweb\Backend\Http\Resources\UserResource;
-use Juzaweb\CMS\Http\Controllers\ApiController;
+use Dply\Backend\Http\Resources\UserResource;
+use Dply\CMS\Http\Controllers\ApiController;
 
 class UserController extends ApiController
 {

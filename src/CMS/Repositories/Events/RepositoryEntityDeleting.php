@@ -2,7 +2,7 @@
 
 namespace Dply\CMS\Repositories\Events;
 
-use Juzaweb\CMS\Repositories\Events\RepositoryEventBase;
+use Dply\CMS\Repositories\Events\RepositoryEventBase;
 
 /**
  * Class RepositoryEntityDeleted

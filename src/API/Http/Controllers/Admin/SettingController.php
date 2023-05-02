@@ -12,8 +12,8 @@ namespace Dply\API\Http\Controllers\Admin;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Facades\Storage;
-use Juzaweb\CMS\Contracts\ConfigContract;
-use Juzaweb\CMS\Http\Controllers\ApiController;
+use Dply\CMS\Contracts\ConfigContract;
+use Dply\CMS\Http\Controllers\ApiController;
 use OpenApi\Annotations as OA;
 
 class SettingController extends ApiController

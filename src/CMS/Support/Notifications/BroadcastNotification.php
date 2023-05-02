@@ -2,7 +2,7 @@
 
 namespace Dply\CMS\Support\Notifications;
 
-use Juzaweb\CMS\Events\PusherEvent;
+use Dply\CMS\Events\PusherEvent;
 
 class BroadcastNotification extends NotificationAbstract
 {

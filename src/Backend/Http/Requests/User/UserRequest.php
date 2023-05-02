@@ -11,7 +11,7 @@
 namespace Dply\Backend\Http\Requests\User;
 
 use Illuminate\Foundation\Http\FormRequest;
-use Juzaweb\CMS\Models\User;
+use Dply\CMS\Models\User;
 
 class UserRequest extends FormRequest
 {

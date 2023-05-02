@@ -11,13 +11,13 @@
 namespace Dply\API\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Juzaweb\Backend\Http\Resources\PostCollection;
-use Juzaweb\Backend\Http\Resources\PostResource;
-use Juzaweb\Backend\Repositories\PostRepository;
-use Juzaweb\CMS\Http\Controllers\ApiController;
-use Juzaweb\CMS\Repositories\Criterias\FilterCriteria;
-use Juzaweb\CMS\Repositories\Criterias\SearchCriteria;
-use Juzaweb\CMS\Repositories\Criterias\SortCriteria;
+use Dply\Backend\Http\Resources\PostCollection;
+use Dply\Backend\Http\Resources\PostResource;
+use Dply\Backend\Repositories\PostRepository;
+use Dply\CMS\Http\Controllers\ApiController;
+use Dply\CMS\Repositories\Criterias\FilterCriteria;
+use Dply\CMS\Repositories\Criterias\SearchCriteria;
+use Dply\CMS\Repositories\Criterias\SortCriteria;
 
 class PostController extends ApiController
 {

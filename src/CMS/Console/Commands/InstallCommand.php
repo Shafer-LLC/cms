@@ -13,9 +13,9 @@ namespace Dply\CMS\Console\Commands;
 use Exception;
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
-use Juzaweb\CMS\Support\Manager\DatabaseManager;
-use Juzaweb\CMS\Support\Manager\FinalInstallManager;
-use Juzaweb\CMS\Support\Manager\InstalledFileManager;
+use Dply\CMS\Support\Manager\DatabaseManager;
+use Dply\CMS\Support\Manager\FinalInstallManager;
+use Dply\CMS\Support\Manager\InstalledFileManager;
 
 class InstallCommand extends Command
 {

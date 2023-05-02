@@ -5,12 +5,12 @@ namespace Dply\Backend\Providers;
 use Illuminate\Auth\Notifications\ResetPassword;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
 use Illuminate\Support\Facades\Gate;
-use Juzaweb\Backend\Models\Post;
-use Juzaweb\Backend\Models\Taxonomy;
-use Juzaweb\CMS\Models\User;
-use Juzaweb\Backend\Policies\PostPolicy;
-use Juzaweb\Backend\Policies\TaxonomyPolicy;
-use Juzaweb\Backend\Policies\UserPolicy;
+use Dply\Backend\Models\Post;
+use Dply\Backend\Models\Taxonomy;
+use Dply\CMS\Models\User;
+use Dply\Backend\Policies\PostPolicy;
+use Dply\Backend\Policies\TaxonomyPolicy;
+use Dply\Backend\Policies\UserPolicy;
 
 class AuthServiceProvider extends ServiceProvider
 {

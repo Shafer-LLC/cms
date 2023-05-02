@@ -5,12 +5,12 @@ namespace Dply\CMS\Models;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
-use Juzaweb\CMS\Contracts\Permission as PermissionContract;
-use Juzaweb\CMS\Exceptions\PermissionAlreadyExists;
-use Juzaweb\CMS\Support\Permission\Guard;
-use Juzaweb\CMS\Support\Permission\PermissionRegistrar;
-use Juzaweb\CMS\Traits\Permission\HasRoles;
-use Juzaweb\CMS\Traits\Permission\RefreshesPermissionCache;
+use Dply\CMS\Contracts\Permission as PermissionContract;
+use Dply\CMS\Exceptions\PermissionAlreadyExists;
+use Dply\CMS\Support\Permission\Guard;
+use Dply\CMS\Support\Permission\PermissionRegistrar;
+use Dply\CMS\Traits\Permission\HasRoles;
+use Dply\CMS\Traits\Permission\RefreshesPermissionCache;
 
 /**
  * Juzaweb\CMS\Models\Permission

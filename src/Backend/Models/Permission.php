@@ -10,7 +10,7 @@
 
 namespace Dply\Backend\Models;
 
-use Juzaweb\CMS\Models\Permission as BasePermission;
+use Dply\CMS\Models\Permission as BasePermission;
 
 /**
  * Juzaweb\Backend\Models\Permission

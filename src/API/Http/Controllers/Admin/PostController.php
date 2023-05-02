@@ -12,13 +12,13 @@ namespace Dply\API\Http\Controllers\Admin;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
-use Juzaweb\API\Http\Requests\Post\StoreRequest;
-use Juzaweb\API\Http\Requests\Post\UpdateRequest;
-use Juzaweb\Backend\Models\Post;
-use Juzaweb\Backend\Repositories\PostRepository;
-use Juzaweb\CMS\Http\Controllers\ApiController;
-use Juzaweb\CMS\Repositories\Criterias\FilterCriteria;
-use Juzaweb\CMS\Repositories\Criterias\SearchCriteria;
+use Dply\API\Http\Requests\Post\StoreRequest;
+use Dply\API\Http\Requests\Post\UpdateRequest;
+use Dply\Backend\Models\Post;
+use Dply\Backend\Repositories\PostRepository;
+use Dply\CMS\Http\Controllers\ApiController;
+use Dply\CMS\Repositories\Criterias\FilterCriteria;
+use Dply\CMS\Repositories\Criterias\SearchCriteria;
 use OpenApi\Annotations as OA;
 
 class PostController extends ApiController

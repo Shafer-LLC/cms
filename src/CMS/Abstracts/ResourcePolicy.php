@@ -12,7 +12,7 @@ namespace Dply\CMS\Abstracts;
 
 use Illuminate\Auth\Access\HandlesAuthorization;
 use Illuminate\Database\Eloquent\Model;
-use Juzaweb\CMS\Models\User;
+use Dply\CMS\Models\User;
 
 abstract class ResourcePolicy
 {

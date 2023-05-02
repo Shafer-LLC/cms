@@ -11,8 +11,8 @@
 namespace Dply\Backend\Http\Controllers\Backend\Setting;
 
 use Illuminate\Contracts\View\View;
-use Juzaweb\CMS\Contracts\HookActionContract as HookAction;
-use Juzaweb\CMS\Http\Controllers\BackendController;
+use Dply\CMS\Contracts\HookActionContract as HookAction;
+use Dply\CMS\Http\Controllers\BackendController;
 
 class MediaController extends BackendController
 {

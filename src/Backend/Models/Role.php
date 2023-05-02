@@ -3,8 +3,8 @@
 namespace Dply\Backend\Models;
 
 use Illuminate\Support\Arr;
-use Juzaweb\CMS\Models\Role as BaseRole;
-use Juzaweb\CMS\Traits\ResourceModel;
+use Dply\CMS\Models\Role as BaseRole;
+use Dply\CMS\Traits\ResourceModel;
 
 /**
  * Juzaweb\Backend\Models\Role

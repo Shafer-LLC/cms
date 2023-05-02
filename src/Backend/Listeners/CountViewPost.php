@@ -10,9 +10,9 @@
 
 namespace Dply\Backend\Listeners;
 
-use Juzaweb\Backend\Events\PostViewed;
+use Dply\Backend\Events\PostViewed;
 use Illuminate\Session\Store;
-use Juzaweb\Backend\Models\PostView;
+use Dply\Backend\Models\PostView;
 
 class CountViewPost
 {

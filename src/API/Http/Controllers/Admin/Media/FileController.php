@@ -12,11 +12,11 @@ namespace Dply\API\Http\Controllers\Admin\Media;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
-use Juzaweb\Backend\Repositories\MediaFileRepository;
-use Juzaweb\CMS\Http\Controllers\ApiController;
-use Juzaweb\CMS\Repositories\Criterias\FilterCriteria;
-use Juzaweb\CMS\Repositories\Criterias\SearchCriteria;
-use Juzaweb\CMS\Repositories\Criterias\SortCriteria;
+use Dply\Backend\Repositories\MediaFileRepository;
+use Dply\CMS\Http\Controllers\ApiController;
+use Dply\CMS\Repositories\Criterias\FilterCriteria;
+use Dply\CMS\Repositories\Criterias\SearchCriteria;
+use Dply\CMS\Repositories\Criterias\SortCriteria;
 
 class FileController extends ApiController
 {

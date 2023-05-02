@@ -13,13 +13,13 @@ namespace Dply\CMS\Support\Imports;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
-use Juzaweb\Backend\Models\Post;
-use Juzaweb\Backend\Repositories\TaxonomyRepository;
-use Juzaweb\CMS\Contracts\HookActionContract;
-use Juzaweb\CMS\Contracts\PostManagerContract;
-use Juzaweb\CMS\Contracts\PostImporterContract;
-use Juzaweb\CMS\Models\User;
-use Juzaweb\CMS\Support\FileManager;
+use Dply\Backend\Models\Post;
+use Dply\Backend\Repositories\TaxonomyRepository;
+use Dply\CMS\Contracts\HookActionContract;
+use Dply\CMS\Contracts\PostManagerContract;
+use Dply\CMS\Contracts\PostImporterContract;
+use Dply\CMS\Models\User;
+use Dply\CMS\Support\FileManager;
 
 class PostImporter implements PostImporterContract
 {

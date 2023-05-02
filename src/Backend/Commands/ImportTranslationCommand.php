@@ -2,10 +2,10 @@
 
 namespace Dply\Backend\Commands;
 
-use Juzaweb\CMS\Contracts\TranslationManager;
-use Juzaweb\CMS\Facades\Plugin;
-use Juzaweb\CMS\Facades\ThemeLoader;
-use Juzaweb\DevTool\Commands\Plugin\ImportTranslationCommand as PluginImportTranslationCommand;
+use Dply\CMS\Contracts\TranslationManager;
+use Dply\CMS\Facades\Plugin;
+use Dply\CMS\Facades\ThemeLoader;
+use Dply\DevTool\Commands\Plugin\ImportTranslationCommand as PluginImportTranslationCommand;
 
 class ImportTranslationCommand extends TranslationCommand
 {

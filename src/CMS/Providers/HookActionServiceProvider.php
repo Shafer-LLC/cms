@@ -9,9 +9,9 @@
 namespace Dply\CMS\Providers;
 
 use Illuminate\Support\Facades\Blade;
-use Juzaweb\CMS\Support\ServiceProvider;
-use Juzaweb\CMS\Contracts\EventyContract;
-use Juzaweb\CMS\Support\Hooks\Events;
+use Dply\CMS\Support\ServiceProvider;
+use Dply\CMS\Contracts\EventyContract;
+use Dply\CMS\Support\Hooks\Events;
 
 class HookActionServiceProvider extends ServiceProvider
 {

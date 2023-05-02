@@ -12,7 +12,7 @@ namespace Dply\DevTool\Commands\Resource;
 
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Str;
-use Juzaweb\CMS\Abstracts\ResourceCommand;
+use Dply\CMS\Abstracts\ResourceCommand;
 use Symfony\Component\Console\Input\InputArgument;
 
 class JuzawebResouceMakeCommand extends ResourceCommand

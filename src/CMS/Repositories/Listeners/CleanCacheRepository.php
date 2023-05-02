@@ -5,9 +5,9 @@ namespace Dply\CMS\Repositories\Listeners;
 use Illuminate\Contracts\Cache\Repository as CacheRepository;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Log;
-use Juzaweb\CMS\Repositories\Contracts\RepositoryInterface;
-use Juzaweb\CMS\Repositories\Helpers\CacheKeys;
-use Juzaweb\CMS\Repositories\Events\RepositoryEventBase;
+use Dply\CMS\Repositories\Contracts\RepositoryInterface;
+use Dply\CMS\Repositories\Helpers\CacheKeys;
+use Dply\CMS\Repositories\Events\RepositoryEventBase;
 
 /**
  * Class CleanCacheRepository

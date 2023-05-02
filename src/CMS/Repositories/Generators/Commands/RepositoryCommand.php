@@ -5,11 +5,11 @@ namespace Dply\CMS\Repositories\Generators\Commands;
 use Illuminate\Console\Command;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
-use Juzaweb\CMS\Repositories\Generators\FileAlreadyExistsException;
-use Juzaweb\CMS\Repositories\Generators\MigrationGenerator;
-use Juzaweb\CMS\Repositories\Generators\ModelGenerator;
-use Juzaweb\CMS\Repositories\Generators\RepositoryEloquentGenerator;
-use Juzaweb\CMS\Repositories\Generators\RepositoryInterfaceGenerator;
+use Dply\CMS\Repositories\Generators\FileAlreadyExistsException;
+use Dply\CMS\Repositories\Generators\MigrationGenerator;
+use Dply\CMS\Repositories\Generators\ModelGenerator;
+use Dply\CMS\Repositories\Generators\RepositoryEloquentGenerator;
+use Dply\CMS\Repositories\Generators\RepositoryInterfaceGenerator;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 

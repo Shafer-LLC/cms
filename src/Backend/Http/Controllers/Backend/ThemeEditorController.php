@@ -4,10 +4,10 @@ namespace Dply\Backend\Http\Controllers\Backend;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Collection;
-use Juzaweb\CMS\Facades\ThemeConfig;
-use Juzaweb\CMS\Http\Controllers\BackendController;
-use Juzaweb\CMS\Support\Theme\Customize;
-use Juzaweb\CMS\Support\Theme\CustomizeControl;
+use Dply\CMS\Facades\ThemeConfig;
+use Dply\CMS\Http\Controllers\BackendController;
+use Dply\CMS\Support\Theme\Customize;
+use Dply\CMS\Support\Theme\CustomizeControl;
 
 class ThemeEditorController extends BackendController
 {

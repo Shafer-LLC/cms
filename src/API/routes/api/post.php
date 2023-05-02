@@ -8,8 +8,8 @@
  * @license    GNU V2
  */
 
-use Juzaweb\API\Http\Controllers\PostController;
-use Juzaweb\API\Http\Controllers\CommentController;
+use Dply\API\Http\Controllers\PostController;
+use Dply\API\Http\Controllers\CommentController;
 
 Route::group(
     [

@@ -10,7 +10,7 @@
 
 namespace Dply\Network\Traits;
 
-use Juzaweb\Network\Facades\Network;
+use Dply\Network\Facades\Network;
 
 trait RootNetworkModel
 {

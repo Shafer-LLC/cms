@@ -12,8 +12,8 @@ namespace Dply\API\Http\Requests\Post;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;
-use Juzaweb\Backend\Models\Post;
-use Juzaweb\Backend\Repositories\PostRepository;
+use Dply\Backend\Models\Post;
+use Dply\Backend\Repositories\PostRepository;
 
 class PostRequest extends FormRequest
 {

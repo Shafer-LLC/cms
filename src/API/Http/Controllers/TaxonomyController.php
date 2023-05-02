@@ -13,12 +13,12 @@ namespace Dply\API\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 use Illuminate\Http\Resources\Json\JsonResource;
-use Juzaweb\Backend\Http\Resources\TaxonomyResource;
-use Juzaweb\Backend\Repositories\TaxonomyRepository;
-use Juzaweb\CMS\Http\Controllers\ApiController;
-use Juzaweb\CMS\Repositories\Criterias\FilterCriteria;
-use Juzaweb\CMS\Repositories\Criterias\SearchCriteria;
-use Juzaweb\CMS\Repositories\Criterias\SortCriteria;
+use Dply\Backend\Http\Resources\TaxonomyResource;
+use Dply\Backend\Repositories\TaxonomyRepository;
+use Dply\CMS\Http\Controllers\ApiController;
+use Dply\CMS\Repositories\Criterias\FilterCriteria;
+use Dply\CMS\Repositories\Criterias\SearchCriteria;
+use Dply\CMS\Repositories\Criterias\SortCriteria;
 
 class TaxonomyController extends ApiController
 {

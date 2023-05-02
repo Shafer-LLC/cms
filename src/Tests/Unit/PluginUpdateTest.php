@@ -11,9 +11,9 @@
 namespace Dply\Tests\Unit;
 
 use Illuminate\Support\Facades\File;
-use Juzaweb\CMS\Facades\Plugin;
-use Juzaweb\CMS\Support\Updater\PluginUpdater;
-use Juzaweb\Tests\TestCase;
+use Dply\CMS\Facades\Plugin;
+use Dply\CMS\Support\Updater\PluginUpdater;
+use Dply\Tests\TestCase;
 
 class PluginUpdateTest extends TestCase
 {

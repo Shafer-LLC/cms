@@ -10,7 +10,7 @@
 
 namespace Dply\CMS\Contracts;
 
-use Juzaweb\Backend\Models\Post;
+use Dply\Backend\Models\Post;
 
 /**
  * @see \Juzaweb\CMS\Support\Imports\PostImporter

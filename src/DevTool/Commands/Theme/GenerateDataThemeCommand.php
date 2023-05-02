@@ -5,7 +5,7 @@ namespace Dply\DevTool\Commands\Theme;
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\File;
-use Juzaweb\CMS\Facades\Theme;
+use Dply\CMS\Facades\Theme;
 
 class GenerateDataThemeCommand extends Command
 {

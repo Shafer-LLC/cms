@@ -13,8 +13,8 @@ namespace Dply\CMS\Abstracts;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
-use Juzaweb\CMS\Support\Config\GenerateConfigReader;
-use Juzaweb\CMS\Traits\ModuleCommandTrait;
+use Dply\CMS\Support\Config\GenerateConfigReader;
+use Dply\CMS\Traits\ModuleCommandTrait;
 
 abstract class ResourceCommand extends Command
 {

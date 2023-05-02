@@ -3,7 +3,7 @@
 namespace Dply\CMS\Database\Factories;
 
 use Illuminate\Support\Str;
-use Juzaweb\Backend\Models\Post;
+use Dply\Backend\Models\Post;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class PostFactory extends Factory

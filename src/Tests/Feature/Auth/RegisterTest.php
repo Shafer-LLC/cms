@@ -11,9 +11,9 @@
 namespace Dply\Tests\Feature\Auth;
 
 use Faker\Generator as Faker;
-use Juzaweb\Backend\Models\EmailList;
-use Juzaweb\Backend\Models\EmailTemplate;
-use Juzaweb\Tests\TestCase;
+use Dply\Backend\Models\EmailList;
+use Dply\Backend\Models\EmailTemplate;
+use Dply\Tests\TestCase;
 
 class RegisterTest extends TestCase
 {

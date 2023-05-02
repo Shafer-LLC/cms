@@ -9,12 +9,12 @@
  * Github: https://juzaweb.com/cms
  */
 
-use Juzaweb\Backend\Http\Controllers\Backend\Appearance\EditorController;
-use Juzaweb\Backend\Http\Controllers\Backend\ThemeController;
-use Juzaweb\Backend\Http\Controllers\Backend\RequirePluginController;
-use Juzaweb\Backend\Http\Controllers\Backend\ReadingController;
-use Juzaweb\Backend\Http\Controllers\Backend\WidgetController;
-use Juzaweb\Backend\Http\Controllers\Backend\MenuController;
+use Dply\Backend\Http\Controllers\Backend\Appearance\EditorController;
+use Dply\Backend\Http\Controllers\Backend\ThemeController;
+use Dply\Backend\Http\Controllers\Backend\RequirePluginController;
+use Dply\Backend\Http\Controllers\Backend\ReadingController;
+use Dply\Backend\Http\Controllers\Backend\WidgetController;
+use Dply\Backend\Http\Controllers\Backend\MenuController;
 
 Route::group(
     ['prefix' => 'themes'],

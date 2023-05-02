@@ -12,7 +12,7 @@ namespace Dply\CMS\Contracts;
 
 use Exception;
 use Illuminate\Support\Collection;
-use Juzaweb\API\Support\Swagger\SwaggerDocument;
+use Dply\API\Support\Swagger\SwaggerDocument;
 
 /**
  * @see \Juzaweb\CMS\Support\HookAction

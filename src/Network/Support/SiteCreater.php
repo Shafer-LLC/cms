@@ -14,10 +14,10 @@ use Illuminate\Contracts\Config\Repository as ConfigRepository;
 use Illuminate\Database\ConnectionResolverInterface;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Artisan;
-use Juzaweb\CMS\Facades\Config as DbConfig;
-use Juzaweb\Network\Contracts\SiteCreaterContract;
-use Juzaweb\Network\Contracts\SiteSetupContract;
-use Juzaweb\Network\Models\Site;
+use Dply\CMS\Facades\Config as DbConfig;
+use Dply\Network\Contracts\SiteCreaterContract;
+use Dply\Network\Contracts\SiteSetupContract;
+use Dply\Network\Models\Site;
 
 class SiteCreater implements SiteCreaterContract
 {

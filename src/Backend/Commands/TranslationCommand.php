@@ -11,8 +11,8 @@
 namespace Dply\Backend\Commands;
 
 use Illuminate\Console\Command;
-use Juzaweb\CMS\Facades\Plugin;
-use Juzaweb\CMS\Facades\ThemeLoader;
+use Dply\CMS\Facades\Plugin;
+use Dply\CMS\Facades\ThemeLoader;
 use Illuminate\Support\Collection;
 
 abstract class TranslationCommand extends Command

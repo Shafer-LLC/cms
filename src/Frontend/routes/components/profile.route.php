@@ -8,7 +8,7 @@
  * @license    GNU V2
  */
 
-use Juzaweb\Frontend\Http\Controllers\ProfileController;
+use Dply\Frontend\Http\Controllers\ProfileController;
 
 Route::group(
     [

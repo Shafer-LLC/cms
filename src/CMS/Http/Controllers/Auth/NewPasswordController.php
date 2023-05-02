@@ -2,7 +2,7 @@
 
 namespace Dply\CMS\Http\Controllers\Auth;
 
-use Juzaweb\CMS\Http\Controllers\Controller;
+use Dply\CMS\Http\Controllers\Controller;
 use Illuminate\Auth\Events\PasswordReset;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;

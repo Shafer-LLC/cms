@@ -2,7 +2,7 @@
 
 namespace Dply\Example\Actions;
 
-use Juzaweb\CMS\Abstracts\Action;
+use Dply\CMS\Abstracts\Action;
 
 class ExampleAction extends Action
 {

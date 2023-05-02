@@ -3,7 +3,7 @@
 namespace Dply\CMS\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Juzaweb\CMS\Contracts\ActionRegisterContract;
+use Dply\CMS\Contracts\ActionRegisterContract;
 
 /**
  * @method static void init()

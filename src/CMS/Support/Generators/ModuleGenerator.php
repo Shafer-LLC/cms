@@ -6,11 +6,11 @@ use Illuminate\Config\Repository as Config;
 use Illuminate\Console\Command as Console;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Str;
-use Juzaweb\CMS\Contracts\ActivatorInterface;
-use Juzaweb\CMS\Support\Config\GenerateConfigReader;
-use Juzaweb\CMS\Support\LocalPluginRepository;
-use Juzaweb\CMS\Support\Plugin;
-use Juzaweb\CMS\Support\Stub;
+use Dply\CMS\Contracts\ActivatorInterface;
+use Dply\CMS\Support\Config\GenerateConfigReader;
+use Dply\CMS\Support\LocalPluginRepository;
+use Dply\CMS\Support\Plugin;
+use Dply\CMS\Support\Stub;
 
 class ModuleGenerator extends Generator
 {

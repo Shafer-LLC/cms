@@ -11,7 +11,7 @@
 namespace Dply\CMS\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Juzaweb\CMS\Support\BladeMinifyCompiler;
+use Dply\CMS\Support\BladeMinifyCompiler;
 
 class PerformanceServiceProvider extends ServiceProvider
 {

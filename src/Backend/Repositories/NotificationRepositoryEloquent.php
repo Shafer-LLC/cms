@@ -2,8 +2,8 @@
 
 namespace Dply\Backend\Repositories;
 
-use Juzaweb\Backend\Models\Notification;
-use Juzaweb\CMS\Repositories\BaseRepositoryEloquent;
+use Dply\Backend\Models\Notification;
+use Dply\CMS\Repositories\BaseRepositoryEloquent;
 
 /**
  * Class NotificationRepositoryRepositoryEloquent.

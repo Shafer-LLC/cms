@@ -3,7 +3,7 @@
 namespace Dply\CMS\Console\Commands\Permission;
 
 use Illuminate\Console\Command;
-use Juzaweb\CMS\Contracts\Permission as PermissionContract;
+use Dply\CMS\Contracts\Permission as PermissionContract;
 
 class CreatePermission extends Command
 {

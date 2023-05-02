@@ -2,11 +2,11 @@
 
 namespace Dply\CMS\Support\Updater;
 
-use Juzaweb\Backend\Events\DumpAutoloadPlugin;
-use Juzaweb\CMS\Abstracts\UpdateManager;
-use Juzaweb\CMS\Facades\CacheGroup;
-use Juzaweb\CMS\Support\Plugin;
-use Juzaweb\CMS\Version;
+use Dply\Backend\Events\DumpAutoloadPlugin;
+use Dply\CMS\Abstracts\UpdateManager;
+use Dply\CMS\Facades\CacheGroup;
+use Dply\CMS\Support\Plugin;
+use Dply\CMS\Version;
 
 class PluginUpdater extends UpdateManager
 {

@@ -2,7 +2,7 @@
 
 namespace Dply\CMS\Support\Hooks;
 
-use Juzaweb\CMS\Contracts\EventyContract;
+use Dply\CMS\Contracts\EventyContract;
 
 class Events implements EventyContract
 {

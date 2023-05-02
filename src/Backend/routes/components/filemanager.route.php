@@ -8,11 +8,11 @@
  * @license    GNU V2
  */
 
-use Juzaweb\Backend\Http\Controllers\FileManager\FileManagerController;
-use Juzaweb\Backend\Http\Controllers\FileManager\UploadController;
-use Juzaweb\Backend\Http\Controllers\FileManager\ItemsController;
-use Juzaweb\Backend\Http\Controllers\FileManager\FolderController;
-use Juzaweb\Backend\Http\Controllers\FileManager\DeleteController;
+use Dply\Backend\Http\Controllers\FileManager\FileManagerController;
+use Dply\Backend\Http\Controllers\FileManager\UploadController;
+use Dply\Backend\Http\Controllers\FileManager\ItemsController;
+use Dply\Backend\Http\Controllers\FileManager\FolderController;
+use Dply\Backend\Http\Controllers\FileManager\DeleteController;
 
 Route::group(
     ['prefix' => 'file-manager'],

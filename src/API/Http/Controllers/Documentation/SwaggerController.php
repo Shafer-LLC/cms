@@ -11,9 +11,9 @@ use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Request as RequestFacade;
 use Illuminate\Support\Facades\Response as ResponseFacade;
 use Illuminate\Support\Str;
-use Juzaweb\CMS\Abstracts\Action;
-use Juzaweb\CMS\Contracts\HookActionContract as HookAction;
-use Juzaweb\CMS\Http\Controllers\BackendController;
+use Dply\CMS\Abstracts\Action;
+use Dply\CMS\Contracts\HookActionContract as HookAction;
+use Dply\CMS\Http\Controllers\BackendController;
 use L5Swagger\Exceptions\L5SwaggerException;
 
 class SwaggerController extends BackendController

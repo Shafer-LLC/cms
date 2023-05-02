@@ -3,7 +3,7 @@
 namespace $CLASS_NAMESPACE$;
 
 use $MODULE_NAMESPACE$\Models\$CLASS$;
-use Juzaweb\CMS\Repositories\BaseRepositoryEloquent;
+use Dply\CMS\Repositories\BaseRepositoryEloquent;
 
 /**
  * Class $CLASS$.

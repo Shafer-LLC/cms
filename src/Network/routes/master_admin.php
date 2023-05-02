@@ -8,11 +8,11 @@
  * @license    MIT
  */
 
-use Juzaweb\Network\Http\Controllers\MappingDomainController;
-use Juzaweb\Network\Http\Controllers\PluginController;
-use Juzaweb\Network\Http\Controllers\DashboardController;
-use Juzaweb\Network\Http\Controllers\SiteController;
-use Juzaweb\Network\Http\Controllers\ThemeController;
+use Dply\Network\Http\Controllers\MappingDomainController;
+use Dply\Network\Http\Controllers\PluginController;
+use Dply\Network\Http\Controllers\DashboardController;
+use Dply\Network\Http\Controllers\SiteController;
+use Dply\Network\Http\Controllers\ThemeController;
 
 Route::get('/', [DashboardController::class, 'index'])->name('admin.network.dashboard');
 

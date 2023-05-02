@@ -19,9 +19,9 @@ use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Storage;
-use Juzaweb\Backend\Models\Post;
-use Juzaweb\Backend\Models\Taxonomy;
-use Juzaweb\CMS\Support\FileManager;
+use Dply\Backend\Models\Post;
+use Dply\Backend\Models\Taxonomy;
+use Dply\CMS\Support\FileManager;
 
 class ImportBlogger implements ShouldQueue
 {

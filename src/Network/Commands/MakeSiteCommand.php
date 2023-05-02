@@ -12,7 +12,7 @@ namespace Dply\Network\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
-use Juzaweb\Network\Contracts\SiteManagerContract;
+use Dply\Network\Contracts\SiteManagerContract;
 
 class MakeSiteCommand extends Command
 {

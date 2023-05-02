@@ -10,7 +10,7 @@
 
 namespace Dply\Backend\Events;
 
-use Juzaweb\Backend\Models\MediaFolder;
+use Dply\Backend\Models\MediaFolder;
 
 class AddFolderSuccess
 {

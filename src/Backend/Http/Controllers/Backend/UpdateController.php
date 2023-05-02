@@ -14,17 +14,17 @@ use Illuminate\Contracts\View\View;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cache;
-use Juzaweb\Backend\Events\DumpAutoloadPlugin;
-use Juzaweb\CMS\Abstracts\UpdateManager;
-use Juzaweb\CMS\Contracts\BackendMessageContract;
-use Juzaweb\CMS\Contracts\JuzawebApiContract;
-use Juzaweb\CMS\Facades\ThemeLoader;
-use Juzaweb\CMS\Http\Controllers\BackendController;
-use Juzaweb\CMS\Support\Plugin;
-use Juzaweb\CMS\Support\Updater\CmsUpdater;
-use Juzaweb\CMS\Support\Updater\PluginUpdater;
-use Juzaweb\CMS\Support\Updater\ThemeUpdater;
-use Juzaweb\CMS\Version;
+use Dply\Backend\Events\DumpAutoloadPlugin;
+use Dply\CMS\Abstracts\UpdateManager;
+use Dply\CMS\Contracts\BackendMessageContract;
+use Dply\CMS\Contracts\JuzawebApiContract;
+use Dply\CMS\Facades\ThemeLoader;
+use Dply\CMS\Http\Controllers\BackendController;
+use Dply\CMS\Support\Plugin;
+use Dply\CMS\Support\Updater\CmsUpdater;
+use Dply\CMS\Support\Updater\PluginUpdater;
+use Dply\CMS\Support\Updater\ThemeUpdater;
+use Dply\CMS\Version;
 
 class UpdateController extends BackendController
 {

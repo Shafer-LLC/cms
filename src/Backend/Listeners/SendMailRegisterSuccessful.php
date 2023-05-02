@@ -11,8 +11,8 @@
 namespace Dply\Backend\Listeners;
 
 use Illuminate\Support\Str;
-use Juzaweb\CMS\Events\EmailHook;
-use Juzaweb\Backend\Events\RegisterSuccessful;
+use Dply\CMS\Events\EmailHook;
+use Dply\Backend\Events\RegisterSuccessful;
 
 class SendMailRegisterSuccessful
 {

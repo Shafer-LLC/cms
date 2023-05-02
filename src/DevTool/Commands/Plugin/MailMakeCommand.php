@@ -3,9 +3,9 @@
 namespace Dply\DevTool\Commands\Plugin;
 
 use Illuminate\Support\Str;
-use Juzaweb\CMS\Support\Config\GenerateConfigReader;
-use Juzaweb\CMS\Support\Stub;
-use Juzaweb\CMS\Traits\ModuleCommandTrait;
+use Dply\CMS\Support\Config\GenerateConfigReader;
+use Dply\CMS\Support\Stub;
+use Dply\CMS\Traits\ModuleCommandTrait;
 use Symfony\Component\Console\Input\InputArgument;
 
 class MailMakeCommand extends GeneratorCommand

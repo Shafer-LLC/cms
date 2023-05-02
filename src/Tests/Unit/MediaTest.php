@@ -11,9 +11,9 @@
 namespace Dply\Tests\Unit;
 
 use Illuminate\Support\Facades\Storage;
-use Juzaweb\CMS\Models\User;
-use Juzaweb\CMS\Support\FileManager;
-use Juzaweb\Tests\TestCase;
+use Dply\CMS\Models\User;
+use Dply\CMS\Support\FileManager;
+use Dply\Tests\TestCase;
 
 class MediaTest extends TestCase
 {

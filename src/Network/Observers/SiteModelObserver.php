@@ -10,7 +10,7 @@
 
 namespace Dply\Network\Observers;
 
-use Juzaweb\Network\Models\Site;
+use Dply\Network\Models\Site;
 
 class SiteModelObserver
 {

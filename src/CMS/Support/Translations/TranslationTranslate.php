@@ -13,9 +13,9 @@ namespace Dply\CMS\Support\Translations;
 use Closure;
 use Illuminate\Database\Query\Builder;
 use Illuminate\Support\Collection;
-use Juzaweb\CMS\Contracts\GoogleTranslate;
-use Juzaweb\CMS\Contracts\TranslationManager;
-use Juzaweb\CMS\Models\Translation;
+use Dply\CMS\Contracts\GoogleTranslate;
+use Dply\CMS\Contracts\TranslationManager;
+use Dply\CMS\Models\Translation;
 
 class TranslationTranslate
 {

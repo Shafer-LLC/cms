@@ -11,7 +11,7 @@
 namespace Dply\Backend\Http\Requests\Setting;
 
 use Illuminate\Foundation\Http\FormRequest;
-use Juzaweb\CMS\Facades\HookAction;
+use Dply\CMS\Facades\HookAction;
 
 class SettingRequest extends FormRequest
 {

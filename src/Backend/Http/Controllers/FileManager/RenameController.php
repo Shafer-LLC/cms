@@ -2,8 +2,8 @@
 
 namespace Dply\Backend\Http\Controllers\FileManager;
 
-use Juzaweb\Backend\Models\MediaFile;
-use Juzaweb\Backend\Models\MediaFolder;
+use Dply\Backend\Models\MediaFile;
+use Dply\Backend\Models\MediaFolder;
 
 class RenameController extends FileManagerController
 {

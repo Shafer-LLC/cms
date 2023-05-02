@@ -13,7 +13,7 @@ namespace Dply\Backend\Commands;
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\File;
-use Juzaweb\Backend\Models\EmailTemplate;
+use Dply\Backend\Models\EmailTemplate;
 
 class EmailTemplateGenerateCommand extends Command
 {

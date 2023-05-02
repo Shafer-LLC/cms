@@ -3,12 +3,12 @@
 namespace Dply\DevTool\Commands\Plugin;
 
 use Illuminate\Support\Str;
-use Juzaweb\CMS\Exceptions\FileAlreadyExistException;
-use Juzaweb\CMS\Support\Config\GenerateConfigReader;
-use Juzaweb\CMS\Support\Generators\FileGenerator;
-use Juzaweb\CMS\Support\Plugin;
-use Juzaweb\CMS\Support\Stub;
-use Juzaweb\CMS\Traits\ModuleCommandTrait;
+use Dply\CMS\Exceptions\FileAlreadyExistException;
+use Dply\CMS\Support\Config\GenerateConfigReader;
+use Dply\CMS\Support\Generators\FileGenerator;
+use Dply\CMS\Support\Plugin;
+use Dply\CMS\Support\Stub;
+use Dply\CMS\Traits\ModuleCommandTrait;
 use Symfony\Component\Console\Input\InputArgument;
 
 class RepositoryMakeCommand extends GeneratorCommand

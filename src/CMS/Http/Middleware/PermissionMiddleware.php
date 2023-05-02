@@ -3,7 +3,7 @@
 namespace Dply\CMS\Http\Middleware;
 
 use Closure;
-use Juzaweb\CMS\Exceptions\UnauthorizedException;
+use Dply\CMS\Exceptions\UnauthorizedException;
 
 class PermissionMiddleware
 {

@@ -10,9 +10,9 @@
 
 namespace Dply\API\Support\Documentation;
 
-use Juzaweb\API\Support\Swagger\SwaggerDocument;
-use Juzaweb\API\Support\Swagger\SwaggerMethod;
-use Juzaweb\API\Support\Swagger\SwaggerPath;
+use Dply\API\Support\Swagger\SwaggerDocument;
+use Dply\API\Support\Swagger\SwaggerMethod;
+use Dply\API\Support\Swagger\SwaggerPath;
 
 class AuthSwaggerDocumentation implements APISwaggerDocumentation
 {

@@ -1,7 +1,7 @@
 <?php
 
-use Juzaweb\Backend\Http\Controllers\Backend\Setting\MediaController;
-use Juzaweb\Backend\Http\Controllers\Backend\Setting\SystemSettingController;
+use Dply\Backend\Http\Controllers\Backend\Setting\MediaController;
+use Dply\Backend\Http\Controllers\Backend\Setting\SystemSettingController;
 
 Route::group(
     ['prefix' => 'setting'],

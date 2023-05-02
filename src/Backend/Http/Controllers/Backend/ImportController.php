@@ -10,9 +10,9 @@
 
 namespace Dply\Backend\Http\Controllers\Backend;
 
-use Juzaweb\Backend\Http\Requests\Tool\ImportRequest;
-use Juzaweb\CMS\Http\Controllers\BackendController;
-use Juzaweb\CMS\Support\Imports\PostImportFromXml;
+use Dply\Backend\Http\Requests\Tool\ImportRequest;
+use Dply\CMS\Http\Controllers\BackendController;
+use Dply\CMS\Support\Imports\PostImportFromXml;
 
 class ImportController extends BackendController
 {

@@ -10,7 +10,7 @@
 
 namespace Dply\CMS\Support;
 
-use Juzaweb\CMS\Abstracts\PageBlock;
+use Dply\CMS\Abstracts\PageBlock;
 
 class DefaultPageBlock extends PageBlock
 {

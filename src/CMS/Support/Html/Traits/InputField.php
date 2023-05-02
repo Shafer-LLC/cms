@@ -14,7 +14,7 @@ use Illuminate\Contracts\View\Factory;
 use Illuminate\Contracts\View\View;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
-use Juzaweb\CMS\Models\User;
+use Dply\CMS\Models\User;
 
 trait InputField
 {

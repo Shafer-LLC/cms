@@ -1,14 +1,14 @@
 <?php
 
 use Illuminate\Support\Arr;
-use Juzaweb\Backend\Http\Resources\PostResourceCollection;
-use Juzaweb\Backend\Http\Resources\ResourceResource;
-use Juzaweb\Backend\Http\Resources\TaxonomyResource;
-use Juzaweb\Backend\Models\Taxonomy;
-use Juzaweb\Backend\Http\Resources\PostResource;
-use Juzaweb\Backend\Models\Post;
-use Juzaweb\Backend\Models\Resource;
-use Juzaweb\CMS\Facades\JWQuery;
+use Dply\Backend\Http\Resources\PostResourceCollection;
+use Dply\Backend\Http\Resources\ResourceResource;
+use Dply\Backend\Http\Resources\TaxonomyResource;
+use Dply\Backend\Models\Taxonomy;
+use Dply\Backend\Http\Resources\PostResource;
+use Dply\Backend\Models\Post;
+use Dply\Backend\Models\Resource;
+use Dply\CMS\Facades\JWQuery;
 
 function get_posts(string $type = null, array $options = []): array
 {

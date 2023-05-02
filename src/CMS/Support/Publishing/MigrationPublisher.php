@@ -2,7 +2,7 @@
 
 namespace Dply\CMS\Support\Publishing;
 
-use Juzaweb\CMS\Support\Migrations\Migrator;
+use Dply\CMS\Support\Migrations\Migrator;
 
 class MigrationPublisher extends AssetPublisher
 {

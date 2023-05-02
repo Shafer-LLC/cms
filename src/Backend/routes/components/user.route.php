@@ -6,9 +6,9 @@
  * @license    GNU V2
  */
 
-use Juzaweb\Backend\Http\Controllers\Backend\Profile\ProfileController;
-use Juzaweb\Backend\Http\Controllers\Backend\RoleController;
-use Juzaweb\Backend\Http\Controllers\Backend\UserController;
+use Dply\Backend\Http\Controllers\Backend\Profile\ProfileController;
+use Dply\Backend\Http\Controllers\Backend\RoleController;
+use Dply\Backend\Http\Controllers\Backend\UserController;
 
 Route::jwResource('users', UserController::class);
 

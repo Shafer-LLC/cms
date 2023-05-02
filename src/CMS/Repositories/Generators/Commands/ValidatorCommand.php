@@ -4,8 +4,8 @@ namespace Dply\CMS\Repositories\Generators\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Collection;
-use Juzaweb\CMS\Repositories\Generators\FileAlreadyExistsException;
-use Juzaweb\CMS\Repositories\Generators\ValidatorGenerator;
+use Dply\CMS\Repositories\Generators\FileAlreadyExistsException;
+use Dply\CMS\Repositories\Generators\ValidatorGenerator;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 

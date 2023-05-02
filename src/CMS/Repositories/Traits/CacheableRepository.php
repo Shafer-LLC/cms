@@ -4,8 +4,8 @@ namespace Dply\CMS\Repositories\Traits;
 
 use Exception;
 use Illuminate\Contracts\Cache\Repository as CacheRepository;
-use Juzaweb\CMS\Repositories\Contracts\CriteriaInterface;
-use Juzaweb\CMS\Repositories\Helpers\CacheKeys;
+use Dply\CMS\Repositories\Contracts\CriteriaInterface;
+use Dply\CMS\Repositories\Helpers\CacheKeys;
 use ReflectionObject;
 
 /**

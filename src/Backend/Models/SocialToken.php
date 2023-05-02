@@ -11,9 +11,9 @@
 namespace Dply\Backend\Models;
 
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Juzaweb\CMS\Models\Model;
-use Juzaweb\CMS\Models\User;
-use Juzaweb\Network\Traits\RootNetworkModel;
+use Dply\CMS\Models\Model;
+use Dply\CMS\Models\User;
+use Dply\Network\Traits\RootNetworkModel;
 
 /**
  * Juzaweb\Backend\Models\SocialToken

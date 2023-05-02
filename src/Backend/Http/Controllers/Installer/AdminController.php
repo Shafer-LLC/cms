@@ -15,7 +15,7 @@ use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
-use Juzaweb\CMS\Models\User;
+use Dply\CMS\Models\User;
 
 class AdminController extends Controller
 {

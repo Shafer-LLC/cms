@@ -3,7 +3,7 @@
 namespace Dply\CMS\Console\Commands\Permission;
 
 use Illuminate\Console\Command;
-use Juzaweb\CMS\Support\Permission\PermissionRegistrar;
+use Dply\CMS\Support\Permission\PermissionRegistrar;
 
 class CacheReset extends Command
 {

@@ -13,7 +13,7 @@ namespace Dply\Network\Support;
 use Illuminate\Contracts\Config\Repository as ConfigRepository;
 use Illuminate\Database\ConnectionResolverInterface;
 use Illuminate\Support\Facades\URL;
-use Juzaweb\Network\Contracts\SiteSetupContract;
+use Dply\Network\Contracts\SiteSetupContract;
 
 class SiteSetup implements SiteSetupContract
 {

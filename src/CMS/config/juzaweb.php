@@ -1,6 +1,6 @@
 <?php
 
-use Juzaweb\CMS\Facades\Facades;
+use Dply\CMS\Facades\Facades;
 
 return [
     /**

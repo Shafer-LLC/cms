@@ -1,7 +1,7 @@
 <?php namespace Dply\CMS\Support\ShortCode;
 
-use Juzaweb\CMS\Contracts\ShortCode as ShortCodeContract;
-use Juzaweb\CMS\Support\ShortCode\Compilers\ShortCodeCompiler;
+use Dply\CMS\Contracts\ShortCode as ShortCodeContract;
+use Dply\CMS\Support\ShortCode\Compilers\ShortCodeCompiler;
 
 class ShortCode implements ShortCodeContract
 {

@@ -11,8 +11,8 @@
 namespace Dply\CMS\Facades;
 
 use Illuminate\Support\Collection;
-use Juzaweb\Backend\Models\Post;
-use Juzaweb\Backend\Models\Taxonomy;
+use Dply\Backend\Models\Post;
+use Dply\Backend\Models\Taxonomy;
 
 class Facades
 {

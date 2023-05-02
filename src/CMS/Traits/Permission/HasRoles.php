@@ -6,9 +6,9 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
-use Juzaweb\CMS\Contracts\Permission;
-use Juzaweb\CMS\Contracts\Role;
-use Juzaweb\CMS\Support\Permission\PermissionRegistrar;
+use Dply\CMS\Contracts\Permission;
+use Dply\CMS\Contracts\Role;
+use Dply\CMS\Support\Permission\PermissionRegistrar;
 
 trait HasRoles
 {

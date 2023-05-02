@@ -13,8 +13,8 @@ namespace Dply\Backend\Http\Controllers\Backend;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Crypt;
-use Juzaweb\CMS\Abstracts\DataTable;
-use Juzaweb\CMS\Http\Controllers\BackendController;
+use Dply\CMS\Abstracts\DataTable;
+use Dply\CMS\Http\Controllers\BackendController;
 
 class DatatableController extends BackendController
 {

@@ -12,7 +12,7 @@ namespace Dply\Network\Http\Requests\MappingDomain;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;
-use Juzaweb\Network\Models\DomainMapping;
+use Dply\Network\Models\DomainMapping;
 
 class StoreRequest extends FormRequest
 {

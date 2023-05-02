@@ -2,7 +2,7 @@
 
 namespace Dply\CMS\Http\Controllers\Auth;
 
-use Juzaweb\CMS\Http\Controllers\Controller;
+use Dply\CMS\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Http\Request;
 

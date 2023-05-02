@@ -3,7 +3,7 @@
 namespace Dply\Network\Http\Controllers;
 
 use Illuminate\Contracts\View\View;
-use Juzaweb\CMS\Http\Controllers\BackendController;
+use Dply\CMS\Http\Controllers\BackendController;
 
 class ThemeController extends BackendController
 {

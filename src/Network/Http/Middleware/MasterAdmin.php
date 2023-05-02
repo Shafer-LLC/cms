@@ -12,7 +12,7 @@ namespace Dply\Network\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;
-use Juzaweb\CMS\Abstracts\Action;
+use Dply\CMS\Abstracts\Action;
 
 class MasterAdmin
 {

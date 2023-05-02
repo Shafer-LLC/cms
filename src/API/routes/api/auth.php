@@ -8,8 +8,8 @@
  * @license    GNU V2
  */
 
-use Juzaweb\API\Http\Controllers\Auth\LoginController;
-use Juzaweb\API\Http\Controllers\Auth\RegisterController;
+use Dply\API\Http\Controllers\Auth\LoginController;
+use Dply\API\Http\Controllers\Auth\RegisterController;
 
 Route::group(
     ['prefix' => 'auth'],

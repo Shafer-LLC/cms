@@ -11,9 +11,9 @@
 namespace Dply\Backend\Commands;
 
 use Illuminate\Console\Command;
-use Juzaweb\CMS\Abstracts\Action;
-use Juzaweb\CMS\Facades\HookAction;
-use Juzaweb\CMS\Models\Permission;
+use Dply\CMS\Abstracts\Action;
+use Dply\CMS\Facades\HookAction;
+use Dply\CMS\Models\Permission;
 
 class PermissionGenerateCommand extends Command
 {

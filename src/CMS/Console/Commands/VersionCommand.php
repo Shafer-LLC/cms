@@ -11,7 +11,7 @@
 namespace Dply\CMS\Console\Commands;
 
 use Illuminate\Console\Command;
-use Juzaweb\CMS\Version;
+use Dply\CMS\Version;
 
 class VersionCommand extends Command
 {

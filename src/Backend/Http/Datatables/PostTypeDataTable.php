@@ -14,8 +14,8 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
-use Juzaweb\CMS\Abstracts\DataTable;
-use Juzaweb\CMS\Facades\HookAction;
+use Dply\CMS\Abstracts\DataTable;
+use Dply\CMS\Facades\HookAction;
 
 class PostTypeDataTable extends DataTable
 {

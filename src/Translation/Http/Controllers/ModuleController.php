@@ -14,11 +14,11 @@ use Illuminate\Contracts\View\View;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
-use Juzaweb\CMS\Contracts\TranslationManager;
-use Juzaweb\CMS\Support\ArrayPagination;
-use Juzaweb\Translation\Facades\Locale;
-use Juzaweb\CMS\Http\Controllers\BackendController;
-use Juzaweb\Translation\Http\Requests\AddLanguageRequest;
+use Dply\CMS\Contracts\TranslationManager;
+use Dply\CMS\Support\ArrayPagination;
+use Dply\Translation\Facades\Locale;
+use Dply\CMS\Http\Controllers\BackendController;
+use Dply\Translation\Http\Requests\AddLanguageRequest;
 
 class ModuleController extends BackendController
 {

@@ -11,7 +11,7 @@
 namespace Dply\API\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
-use Juzaweb\Backend\Models\Menu;
+use Dply\Backend\Models\Menu;
 
 /**
  * @property Menu $resource

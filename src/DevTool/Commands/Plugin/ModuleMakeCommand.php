@@ -3,9 +3,9 @@
 namespace Dply\DevTool\Commands\Plugin;
 
 use Illuminate\Console\Command;
-use Juzaweb\CMS\Console\Commands\PluginAutoloadCommand;
-use Juzaweb\CMS\Contracts\ActivatorInterface;
-use Juzaweb\CMS\Support\Generators\ModuleGenerator;
+use Dply\CMS\Console\Commands\PluginAutoloadCommand;
+use Dply\CMS\Contracts\ActivatorInterface;
+use Dply\CMS\Support\Generators\ModuleGenerator;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 

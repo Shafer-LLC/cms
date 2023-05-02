@@ -8,8 +8,8 @@ use Illuminate\Contracts\Auth\Access\Gate;
 use Illuminate\Contracts\Cache\Repository;
 use Illuminate\Contracts\Cache\Store;
 use Illuminate\Database\Eloquent\Collection;
-use Juzaweb\CMS\Contracts\Permission;
-use Juzaweb\CMS\Contracts\Role;
+use Dply\CMS\Contracts\Permission;
+use Dply\CMS\Contracts\Role;
 
 class PermissionRegistrar
 {

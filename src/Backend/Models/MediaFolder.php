@@ -4,7 +4,7 @@ namespace Dply\Backend\Models;
 
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
-use Juzaweb\CMS\Models\Model;
+use Dply\CMS\Models\Model;
 
 /**
  * Juzaweb\Backend\Models\MediaFolder

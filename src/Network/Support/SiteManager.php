@@ -12,11 +12,11 @@ namespace Dply\Network\Support;
 
 use Illuminate\Database\ConnectionResolverInterface;
 use Illuminate\Support\Arr;
-use Juzaweb\CMS\Models\User;
-use Juzaweb\Network\Contracts\NetworkSiteContract;
-use Juzaweb\Network\Contracts\SiteCreaterContract;
-use Juzaweb\Network\Contracts\SiteManagerContract;
-use Juzaweb\Network\Models\Site;
+use Dply\CMS\Models\User;
+use Dply\Network\Contracts\NetworkSiteContract;
+use Dply\Network\Contracts\SiteCreaterContract;
+use Dply\Network\Contracts\SiteManagerContract;
+use Dply\Network\Models\Site;
 
 class SiteManager implements SiteManagerContract
 {

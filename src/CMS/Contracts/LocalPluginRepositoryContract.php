@@ -2,8 +2,8 @@
 
 namespace Dply\CMS\Contracts;
 
-use Juzaweb\CMS\Exceptions\PluginNotFoundException;
-use Juzaweb\CMS\Support\Plugin;
+use Dply\CMS\Exceptions\PluginNotFoundException;
+use Dply\CMS\Support\Plugin;
 
 interface LocalPluginRepositoryContract
 {

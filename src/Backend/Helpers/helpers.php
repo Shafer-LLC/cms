@@ -12,15 +12,15 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
-use Juzaweb\Backend\Models\Post;
-use Juzaweb\CMS\Contracts\BackendMessageContract;
-use Juzaweb\CMS\Contracts\ConfigContract;
-use Juzaweb\CMS\Facades\Config;
-use Juzaweb\CMS\Facades\Hook;
-use Juzaweb\CMS\Facades\HookAction;
-use Juzaweb\CMS\Facades\XssCleaner;
-use Juzaweb\CMS\Models\User;
-use Juzaweb\CMS\Support\Breadcrumb;
+use Dply\Backend\Models\Post;
+use Dply\CMS\Contracts\BackendMessageContract;
+use Dply\CMS\Contracts\ConfigContract;
+use Dply\CMS\Facades\Config;
+use Dply\CMS\Facades\Hook;
+use Dply\CMS\Facades\HookAction;
+use Dply\CMS\Facades\XssCleaner;
+use Dply\CMS\Models\User;
+use Dply\CMS\Support\Breadcrumb;
 
 if (!function_exists('e_html')) {
     function e_html($str): string

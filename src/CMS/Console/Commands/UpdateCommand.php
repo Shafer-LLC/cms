@@ -11,7 +11,7 @@
 namespace Dply\CMS\Console\Commands;
 
 use Illuminate\Console\Command;
-use Juzaweb\CMS\Support\Updater\CmsUpdater;
+use Dply\CMS\Support\Updater\CmsUpdater;
 
 class UpdateCommand extends Command
 {

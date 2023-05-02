@@ -11,7 +11,7 @@
 namespace Dply\CMS\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Juzaweb\CMS\Contracts\JWQueryContract;
+use Dply\CMS\Contracts\JWQueryContract;
 
 /**
  * @method static array posts(string $type, array $options = [])

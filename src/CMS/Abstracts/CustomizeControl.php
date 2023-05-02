@@ -11,7 +11,7 @@
 namespace Dply\CMS\Abstracts;
 
 use Illuminate\Support\Collection;
-use Juzaweb\CMS\Support\Theme\Customize;
+use Dply\CMS\Support\Theme\Customize;
 
 abstract class CustomizeControl
 {

@@ -1,6 +1,6 @@
 <?php
 
-use Juzaweb\Network\Http\Controllers\SiteController;
+use Dply\Network\Http\Controllers\SiteController;
 
 Route::get(
     'admin-cp/token-login',

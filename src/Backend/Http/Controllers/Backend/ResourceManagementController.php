@@ -19,11 +19,11 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Gate;
-use Juzaweb\Backend\Http\Datatables\ResourceManagementDatatable;
-use Juzaweb\CMS\Abstracts\DataTable;
-use Juzaweb\CMS\Contracts\HookActionContract;
-use Juzaweb\CMS\Http\Controllers\BackendController;
-use Juzaweb\CMS\Repositories\BaseRepository;
+use Dply\Backend\Http\Datatables\ResourceManagementDatatable;
+use Dply\CMS\Abstracts\DataTable;
+use Dply\CMS\Contracts\HookActionContract;
+use Dply\CMS\Http\Controllers\BackendController;
+use Dply\CMS\Repositories\BaseRepository;
 
 class ResourceManagementController extends BackendController
 {

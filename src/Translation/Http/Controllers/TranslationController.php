@@ -13,9 +13,9 @@ namespace Dply\Translation\Http\Controllers;
 use Illuminate\Contracts\View\View;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
-use Juzaweb\CMS\Contracts\TranslationManager;
-use Juzaweb\CMS\Http\Controllers\BackendController;
-use Juzaweb\CMS\Support\ArrayPagination;
+use Dply\CMS\Contracts\TranslationManager;
+use Dply\CMS\Http\Controllers\BackendController;
+use Dply\CMS\Support\ArrayPagination;
 
 class TranslationController extends BackendController
 {

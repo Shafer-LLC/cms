@@ -10,7 +10,7 @@
 
 namespace Dply\CMS\Support\Theme;
 
-use Juzaweb\CMS\Abstracts\MenuBox;
+use Dply\CMS\Abstracts\MenuBox;
 
 class CustomMenuBox extends MenuBox
 {

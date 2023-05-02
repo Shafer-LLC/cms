@@ -2,7 +2,7 @@
 
 namespace Dply\CMS\Traits\Permission;
 
-use Juzaweb\CMS\Support\Permission\PermissionRegistrar;
+use Dply\CMS\Support\Permission\PermissionRegistrar;
 
 trait RefreshesPermissionCache
 {

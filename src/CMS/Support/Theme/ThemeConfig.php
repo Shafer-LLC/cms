@@ -11,8 +11,8 @@
 namespace Dply\CMS\Support\Theme;
 
 use Illuminate\Cache\CacheManager;
-use Juzaweb\CMS\Contracts\ThemeConfigContract;
-use Juzaweb\CMS\Models\ThemeConfig as ConfigModel;
+use Dply\CMS\Contracts\ThemeConfigContract;
+use Dply\CMS\Models\ThemeConfig as ConfigModel;
 use Illuminate\Container\Container;
 use Illuminate\Database\Eloquent\Model;
 

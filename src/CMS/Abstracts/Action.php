@@ -10,8 +10,8 @@
 
 namespace Dply\CMS\Abstracts;
 
-use Juzaweb\CMS\Contracts\HookActionContract;
-use Juzaweb\CMS\Facades\Hook;
+use Dply\CMS\Contracts\HookActionContract;
+use Dply\CMS\Facades\Hook;
 
 abstract class Action
 {

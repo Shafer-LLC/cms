@@ -10,7 +10,7 @@
 
 namespace Dply\CMS\Traits;
 
-use Juzaweb\CMS\Models\Search;
+use Dply\CMS\Models\Search;
 
 trait PostTypeSearch
 {

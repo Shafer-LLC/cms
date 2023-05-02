@@ -4,7 +4,7 @@ namespace Dply\CMS\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;
-use Juzaweb\CMS\Exceptions\UnauthorizedException;
+use Dply\CMS\Exceptions\UnauthorizedException;
 
 class RoleMiddleware
 {

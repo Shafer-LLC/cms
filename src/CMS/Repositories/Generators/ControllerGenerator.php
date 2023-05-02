@@ -3,9 +3,9 @@
 namespace Dply\CMS\Repositories\Generators;
 
 use Illuminate\Support\Str;
-use Juzaweb\CMS\Repositories\Generators\Generator;
-use Juzaweb\CMS\Repositories\Generators\ValidatorGenerator;
-use Juzaweb\CMS\Repositories\Generators\RepositoryInterfaceGenerator;
+use Dply\CMS\Repositories\Generators\Generator;
+use Dply\CMS\Repositories\Generators\ValidatorGenerator;
+use Dply\CMS\Repositories\Generators\RepositoryInterfaceGenerator;
 
 /**
  * Class ControllerGenerator

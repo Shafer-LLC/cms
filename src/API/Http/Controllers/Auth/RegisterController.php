@@ -11,10 +11,10 @@
 namespace Dply\API\Http\Controllers\Auth;
 
 use Illuminate\Http\JsonResponse;
-use Juzaweb\Backend\Http\Resources\UserResource;
-use Juzaweb\Backend\Repositories\UserRepository;
-use Juzaweb\CMS\Http\Controllers\ApiController;
-use Juzaweb\CMS\Http\Requests\Auth\RegisterRequest;
+use Dply\Backend\Http\Resources\UserResource;
+use Dply\Backend\Repositories\UserRepository;
+use Dply\CMS\Http\Controllers\ApiController;
+use Dply\CMS\Http\Requests\Auth\RegisterRequest;
 use OpenApi\Annotations as OA;
 
 class RegisterController extends ApiController

@@ -11,8 +11,8 @@
 namespace Dply\CMS\Support\Manager;
 
 use Illuminate\Support\Str;
-use Juzaweb\CMS\Contracts\BackendMessageContract;
-use Juzaweb\CMS\Support\Config;
+use Dply\CMS\Contracts\BackendMessageContract;
+use Dply\CMS\Support\Config;
 
 class BackendMessageManager implements BackendMessageContract
 {

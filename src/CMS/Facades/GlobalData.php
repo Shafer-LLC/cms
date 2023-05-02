@@ -11,7 +11,7 @@
 namespace Dply\CMS\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Juzaweb\CMS\Contracts\GlobalDataContract;
+use Dply\CMS\Contracts\GlobalDataContract;
 
 /**
  * @method static void set($key, $value)

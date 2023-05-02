@@ -10,7 +10,7 @@
 
 namespace Dply\CMS\Abstracts;
 
-use Juzaweb\CMS\Traits\ResourceController as ResourceControllerTrait;
+use Dply\CMS\Traits\ResourceController as ResourceControllerTrait;
 
 abstract class ResourceController
 {

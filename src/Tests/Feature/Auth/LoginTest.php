@@ -10,8 +10,8 @@
 
 namespace Dply\Tests\Feature\Auth;
 
-use Juzaweb\CMS\Models\User;
-use Juzaweb\Tests\TestCase;
+use Dply\CMS\Models\User;
+use Dply\Tests\TestCase;
 
 class LoginTest extends TestCase
 {

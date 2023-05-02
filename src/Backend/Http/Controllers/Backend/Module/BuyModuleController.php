@@ -14,10 +14,10 @@ use Illuminate\Http\JsonResponse;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
-use Juzaweb\Backend\Http\Requests\Module\ActivateByCodeRequest;
-use Juzaweb\Backend\Http\Requests\Module\LoginJuzaWebRequest;
-use Juzaweb\CMS\Contracts\JuzawebApiContract as JuzawebApi;
-use Juzaweb\CMS\Http\Controllers\BackendController;
+use Dply\Backend\Http\Requests\Module\ActivateByCodeRequest;
+use Dply\Backend\Http\Requests\Module\LoginJuzaWebRequest;
+use Dply\CMS\Contracts\JuzawebApiContract as JuzawebApi;
+use Dply\CMS\Http\Controllers\BackendController;
 
 class BuyModuleController extends BackendController
 {

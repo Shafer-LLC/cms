@@ -3,7 +3,7 @@
 namespace Dply\CMS\Http\Middleware;
 
 use Closure;
-use Juzaweb\CMS\Support\Installer;
+use Dply\CMS\Support\Installer;
 
 class XFrameHeadersMiddleware
 {

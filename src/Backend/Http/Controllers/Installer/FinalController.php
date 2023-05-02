@@ -3,9 +3,9 @@
 namespace Dply\Backend\Http\Controllers\Installer;
 
 use Illuminate\Routing\Controller;
-use Juzaweb\CMS\Events\InstallerFinished;
-use Juzaweb\CMS\Support\Manager\FinalInstallManager;
-use Juzaweb\CMS\Support\Manager\InstalledFileManager;
+use Dply\CMS\Events\InstallerFinished;
+use Dply\CMS\Support\Manager\FinalInstallManager;
+use Dply\CMS\Support\Manager\InstalledFileManager;
 
 class FinalController extends Controller
 {

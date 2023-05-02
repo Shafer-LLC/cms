@@ -4,12 +4,12 @@ namespace Dply\Frontend\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Arr;
-use Juzaweb\Backend\Events\PostViewed;
-use Juzaweb\Backend\Http\Resources\PostResource;
-use Juzaweb\Backend\Http\Resources\PostResourceCollection;
-use Juzaweb\Backend\Models\Post;
-use Juzaweb\CMS\Facades\ThemeLoader;
-use Juzaweb\CMS\Http\Controllers\FrontendController;
+use Dply\Backend\Events\PostViewed;
+use Dply\Backend\Http\Resources\PostResource;
+use Dply\Backend\Http\Resources\PostResourceCollection;
+use Dply\Backend\Models\Post;
+use Dply\CMS\Facades\ThemeLoader;
+use Dply\CMS\Http\Controllers\FrontendController;
 
 class PageController extends FrontendController
 {

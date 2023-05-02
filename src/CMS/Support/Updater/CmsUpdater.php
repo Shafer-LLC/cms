@@ -3,10 +3,10 @@
 namespace Dply\CMS\Support\Updater;
 
 use Illuminate\Support\Facades\Artisan;
-use Juzaweb\Backend\Events\DumpAutoloadPlugin;
-use Juzaweb\CMS\Abstracts\UpdateManager;
-use Juzaweb\CMS\Console\Commands\ClearCacheCommand;
-use Juzaweb\CMS\Version;
+use Dply\Backend\Events\DumpAutoloadPlugin;
+use Dply\CMS\Abstracts\UpdateManager;
+use Dply\CMS\Console\Commands\ClearCacheCommand;
+use Dply\CMS\Version;
 
 class CmsUpdater extends UpdateManager
 {

@@ -17,7 +17,7 @@ use Illuminate\Support\Str;
 use Illuminate\Support\Traits\Macroable;
 use Illuminate\Translation\Translator;
 use Illuminate\View\ViewFinderInterface;
-use Juzaweb\CMS\Contracts\ActivatorInterface;
+use Dply\CMS\Contracts\ActivatorInterface;
 use Illuminate\Contracts\Foundation\Application as ApplicationContract;
 use Noodlehaus\Config as ReadConfig;
 

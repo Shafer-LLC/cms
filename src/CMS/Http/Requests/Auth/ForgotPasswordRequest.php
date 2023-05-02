@@ -12,7 +12,7 @@ namespace Dply\CMS\Http\Requests\Auth;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;
-use Juzaweb\CMS\Models\User;
+use Dply\CMS\Models\User;
 
 class ForgotPasswordRequest extends FormRequest
 {

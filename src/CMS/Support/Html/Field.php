@@ -16,8 +16,8 @@ use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use Illuminate\Database\Eloquent\Model;
-use Juzaweb\CMS\Contracts\Field as FieldContract;
-use Juzaweb\CMS\Support\Html\Traits\InputField;
+use Dply\CMS\Contracts\Field as FieldContract;
+use Dply\CMS\Support\Html\Traits\InputField;
 
 class Field implements FieldContract
 {

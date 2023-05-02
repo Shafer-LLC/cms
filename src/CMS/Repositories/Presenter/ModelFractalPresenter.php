@@ -3,8 +3,8 @@
 namespace Dply\CMS\Repositories\Presenter;
 
 use Exception;
-use Juzaweb\CMS\Repositories\Transformer\ModelTransformer;
-use Juzaweb\CMS\Repositories\Presenter\FractalPresenter;
+use Dply\CMS\Repositories\Transformer\ModelTransformer;
+use Dply\CMS\Repositories\Presenter\FractalPresenter;
 
 /**
  * Class ModelFractalPresenter

@@ -2,8 +2,8 @@
 
 namespace Dply\CMS\Repositories\Events;
 
-use Juzaweb\CMS\Repositories\Contracts\RepositoryInterface;
-use Juzaweb\CMS\Repositories\Events\RepositoryEventBase;
+use Dply\CMS\Repositories\Contracts\RepositoryInterface;
+use Dply\CMS\Repositories\Events\RepositoryEventBase;
 
 /**
  * Class RepositoryEntityCreated

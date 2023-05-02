@@ -12,8 +12,8 @@ namespace Dply\Backend\Http\Controllers\Backend;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use Juzaweb\CMS\Http\Controllers\BackendController;
-use Juzaweb\CMS\Support\Email;
+use Dply\CMS\Http\Controllers\BackendController;
+use Dply\CMS\Support\Email;
 
 class EmailController extends BackendController
 {

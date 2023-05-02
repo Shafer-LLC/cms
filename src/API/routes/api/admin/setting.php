@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-use Juzaweb\API\Http\Controllers\Admin\SettingController;
+use Dply\API\Http\Controllers\Admin\SettingController;
 
 Route::group(
     [

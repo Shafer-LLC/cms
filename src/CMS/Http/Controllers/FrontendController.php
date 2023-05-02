@@ -2,9 +2,9 @@
 
 namespace Dply\CMS\Http\Controllers;
 
-use Juzaweb\CMS\Abstracts\Action;
-use Juzaweb\CMS\Facades\HookAction;
-use Juzaweb\CMS\Traits\ResponseMessage;
+use Dply\CMS\Abstracts\Action;
+use Dply\CMS\Facades\HookAction;
+use Dply\CMS\Traits\ResponseMessage;
 use TwigBridge\Facade\Twig;
 
 class FrontendController extends Controller

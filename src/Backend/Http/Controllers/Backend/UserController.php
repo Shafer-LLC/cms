@@ -6,12 +6,12 @@ use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\Rule;
 use Illuminate\Validation\ValidationException;
-use Juzaweb\CMS\Abstracts\DataTable;
-use Juzaweb\CMS\Http\Controllers\BackendController;
-use Juzaweb\Backend\Http\Datatables\UserDataTable;
-use Juzaweb\CMS\Models\Model;
-use Juzaweb\CMS\Models\User;
-use Juzaweb\CMS\Traits\ResourceController;
+use Dply\CMS\Abstracts\DataTable;
+use Dply\CMS\Http\Controllers\BackendController;
+use Dply\Backend\Http\Datatables\UserDataTable;
+use Dply\CMS\Models\Model;
+use Dply\CMS\Models\User;
+use Dply\CMS\Traits\ResourceController;
 use Illuminate\Support\Facades\Validator;
 
 class UserController extends BackendController

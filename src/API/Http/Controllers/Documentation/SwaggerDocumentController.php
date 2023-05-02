@@ -11,9 +11,9 @@
 namespace Dply\API\Http\Controllers\Documentation;
 
 use Illuminate\Http\JsonResponse;
-use Juzaweb\CMS\Abstracts\Action;
-use Juzaweb\CMS\Contracts\HookActionContract as HookAction;
-use Juzaweb\CMS\Http\Controllers\BackendController;
+use Dply\CMS\Abstracts\Action;
+use Dply\CMS\Contracts\HookActionContract as HookAction;
+use Dply\CMS\Http\Controllers\BackendController;
 
 class SwaggerDocumentController extends BackendController
 {

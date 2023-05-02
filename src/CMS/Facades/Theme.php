@@ -12,8 +12,8 @@ namespace Dply\CMS\Facades;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Facade as FacadeAlias;
-use Juzaweb\CMS\Support\LocalThemeRepository;
-use Juzaweb\CMS\Support\Theme as ThemeSupport;
+use Dply\CMS\Support\LocalThemeRepository;
+use Dply\CMS\Support\Theme as ThemeSupport;
 
 /**
  * @method static ThemeSupport|null find(string $name)

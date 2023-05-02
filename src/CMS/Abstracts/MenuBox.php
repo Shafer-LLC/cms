@@ -12,7 +12,7 @@ namespace Dply\CMS\Abstracts;
 
 use Illuminate\Support\Collection;
 use Illuminate\View\View;
-use Juzaweb\Backend\Models\MenuItem;
+use Dply\Backend\Models\MenuItem;
 
 abstract class MenuBox
 {

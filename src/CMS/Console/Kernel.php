@@ -4,7 +4,7 @@ namespace Dply\CMS\Console;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
-use Juzaweb\CMS\Console\Commands\ClearCacheExpiredCommand;
+use Dply\CMS\Console\Commands\ClearCacheExpiredCommand;
 
 class Kernel extends ConsoleKernel
 {

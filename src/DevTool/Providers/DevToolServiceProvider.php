@@ -12,9 +12,9 @@ namespace Dply\DevTool\Providers;
 
 use Illuminate\Database\Query\Builder;
 use Illuminate\Database\Eloquent\Builder as EloquentBuilder;
-use Juzaweb\CMS\Providers\TelescopeServiceProvider;
-use Juzaweb\CMS\Support\ServiceProvider;
-use Juzaweb\CMS\Support\Stub;
+use Dply\CMS\Providers\TelescopeServiceProvider;
+use Dply\CMS\Support\ServiceProvider;
+use Dply\CMS\Support\Stub;
 use Laravel\Telescope\TelescopeApplicationServiceProvider;
 
 class DevToolServiceProvider extends ServiceProvider

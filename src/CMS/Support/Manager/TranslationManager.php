@@ -12,18 +12,18 @@ namespace Dply\CMS\Support\Manager;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
-use Juzaweb\CMS\Contracts\GoogleTranslate;
-use Juzaweb\CMS\Contracts\LocalPluginRepositoryContract;
-use Juzaweb\CMS\Contracts\LocalThemeRepositoryContract;
-use Juzaweb\CMS\Contracts\TranslationFinder;
-use Juzaweb\CMS\Contracts\TranslationManager as TranslationManagerContract;
-use Juzaweb\CMS\Facades\Plugin;
-use Juzaweb\CMS\Facades\ThemeLoader;
-use Juzaweb\CMS\Models\Translation;
-use Juzaweb\CMS\Support\Translations\TranslationExporter;
-use Juzaweb\CMS\Support\Translations\TranslationImporter;
-use Juzaweb\CMS\Support\Translations\TranslationLocale;
-use Juzaweb\CMS\Support\Translations\TranslationTranslate;
+use Dply\CMS\Contracts\GoogleTranslate;
+use Dply\CMS\Contracts\LocalPluginRepositoryContract;
+use Dply\CMS\Contracts\LocalThemeRepositoryContract;
+use Dply\CMS\Contracts\TranslationFinder;
+use Dply\CMS\Contracts\TranslationManager as TranslationManagerContract;
+use Dply\CMS\Facades\Plugin;
+use Dply\CMS\Facades\ThemeLoader;
+use Dply\CMS\Models\Translation;
+use Dply\CMS\Support\Translations\TranslationExporter;
+use Dply\CMS\Support\Translations\TranslationImporter;
+use Dply\CMS\Support\Translations\TranslationLocale;
+use Dply\CMS\Support\Translations\TranslationTranslate;
 
 class TranslationManager implements TranslationManagerContract
 {

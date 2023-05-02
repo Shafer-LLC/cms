@@ -3,10 +3,10 @@
 namespace Dply\Backend\Models;
 
 use Illuminate\Database\Eloquent\Builder;
-use Juzaweb\CMS\Facades\HookAction;
-use Juzaweb\CMS\Models\Model;
-use Juzaweb\CMS\Models\User;
-use Juzaweb\CMS\Traits\QueryCache\QueryCacheable;
+use Dply\CMS\Facades\HookAction;
+use Dply\CMS\Models\Model;
+use Dply\CMS\Models\User;
+use Dply\CMS\Traits\QueryCache\QueryCacheable;
 
 /**
  * Juzaweb\Backend\Models\Comment

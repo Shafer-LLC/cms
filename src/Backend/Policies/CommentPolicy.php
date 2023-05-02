@@ -3,8 +3,8 @@
 namespace Dply\Backend\Policies;
 
 use Illuminate\Auth\Access\HandlesAuthorization;
-use Juzaweb\CMS\Models\Model;
-use Juzaweb\CMS\Models\User;
+use Dply\CMS\Models\Model;
+use Dply\CMS\Models\User;
 
 class CommentPolicy
 {

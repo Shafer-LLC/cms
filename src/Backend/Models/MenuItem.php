@@ -11,9 +11,9 @@
 namespace Dply\Backend\Models;
 
 use Illuminate\Support\Collection;
-use Juzaweb\CMS\Facades\HookAction;
-use Juzaweb\CMS\Models\Model;
-use Juzaweb\CMS\Traits\QueryCache\QueryCacheable;
+use Dply\CMS\Facades\HookAction;
+use Dply\CMS\Models\Model;
+use Dply\CMS\Traits\QueryCache\QueryCacheable;
 
 /**
  * Juzaweb\Backend\Models\MenuItem

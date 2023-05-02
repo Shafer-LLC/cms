@@ -11,17 +11,17 @@
 namespace Dply\Backend\Actions;
 
 use Illuminate\Support\Facades\Cache;
-use Juzaweb\Backend\Models\Post;
-use Juzaweb\CMS\Abstracts\Action;
-use Juzaweb\CMS\Facades\HookAction;
-use Juzaweb\CMS\Facades\ThemeLoader;
-use Juzaweb\CMS\Models\User;
-use Juzaweb\CMS\Support\Notification;
-use Juzaweb\CMS\Support\Theme\CustomMenuBox;
-use Juzaweb\CMS\Support\Updater\CmsUpdater;
-use Juzaweb\CMS\Version;
-use Juzaweb\Frontend\Http\Controllers\PageController;
-use Juzaweb\Frontend\Http\Controllers\PostController;
+use Dply\Backend\Models\Post;
+use Dply\CMS\Abstracts\Action;
+use Dply\CMS\Facades\HookAction;
+use Dply\CMS\Facades\ThemeLoader;
+use Dply\CMS\Models\User;
+use Dply\CMS\Support\Notification;
+use Dply\CMS\Support\Theme\CustomMenuBox;
+use Dply\CMS\Support\Updater\CmsUpdater;
+use Dply\CMS\Version;
+use Dply\Frontend\Http\Controllers\PageController;
+use Dply\Frontend\Http\Controllers\PostController;
 
 class MenuAction extends Action
 {

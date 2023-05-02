@@ -10,8 +10,8 @@
 
 namespace Dply\CMS\Contracts;
 
-use Juzaweb\CMS\Models\Model;
-use Juzaweb\CMS\Support\FileManager\Media;
+use Dply\CMS\Models\Model;
+use Dply\CMS\Support\FileManager\Media;
 
 interface MediaManagerContract
 {

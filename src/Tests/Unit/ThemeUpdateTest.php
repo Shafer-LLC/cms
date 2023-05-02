@@ -11,9 +11,9 @@
 namespace Dply\Tests\Unit;
 
 use Illuminate\Support\Facades\File;
-use Juzaweb\CMS\Facades\Theme;
-use Juzaweb\CMS\Support\Updater\ThemeUpdater;
-use Juzaweb\Tests\TestCase;
+use Dply\CMS\Facades\Theme;
+use Dply\CMS\Support\Updater\ThemeUpdater;
+use Dply\Tests\TestCase;
 
 class ThemeUpdateTest extends TestCase
 {

@@ -10,7 +10,7 @@
 
 namespace Dply\Network\Contracts;
 
-use Juzaweb\Network\Models\Site;
+use Dply\Network\Models\Site;
 
 interface SiteManagerContract
 {

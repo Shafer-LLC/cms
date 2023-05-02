@@ -8,7 +8,7 @@
  * @license    MIT
  */
 
-use Juzaweb\API\Http\Controllers\Admin\DataTableController;
+use Dply\API\Http\Controllers\Admin\DataTableController;
 
 Route::group(
     [

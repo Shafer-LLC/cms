@@ -7,7 +7,7 @@ use Illuminate\Database\SQLiteConnection;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\DB;
-use Juzaweb\CMS\Facades\Config as DbConfig;
+use Dply\CMS\Facades\Config as DbConfig;
 use Symfony\Component\Console\Output\BufferedOutput;
 
 class DatabaseManager

@@ -3,8 +3,8 @@
 namespace Dply\Backend\Listeners;
 
 use Illuminate\Support\Arr;
-use Juzaweb\Backend\Events\AfterPostSave;
-use Juzaweb\Backend\Models\SeoMeta;
+use Dply\Backend\Events\AfterPostSave;
+use Dply\Backend\Models\SeoMeta;
 
 class SaveSeoMetaPost
 {

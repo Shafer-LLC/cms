@@ -10,7 +10,7 @@
 
 namespace Dply\Backend\Events;
 
-use Juzaweb\Backend\Models\Post;
+use Dply\Backend\Models\Post;
 
 class PostViewed
 {

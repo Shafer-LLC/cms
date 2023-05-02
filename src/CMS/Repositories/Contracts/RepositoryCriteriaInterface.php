@@ -3,7 +3,7 @@
 namespace Dply\CMS\Repositories\Contracts;
 
 use Illuminate\Support\Collection;
-use Juzaweb\CMS\Repositories\Eloquent\BaseRepository as PackageBaseRepository;
+use Dply\CMS\Repositories\Eloquent\BaseRepository as PackageBaseRepository;
 
 /**
  * Interface RepositoryCriteriaInterface

@@ -3,8 +3,8 @@
 namespace Dply\CMS\Console\Commands;
 
 use Illuminate\Console\Command;
-use Juzaweb\Backend\Models\EmailList;
-use Juzaweb\CMS\Support\SendEmail;
+use Dply\Backend\Models\EmailList;
+use Dply\CMS\Support\SendEmail;
 
 class SendMailCommand extends Command
 {

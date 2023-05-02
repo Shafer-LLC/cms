@@ -16,9 +16,9 @@ use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
-use Juzaweb\Backend\Models\PasswordReset;
-use Juzaweb\CMS\Models\User;
-use Juzaweb\CMS\Traits\ResponseMessage;
+use Dply\Backend\Models\PasswordReset;
+use Dply\CMS\Models\User;
+use Dply\CMS\Traits\ResponseMessage;
 
 trait AuthResetPassword
 {

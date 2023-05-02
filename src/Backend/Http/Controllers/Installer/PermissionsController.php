@@ -3,7 +3,7 @@
 namespace Dply\Backend\Http\Controllers\Installer;
 
 use Illuminate\Routing\Controller;
-use Juzaweb\CMS\Support\PermissionsChecker;
+use Dply\CMS\Support\PermissionsChecker;
 
 class PermissionsController extends Controller
 {

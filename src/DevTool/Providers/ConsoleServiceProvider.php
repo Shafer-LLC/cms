@@ -44,9 +44,9 @@ use Dply\DevTool\Commands\Theme\DownloadStyleCommand;
 use Dply\DevTool\Commands\Theme\DownloadTemplateCommand;
 use Dply\DevTool\Commands\Theme\GenerateDataThemeCommand;
 use Dply\DevTool\Commands\Theme\MakeBlockCommand;
-use Juzaweb\DevTool\Commands\Theme\ThemeGeneratorCommand;
-use Juzaweb\DevTool\Commands\Theme\ThemeListCommand;
-use Juzaweb\DevTool\Commands\Theme\ThemeUpdateCommand;
+use Dply\DevTool\Commands\Theme\ThemeGeneratorCommand;
+use Dply\DevTool\Commands\Theme\ThemeListCommand;
+use Dply\DevTool\Commands\Theme\ThemeUpdateCommand;
 
 class ConsoleServiceProvider extends ServiceProvider
 {

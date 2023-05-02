@@ -2,8 +2,8 @@
 
 namespace Dply\Backend\Http\Controllers\Auth;
 
-use Juzaweb\CMS\Http\Controllers\Controller;
-use Juzaweb\CMS\Traits\Auth\AuthRegisterForm;
+use Dply\CMS\Http\Controllers\Controller;
+use Dply\CMS\Traits\Auth\AuthRegisterForm;
 
 class RegisterController extends Controller
 {

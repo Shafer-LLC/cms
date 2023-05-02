@@ -23,7 +23,7 @@ use Illuminate\Http\Request;
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
-use Juzaweb\CMS\Http\Controllers\BackendController;
+use Dply\CMS\Http\Controllers\BackendController;
 
 class LogViewerController extends BackendController
 {

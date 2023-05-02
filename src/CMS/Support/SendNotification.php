@@ -3,7 +3,7 @@
 namespace Dply\CMS\Support;
 
 use Illuminate\Support\Facades\DB;
-use Juzaweb\Backend\Models\ManualNotification;
+use Dply\Backend\Models\ManualNotification;
 
 class SendNotification
 {

@@ -5,7 +5,7 @@ namespace Dply\CMS\Traits\QueryCache;
 use BadMethodCallException;
 use DateTime;
 use Illuminate\Cache\CacheManager;
-use Juzaweb\CMS\Facades\CacheGroup;
+use Dply\CMS\Facades\CacheGroup;
 
 trait QueryCacheModule
 {

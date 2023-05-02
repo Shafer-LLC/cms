@@ -3,7 +3,7 @@
 namespace Dply\CMS\Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use Juzaweb\CMS\Models\User;
+use Dply\CMS\Models\User;
 
 class UserTableSeeder extends Seeder
 {

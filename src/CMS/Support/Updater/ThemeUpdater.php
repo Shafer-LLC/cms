@@ -4,9 +4,9 @@ namespace Dply\CMS\Support\Updater;
 
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Str;
-use Juzaweb\CMS\Abstracts\UpdateManager;
-use Juzaweb\CMS\Facades\CacheGroup;
-use Juzaweb\CMS\Version;
+use Dply\CMS\Abstracts\UpdateManager;
+use Dply\CMS\Facades\CacheGroup;
+use Dply\CMS\Version;
 
 class ThemeUpdater extends UpdateManager
 {

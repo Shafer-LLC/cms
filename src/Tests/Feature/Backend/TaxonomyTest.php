@@ -12,11 +12,11 @@ namespace Dply\Tests\Feature\Backend;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Auth;
-use Juzaweb\Backend\Models\Taxonomy;
-use Juzaweb\CMS\Facades\HookAction;
-use Juzaweb\CMS\Models\Model;
-use Juzaweb\CMS\Models\User;
-use Juzaweb\Tests\TestCase;
+use Dply\Backend\Models\Taxonomy;
+use Dply\CMS\Facades\HookAction;
+use Dply\CMS\Models\Model;
+use Dply\CMS\Models\User;
+use Dply\Tests\TestCase;
 
 class TaxonomyTest extends TestCase
 {

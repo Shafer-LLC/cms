@@ -4,8 +4,8 @@ namespace Dply\CMS\Support\Config;
 
 use Illuminate\Contracts\Config\Repository as ConfigRepository;
 use Illuminate\Support\Facades\URL;
-use Juzaweb\CMS\Contracts\OverwriteConfigContract;
-use Juzaweb\CMS\Support\Config as DbConfig;
+use Dply\CMS\Contracts\OverwriteConfigContract;
+use Dply\CMS\Support\Config as DbConfig;
 use Illuminate\Http\Request;
 
 class OverwriteConfig implements OverwriteConfigContract

@@ -3,8 +3,8 @@
 namespace Dply\Backend\Http\Controllers\FileManager;
 
 use Illuminate\Support\Facades\DB;
-use Juzaweb\Backend\Models\MediaFile;
-use Juzaweb\Backend\Models\MediaFolder;
+use Dply\Backend\Models\MediaFile;
+use Dply\Backend\Models\MediaFolder;
 
 class FolderController extends FileManagerController
 {

@@ -3,9 +3,9 @@
 namespace Dply\CMS\Support\Notifications;
 
 use Illuminate\Support\Arr;
-use Juzaweb\Backend\Models\EmailList;
-use Juzaweb\CMS\Models\User;
-use Juzaweb\CMS\Support\Email;
+use Dply\Backend\Models\EmailList;
+use Dply\CMS\Models\User;
+use Dply\CMS\Support\Email;
 
 class EmailNotification extends NotificationAbstract
 {

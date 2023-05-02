@@ -8,16 +8,16 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\URL;
-use Juzaweb\Backend\Events\AfterPluginBulkAction;
-use Juzaweb\Backend\Events\DumpAutoloadPlugin;
-use Juzaweb\Backend\Http\Requests\Plugin\BulkActionRequest;
-use Juzaweb\CMS\Contracts\JuzawebApiContract;
-use Juzaweb\CMS\Facades\CacheGroup;
-use Juzaweb\CMS\Facades\Plugin;
-use Juzaweb\CMS\Http\Controllers\BackendController;
-use Juzaweb\CMS\Support\ArrayPagination;
-use Juzaweb\CMS\Support\Plugin as SupportPlugin;
-use Juzaweb\CMS\Version;
+use Dply\Backend\Events\AfterPluginBulkAction;
+use Dply\Backend\Events\DumpAutoloadPlugin;
+use Dply\Backend\Http\Requests\Plugin\BulkActionRequest;
+use Dply\CMS\Contracts\JuzawebApiContract;
+use Dply\CMS\Facades\CacheGroup;
+use Dply\CMS\Facades\Plugin;
+use Dply\CMS\Http\Controllers\BackendController;
+use Dply\CMS\Support\ArrayPagination;
+use Dply\CMS\Support\Plugin as SupportPlugin;
+use Dply\CMS\Version;
 
 class PluginController extends BackendController
 {

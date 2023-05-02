@@ -15,11 +15,11 @@ use Illuminate\Http\JsonResponse;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
-use Juzaweb\Backend\Models\PasswordReset;
-use Juzaweb\CMS\Http\Requests\Auth\ForgotPasswordRequest;
-use Juzaweb\CMS\Models\User;
-use Juzaweb\CMS\Support\Email;
-use Juzaweb\CMS\Traits\ResponseMessage;
+use Dply\Backend\Models\PasswordReset;
+use Dply\CMS\Http\Requests\Auth\ForgotPasswordRequest;
+use Dply\CMS\Models\User;
+use Dply\CMS\Support\Email;
+use Dply\CMS\Traits\ResponseMessage;
 
 trait AuthForgotPassword
 {

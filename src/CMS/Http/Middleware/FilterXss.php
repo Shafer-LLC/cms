@@ -11,7 +11,7 @@
 namespace Dply\CMS\Http\Middleware;
 
 use Illuminate\Foundation\Http\Middleware\TransformsRequest;
-use Juzaweb\CMS\Support\XssCleaner;
+use Dply\CMS\Support\XssCleaner;
 
 class FilterXss extends TransformsRequest
 {

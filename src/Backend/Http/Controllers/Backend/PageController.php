@@ -5,8 +5,8 @@ namespace Dply\Backend\Http\Controllers\Backend;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Route;
 use Illuminate\View\View;
-use Juzaweb\CMS\Facades\HookAction;
-use Juzaweb\CMS\Http\Controllers\BackendController;
+use Dply\CMS\Facades\HookAction;
+use Dply\CMS\Http\Controllers\BackendController;
 use Symfony\Component\HttpFoundation\Response;
 
 class PageController extends BackendController

@@ -11,7 +11,7 @@
 namespace Dply\Backend\Observers;
 
 use Illuminate\Support\Facades\Cache;
-use Juzaweb\Backend\Models\Taxonomy;
+use Dply\Backend\Models\Taxonomy;
 
 class TaxonomyObserver
 {

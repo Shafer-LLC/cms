@@ -3,17 +3,17 @@
 namespace Dply\CMS\Providers;
 
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
-use Juzaweb\Backend\Events\AfterPostSave;
-use Juzaweb\Backend\Events\DumpAutoloadPlugin;
-use Juzaweb\Backend\Listeners\ResizeThumbnailPostListener;
-use Juzaweb\Backend\Listeners\SaveSeoMetaPost;
-use Juzaweb\CMS\Events\EmailHook;
-use Juzaweb\Backend\Events\PostViewed;
-use Juzaweb\Backend\Listeners\CountViewPost;
-use Juzaweb\CMS\Listeners\SendEmailHook;
-use Juzaweb\Backend\Listeners\SendMailRegisterSuccessful;
-use Juzaweb\Backend\Events\RegisterSuccessful;
-use Juzaweb\Backend\Listeners\DumpAutoloadPluginListener;
+use Dply\Backend\Events\AfterPostSave;
+use Dply\Backend\Events\DumpAutoloadPlugin;
+use Dply\Backend\Listeners\ResizeThumbnailPostListener;
+use Dply\Backend\Listeners\SaveSeoMetaPost;
+use Dply\CMS\Events\EmailHook;
+use Dply\Backend\Events\PostViewed;
+use Dply\Backend\Listeners\CountViewPost;
+use Dply\CMS\Listeners\SendEmailHook;
+use Dply\Backend\Listeners\SendMailRegisterSuccessful;
+use Dply\Backend\Events\RegisterSuccessful;
+use Dply\Backend\Listeners\DumpAutoloadPluginListener;
 
 class EventServiceProvider extends ServiceProvider
 {

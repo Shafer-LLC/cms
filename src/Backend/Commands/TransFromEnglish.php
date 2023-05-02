@@ -10,7 +10,7 @@
 
 namespace Dply\Backend\Commands;
 
-use Juzaweb\CMS\Contracts\TranslationManager;
+use Dply\CMS\Contracts\TranslationManager;
 use Symfony\Component\Console\Input\InputOption;
 
 class TransFromEnglish extends TranslationCommand

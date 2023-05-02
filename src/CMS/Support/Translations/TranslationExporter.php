@@ -13,7 +13,7 @@ namespace Dply\CMS\Support\Translations;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\File;
-use Juzaweb\CMS\Models\Translation;
+use Dply\CMS\Models\Translation;
 
 class TranslationExporter
 {

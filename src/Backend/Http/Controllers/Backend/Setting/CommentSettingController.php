@@ -3,8 +3,8 @@
 namespace Dply\Backend\Http\Controllers\Backend\Setting;
 
 use Illuminate\Http\Request;
-use Juzaweb\CMS\Http\Controllers\Controller;
-use Juzaweb\CMS\Models\Config;
+use Dply\CMS\Http\Controllers\Controller;
+use Dply\CMS\Models\Config;
 
 class CommentSettingController extends Controller
 {

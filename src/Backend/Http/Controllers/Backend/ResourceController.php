@@ -11,12 +11,12 @@
 namespace Dply\Backend\Http\Controllers\Backend;
 
 use Illuminate\Support\Collection;
-use Juzaweb\Backend\Http\Datatables\ResourceDatatable;
-use Juzaweb\Backend\Models\Resource;
-use Juzaweb\CMS\Abstracts\DataTable;
-use Juzaweb\CMS\Facades\HookAction;
-use Juzaweb\CMS\Http\Controllers\BackendController;
-use Juzaweb\CMS\Traits\ResourceController as ResourceControllerTrait;
+use Dply\Backend\Http\Datatables\ResourceDatatable;
+use Dply\Backend\Models\Resource;
+use Dply\CMS\Abstracts\DataTable;
+use Dply\CMS\Facades\HookAction;
+use Dply\CMS\Http\Controllers\BackendController;
+use Dply\CMS\Traits\ResourceController as ResourceControllerTrait;
 
 class ResourceController extends BackendController
 {

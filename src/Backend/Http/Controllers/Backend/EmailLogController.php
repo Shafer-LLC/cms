@@ -2,8 +2,8 @@
 
 namespace Dply\Backend\Http\Controllers\Backend;
 
-use Juzaweb\CMS\Http\Controllers\BackendController;
-use Juzaweb\Backend\Http\Datatables\EmailLogDatatable;
+use Dply\CMS\Http\Controllers\BackendController;
+use Dply\Backend\Http\Datatables\EmailLogDatatable;
 
 class EmailLogController extends BackendController
 {

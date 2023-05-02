@@ -12,7 +12,7 @@ namespace Dply\Backend\Listeners;
 
 use Illuminate\Support\Facades\Storage;
 use Intervention\Image\Facades\Image;
-use Juzaweb\Backend\Events\AfterPostSave;
+use Dply\Backend\Events\AfterPostSave;
 
 class ResizeThumbnailPostListener
 {

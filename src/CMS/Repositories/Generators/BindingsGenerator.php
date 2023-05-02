@@ -2,9 +2,9 @@
 
 namespace Dply\CMS\Repositories\Generators;
 
-use Juzaweb\CMS\Repositories\Generators\Generator;
-use Juzaweb\CMS\Repositories\Generators\RepositoryEloquentGenerator;
-use Juzaweb\CMS\Repositories\Generators\RepositoryInterfaceGenerator;
+use Dply\CMS\Repositories\Generators\Generator;
+use Dply\CMS\Repositories\Generators\RepositoryEloquentGenerator;
+use Dply\CMS\Repositories\Generators\RepositoryInterfaceGenerator;
 
 /**
  * Class BindingsGenerator

@@ -2,12 +2,12 @@
 
 namespace Dply\CMS\Providers;
 
-use Juzaweb\CMS\Contracts\ActivatorInterface;
-use Juzaweb\CMS\Contracts\ConfigContract;
-use Juzaweb\CMS\Contracts\LocalPluginRepositoryContract;
-use Juzaweb\CMS\Exceptions\InvalidActivatorClass;
-use Juzaweb\CMS\Support\LocalPluginRepository;
-use Juzaweb\CMS\Support\ServiceProvider;
+use Dply\CMS\Contracts\ActivatorInterface;
+use Dply\CMS\Contracts\ConfigContract;
+use Dply\CMS\Contracts\LocalPluginRepositoryContract;
+use Dply\CMS\Exceptions\InvalidActivatorClass;
+use Dply\CMS\Support\LocalPluginRepository;
+use Dply\CMS\Support\ServiceProvider;
 
 class PluginServiceProvider extends ServiceProvider
 {

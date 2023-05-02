@@ -11,7 +11,7 @@
 namespace Dply\CMS\Contracts;
 
 use Illuminate\Support\Collection;
-use Juzaweb\CMS\Support\Theme;
+use Dply\CMS\Support\Theme;
 
 interface LocalThemeRepositoryContract
 {

@@ -9,9 +9,9 @@ use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Storage;
 use Intervention\Image\Facades\Image;
 use Intervention\Image\ImageCache;
-use Juzaweb\CMS\Contracts\TranslationManager;
-use Juzaweb\CMS\Facades\ThemeLoader;
-use Juzaweb\CMS\Http\Controllers\Controller;
+use Dply\CMS\Contracts\TranslationManager;
+use Dply\CMS\Facades\ThemeLoader;
+use Dply\CMS\Http\Controllers\Controller;
 
 class AssetController extends Controller
 {

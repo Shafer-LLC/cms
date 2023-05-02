@@ -13,8 +13,8 @@ namespace Dply\CMS\Support;
 use Illuminate\Cache\CacheManager;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
-use Juzaweb\CMS\Contracts\ConfigContract;
-use Juzaweb\CMS\Models\Config as ConfigModel;
+use Dply\CMS\Contracts\ConfigContract;
+use Dply\CMS\Models\Config as ConfigModel;
 use Illuminate\Container\Container;
 
 class Config implements ConfigContract

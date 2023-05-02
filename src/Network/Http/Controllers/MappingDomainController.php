@@ -12,9 +12,9 @@ namespace Dply\Network\Http\Controllers;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\RedirectResponse;
-use Juzaweb\CMS\Http\Controllers\BackendController;
-use Juzaweb\Network\Http\Requests\MappingDomain\StoreRequest;
-use Juzaweb\Network\Models\Site;
+use Dply\CMS\Http\Controllers\BackendController;
+use Dply\Network\Http\Requests\MappingDomain\StoreRequest;
+use Dply\Network\Models\Site;
 
 class MappingDomainController extends BackendController
 {

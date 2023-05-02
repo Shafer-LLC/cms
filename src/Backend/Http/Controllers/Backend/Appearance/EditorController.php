@@ -16,10 +16,10 @@ use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Crypt;
 use Illuminate\Support\Facades\File;
-use Juzaweb\Backend\Http\Requests\Theme\EditorRequest;
-use Juzaweb\CMS\Contracts\LocalThemeRepositoryContract;
-use Juzaweb\CMS\Facades\ThemeLoader;
-use Juzaweb\CMS\Http\Controllers\BackendController;
+use Dply\Backend\Http\Requests\Theme\EditorRequest;
+use Dply\CMS\Contracts\LocalThemeRepositoryContract;
+use Dply\CMS\Facades\ThemeLoader;
+use Dply\CMS\Http\Controllers\BackendController;
 use TwigBridge\Facade\Twig;
 
 class EditorController extends BackendController

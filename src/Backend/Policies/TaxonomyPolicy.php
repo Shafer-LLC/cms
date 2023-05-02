@@ -2,8 +2,8 @@
 
 namespace Dply\Backend\Policies;
 
-use Juzaweb\CMS\Models\Model;
-use Juzaweb\CMS\Models\User;
+use Dply\CMS\Models\Model;
+use Dply\CMS\Models\User;
 use Illuminate\Auth\Access\HandlesAuthorization;
 
 class TaxonomyPolicy

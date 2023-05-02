@@ -10,7 +10,7 @@
 
 namespace Dply\CMS\Support;
 
-use Juzaweb\CMS\Abstracts\Widget;
+use Dply\CMS\Abstracts\Widget;
 
 class DefaultWidget extends Widget
 {

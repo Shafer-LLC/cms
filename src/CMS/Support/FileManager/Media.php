@@ -10,9 +10,9 @@
 
 namespace Dply\CMS\Support\FileManager;
 
-use Juzaweb\Backend\Repositories\MediaFileRepository;
-use Juzaweb\Backend\Repositories\MediaFolderRepository;
-use Juzaweb\CMS\Models\Model;
+use Dply\Backend\Repositories\MediaFileRepository;
+use Dply\Backend\Repositories\MediaFolderRepository;
+use Dply\CMS\Models\Model;
 
 class Media
 {

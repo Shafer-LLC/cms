@@ -5,8 +5,8 @@ namespace Dply\CMS\Support\Migrations;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
-use Juzaweb\CMS\Support\Config\GenerateConfigReader;
-use Juzaweb\CMS\Support\Plugin;
+use Dply\CMS\Support\Config\GenerateConfigReader;
+use Dply\CMS\Support\Plugin;
 
 class Migrator
 {

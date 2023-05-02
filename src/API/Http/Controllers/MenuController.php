@@ -10,9 +10,9 @@
 
 namespace Dply\API\Http\Controllers;
 
-use Juzaweb\API\Http\Resources\MenuResource;
-use Juzaweb\Backend\Repositories\MenuRepository;
-use Juzaweb\CMS\Http\Controllers\ApiController;
+use Dply\API\Http\Resources\MenuResource;
+use Dply\Backend\Repositories\MenuRepository;
+use Dply\CMS\Http\Controllers\ApiController;
 
 class MenuController extends ApiController
 {

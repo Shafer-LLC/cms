@@ -11,9 +11,9 @@
 namespace Dply\CMS\Support\Theme;
 
 use Illuminate\Support\Collection;
-use Juzaweb\Backend\Http\Resources\MenuItemResource;
-use Juzaweb\Backend\Models\MenuItem;
-use Juzaweb\CMS\Facades\HookAction;
+use Dply\Backend\Http\Resources\MenuItemResource;
+use Dply\Backend\Models\MenuItem;
+use Dply\CMS\Facades\HookAction;
 
 class MenuBuilder
 {

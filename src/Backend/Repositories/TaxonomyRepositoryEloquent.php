@@ -4,11 +4,11 @@ namespace Dply\Backend\Repositories;
 
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Database\Eloquent\Builder;
-use Juzaweb\Backend\Models\Taxonomy;
-use Juzaweb\CMS\Repositories\BaseRepositoryEloquent;
-use Juzaweb\CMS\Traits\Criterias\UseFilterCriteria;
-use Juzaweb\CMS\Traits\Criterias\UseSearchCriteria;
-use Juzaweb\CMS\Traits\Criterias\UseSortableCriteria;
+use Dply\Backend\Models\Taxonomy;
+use Dply\CMS\Repositories\BaseRepositoryEloquent;
+use Dply\CMS\Traits\Criterias\UseFilterCriteria;
+use Dply\CMS\Traits\Criterias\UseSearchCriteria;
+use Dply\CMS\Traits\Criterias\UseSortableCriteria;
 
 /**
  * @property Taxonomy $model

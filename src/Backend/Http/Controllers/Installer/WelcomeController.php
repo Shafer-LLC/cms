@@ -2,7 +2,7 @@
 
 namespace Dply\Backend\Http\Controllers\Installer;
 
-use Juzaweb\CMS\Http\Controllers\Controller;
+use Dply\CMS\Http\Controllers\Controller;
 
 class WelcomeController extends Controller
 {

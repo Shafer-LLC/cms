@@ -4,12 +4,12 @@ namespace Dply\Frontend\Http\Controllers;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
-use Juzaweb\Backend\Http\Resources\PostResourceCollection;
-use Juzaweb\Backend\Http\Resources\TaxonomyResource;
-use Juzaweb\Backend\Repositories\PostRepository;
-use Juzaweb\Backend\Repositories\TaxonomyRepository;
-use Juzaweb\CMS\Facades\Facades;
-use Juzaweb\CMS\Http\Controllers\FrontendController;
+use Dply\Backend\Http\Resources\PostResourceCollection;
+use Dply\Backend\Http\Resources\TaxonomyResource;
+use Dply\Backend\Repositories\PostRepository;
+use Dply\Backend\Repositories\TaxonomyRepository;
+use Dply\CMS\Facades\Facades;
+use Dply\CMS\Http\Controllers\FrontendController;
 
 class TaxonomyController extends FrontendController
 {

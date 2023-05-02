@@ -3,7 +3,7 @@
 namespace Dply\DevTool\Commands\Theme;
 
 use Illuminate\Console\Command;
-use Juzaweb\CMS\Contracts\ThemeLoaderContract;
+use Dply\CMS\Contracts\ThemeLoaderContract;
 
 class ThemeListCommand extends Command
 {

@@ -3,8 +3,8 @@
 namespace Dply\DevTool\Commands\Plugin;
 
 use Illuminate\Console\Command;
-use Juzaweb\CMS\Support\Plugin;
-use Juzaweb\CMS\Support\Publishing\AssetPublisher;
+use Dply\CMS\Support\Plugin;
+use Dply\CMS\Support\Publishing\AssetPublisher;
 use Symfony\Component\Console\Input\InputArgument;
 
 class PublishCommand extends Command

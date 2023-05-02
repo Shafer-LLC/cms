@@ -3,7 +3,7 @@
 namespace Dply\Backend\Http\Controllers\Installer;
 
 use Illuminate\Routing\Controller;
-use Juzaweb\CMS\Support\RequirementsChecker;
+use Dply\CMS\Support\RequirementsChecker;
 
 class RequirementsController extends Controller
 {

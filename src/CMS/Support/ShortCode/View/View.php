@@ -6,7 +6,7 @@ use ArrayAccess;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Contracts\View\Engine as EngineInterface;
 use Illuminate\View\View as IlluminateView;
-use Juzaweb\CMS\Support\ShortCode\Compilers\ShortCodeCompiler;
+use Dply\CMS\Support\ShortCode\Compilers\ShortCodeCompiler;
 
 class View extends IlluminateView implements ArrayAccess, Renderable
 {

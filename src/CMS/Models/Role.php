@@ -4,14 +4,14 @@ namespace Dply\CMS\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
-use Juzaweb\CMS\Contracts\Role as RoleContract;
-use Juzaweb\CMS\Exceptions\GuardDoesNotMatch;
-use Juzaweb\CMS\Exceptions\RoleAlreadyExists;
-use Juzaweb\CMS\Exceptions\RoleDoesNotExist;
-use Juzaweb\CMS\Support\Permission\Guard;
-use Juzaweb\CMS\Support\Permission\PermissionRegistrar;
-use Juzaweb\CMS\Traits\Permission\HasPermissions;
-use Juzaweb\CMS\Traits\Permission\RefreshesPermissionCache;
+use Dply\CMS\Contracts\Role as RoleContract;
+use Dply\CMS\Exceptions\GuardDoesNotMatch;
+use Dply\CMS\Exceptions\RoleAlreadyExists;
+use Dply\CMS\Exceptions\RoleDoesNotExist;
+use Dply\CMS\Support\Permission\Guard;
+use Dply\CMS\Support\Permission\PermissionRegistrar;
+use Dply\CMS\Traits\Permission\HasPermissions;
+use Dply\CMS\Traits\Permission\RefreshesPermissionCache;
 
 /**
  * Juzaweb\CMS\Models\Role

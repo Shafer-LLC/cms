@@ -5,7 +5,7 @@ namespace Dply\Backend\Http\Controllers\FileManager;
 use Illuminate\Contracts\View\View;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
-use Juzaweb\CMS\Http\Controllers\BackendController;
+use Dply\CMS\Http\Controllers\BackendController;
 
 class FileManagerController extends BackendController
 {

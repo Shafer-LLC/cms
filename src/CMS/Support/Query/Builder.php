@@ -4,8 +4,8 @@ namespace Dply\CMS\Support\Query;
 
 use Illuminate\Database\Query\Builder as BaseBuilder;
 use Illuminate\Support\Arr;
-use Juzaweb\CMS\Interfaces\QueryCacheModuleInterface;
-use Juzaweb\CMS\Traits\QueryCache\QueryCacheModule;
+use Dply\CMS\Interfaces\QueryCacheModuleInterface;
+use Dply\CMS\Traits\QueryCache\QueryCacheModule;
 
 class Builder extends BaseBuilder implements QueryCacheModuleInterface
 {

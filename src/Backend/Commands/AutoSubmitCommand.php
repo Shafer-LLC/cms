@@ -5,7 +5,7 @@ namespace Dply\Backend\Commands;
 use GuzzleHttp\Client;
 use Carbon\Carbon;
 use Illuminate\Console\Command;
-use Juzaweb\Backend\Models\Post;
+use Dply\Backend\Models\Post;
 
 class AutoSubmitCommand extends Command
 {

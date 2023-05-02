@@ -6,7 +6,7 @@ use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\View\Engines\EngineResolver;
 use Illuminate\View\Factory as IlluminateViewFactory;
 use Illuminate\View\ViewFinderInterface;
-use Juzaweb\CMS\Support\ShortCode\Compilers\ShortCodeCompiler;
+use Dply\CMS\Support\ShortCode\Compilers\ShortCodeCompiler;
 
 class Factory extends IlluminateViewFactory
 {

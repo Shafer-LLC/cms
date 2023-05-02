@@ -12,7 +12,7 @@ namespace Dply\Backend\Actions;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\File;
-use Juzaweb\CMS\Abstracts\Action;
+use Dply\CMS\Abstracts\Action;
 
 class EmailAction extends Action
 {

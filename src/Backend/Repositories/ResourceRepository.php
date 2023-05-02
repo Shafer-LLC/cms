@@ -2,7 +2,7 @@
 
 namespace Dply\Backend\Repositories;
 
-use Juzaweb\CMS\Repositories\BaseRepository;
+use Dply\CMS\Repositories\BaseRepository;
 
 /**
  * Interface CommentRepository.

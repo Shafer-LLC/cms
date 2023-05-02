@@ -14,9 +14,9 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Support\Arr;
-use Juzaweb\CMS\Models\Model;
-use Juzaweb\CMS\Traits\UseSlug;
-use Juzaweb\CMS\Traits\UseUUIDColumn;
+use Dply\CMS\Models\Model;
+use Dply\CMS\Traits\UseSlug;
+use Dply\CMS\Traits\UseUUIDColumn;
 
 /**
  * Juzaweb\Backend\Models\Resource

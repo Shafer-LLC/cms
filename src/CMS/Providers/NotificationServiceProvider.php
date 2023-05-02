@@ -2,11 +2,11 @@
 
 namespace Dply\CMS\Providers;
 
-use Juzaweb\CMS\Console\Commands\SendNotifyCommand;
-use Juzaweb\CMS\Support\Notification;
-use Juzaweb\CMS\Support\ServiceProvider;
-use Juzaweb\CMS\Support\Notifications\DatabaseNotification;
-use Juzaweb\CMS\Support\Notifications\EmailNotification;
+use Dply\CMS\Console\Commands\SendNotifyCommand;
+use Dply\CMS\Support\Notification;
+use Dply\CMS\Support\ServiceProvider;
+use Dply\CMS\Support\Notifications\DatabaseNotification;
+use Dply\CMS\Support\Notifications\EmailNotification;
 
 class NotificationServiceProvider extends ServiceProvider
 {

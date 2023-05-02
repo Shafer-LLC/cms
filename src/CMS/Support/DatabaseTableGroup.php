@@ -14,10 +14,10 @@ use Illuminate\Database\Migrations\Migrator;
 use Illuminate\Database\Query\Builder;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
-use Juzaweb\CMS\Contracts\TableGroupContract;
-use Juzaweb\CMS\Models\TableGroup;
-use Juzaweb\CMS\Models\TableGroupData;
-use Juzaweb\CMS\Models\TableGroupTable;
+use Dply\CMS\Contracts\TableGroupContract;
+use Dply\CMS\Models\TableGroup;
+use Dply\CMS\Models\TableGroupData;
+use Dply\CMS\Models\TableGroupTable;
 
 class DatabaseTableGroup implements TableGroupContract
 {

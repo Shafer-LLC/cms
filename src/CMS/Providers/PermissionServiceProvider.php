@@ -8,9 +8,9 @@ use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\View\Compilers\BladeCompiler;
-use Juzaweb\CMS\Contracts\Permission as PermissionContract;
-use Juzaweb\CMS\Contracts\Role as RoleContract;
-use Juzaweb\CMS\Support\Permission\PermissionRegistrar;
+use Dply\CMS\Contracts\Permission as PermissionContract;
+use Dply\CMS\Contracts\Role as RoleContract;
+use Dply\CMS\Support\Permission\PermissionRegistrar;
 
 class PermissionServiceProvider extends ServiceProvider
 {

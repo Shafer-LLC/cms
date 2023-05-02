@@ -10,7 +10,7 @@
 
 namespace Dply\Network\Contracts;
 
-use Juzaweb\CMS\Models\User;
+use Dply\CMS\Models\User;
 
 interface NetworkSiteContract
 {

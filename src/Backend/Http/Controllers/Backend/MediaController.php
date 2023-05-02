@@ -18,15 +18,15 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Storage;
-use Juzaweb\Backend\Events\AddFolderSuccess;
-use Juzaweb\Backend\Http\Requests\Media\AddFolderRequest;
-use Juzaweb\Backend\Http\Requests\Media\UpdateRequest;
-use Juzaweb\Backend\Repositories\MediaFileRepository;
-use Juzaweb\Backend\Repositories\MediaFolderRepository;
-use Juzaweb\CMS\Facades\Facades;
-use Juzaweb\CMS\Http\Controllers\BackendController;
-use Juzaweb\Backend\Models\MediaFile;
-use Juzaweb\Backend\Models\MediaFolder;
+use Dply\Backend\Events\AddFolderSuccess;
+use Dply\Backend\Http\Requests\Media\AddFolderRequest;
+use Dply\Backend\Http\Requests\Media\UpdateRequest;
+use Dply\Backend\Repositories\MediaFileRepository;
+use Dply\Backend\Repositories\MediaFolderRepository;
+use Dply\CMS\Facades\Facades;
+use Dply\CMS\Http\Controllers\BackendController;
+use Dply\Backend\Models\MediaFile;
+use Dply\Backend\Models\MediaFolder;
 
 class MediaController extends BackendController
 {

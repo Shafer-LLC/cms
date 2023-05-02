@@ -11,7 +11,7 @@
 namespace Dply\Backend\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
-use Juzaweb\Backend\Models\Comment;
+use Dply\Backend\Models\Comment;
 
 /**
  * @property Comment $resource

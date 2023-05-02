@@ -3,9 +3,9 @@
 namespace Dply\CMS\Repositories\Generators\Commands;
 
 use Illuminate\Console\Command;
-use Juzaweb\CMS\Repositories\Generators\FileAlreadyExistsException;
-use Juzaweb\CMS\Repositories\Generators\PresenterGenerator;
-use Juzaweb\CMS\Repositories\Generators\TransformerGenerator;
+use Dply\CMS\Repositories\Generators\FileAlreadyExistsException;
+use Dply\CMS\Repositories\Generators\PresenterGenerator;
+use Dply\CMS\Repositories\Generators\TransformerGenerator;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 

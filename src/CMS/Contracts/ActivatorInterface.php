@@ -2,7 +2,7 @@
 
 namespace Dply\CMS\Contracts;
 
-use Juzaweb\CMS\Support\Plugin;
+use Dply\CMS\Support\Plugin;
 
 interface ActivatorInterface
 {

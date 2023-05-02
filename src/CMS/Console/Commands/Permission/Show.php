@@ -4,8 +4,8 @@ namespace Dply\CMS\Console\Commands\Permission;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Collection;
-use Juzaweb\CMS\Contracts\Permission as PermissionContract;
-use Juzaweb\CMS\Contracts\Role as RoleContract;
+use Dply\CMS\Contracts\Permission as PermissionContract;
+use Dply\CMS\Contracts\Role as RoleContract;
 use Symfony\Component\Console\Helper\TableCell;
 
 class Show extends Command

@@ -10,8 +10,8 @@
 
 namespace Dply\Tests\Unit;
 
-use Juzaweb\CMS\Database\Seeders\DatabaseSeeder;
-use Juzaweb\Tests\TestCase;
+use Dply\CMS\Database\Seeders\DatabaseSeeder;
+use Dply\Tests\TestCase;
 
 class DatabaseTest extends TestCase
 {

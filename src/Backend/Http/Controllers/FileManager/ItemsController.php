@@ -3,9 +3,9 @@
 namespace Dply\Backend\Http\Controllers\FileManager;
 
 use Illuminate\Http\Request;
-use Juzaweb\Backend\Models\MediaFile;
-use Juzaweb\Backend\Models\MediaFolder;
-use Juzaweb\CMS\Facades\Facades;
+use Dply\Backend\Models\MediaFile;
+use Dply\Backend\Models\MediaFolder;
+use Dply\CMS\Facades\Facades;
 
 class ItemsController extends FileManagerController
 {

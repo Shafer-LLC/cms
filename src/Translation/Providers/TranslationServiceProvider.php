@@ -2,11 +2,11 @@
 
 namespace Dply\Translation\Providers;
 
-use Juzaweb\CMS\Facades\ActionRegister;
-use Juzaweb\CMS\Support\ServiceProvider;
-use Juzaweb\Translation\Contracts\TranslationContract;
-use Juzaweb\Translation\Support\Locale;
-use Juzaweb\Translation\TranslationAction;
+use Dply\CMS\Facades\ActionRegister;
+use Dply\CMS\Support\ServiceProvider;
+use Dply\Translation\Contracts\TranslationContract;
+use Dply\Translation\Support\Locale;
+use Dply\Translation\TranslationAction;
 
 class TranslationServiceProvider extends ServiceProvider
 {

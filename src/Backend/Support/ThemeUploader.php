@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Str;
-use Juzaweb\CMS\Facades\Theme;
+use Dply\CMS\Facades\Theme;
 
 class ThemeUploader
 {

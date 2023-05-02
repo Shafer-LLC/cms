@@ -4,7 +4,7 @@ namespace Dply\CMS\Traits\HookAction;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
-use Juzaweb\CMS\Facades\GlobalData;
+use Dply\CMS\Facades\GlobalData;
 
 trait GetHookAction
 {

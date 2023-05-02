@@ -6,11 +6,11 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
-use Juzaweb\CMS\Database\Factories\PostFactory;
-use Juzaweb\CMS\Models\Model;
-use Juzaweb\CMS\Traits\PostTypeModel;
-use Juzaweb\CMS\Traits\QueryCache\QueryCacheable;
-use Juzaweb\CMS\Traits\UseUUIDColumn;
+use Dply\CMS\Database\Factories\PostFactory;
+use Dply\CMS\Models\Model;
+use Dply\CMS\Traits\PostTypeModel;
+use Dply\CMS\Traits\QueryCache\QueryCacheable;
+use Dply\CMS\Traits\UseUUIDColumn;
 use Spatie\Feed\Feedable;
 use Spatie\Feed\FeedItem;
 

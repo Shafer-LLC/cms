@@ -11,11 +11,11 @@ namespace Dply\CMS\Support;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Traits\Macroable;
-use Juzaweb\CMS\Contracts\EventyContract;
-use Juzaweb\CMS\Contracts\GlobalDataContract;
-use Juzaweb\CMS\Contracts\HookActionContract;
-use Juzaweb\CMS\Traits\HookAction\GetHookAction;
-use Juzaweb\CMS\Traits\HookAction\RegisterHookAction;
+use Dply\CMS\Contracts\EventyContract;
+use Dply\CMS\Contracts\GlobalDataContract;
+use Dply\CMS\Contracts\HookActionContract;
+use Dply\CMS\Traits\HookAction\GetHookAction;
+use Dply\CMS\Traits\HookAction\RegisterHookAction;
 
 class HookAction implements HookActionContract
 {

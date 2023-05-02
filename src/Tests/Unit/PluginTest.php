@@ -10,8 +10,8 @@
 
 namespace Dply\Tests\Unit;
 
-use Juzaweb\CMS\Support\Plugin;
-use Juzaweb\Tests\TestCase;
+use Dply\CMS\Support\Plugin;
+use Dply\Tests\TestCase;
 
 class PluginTest extends TestCase
 {

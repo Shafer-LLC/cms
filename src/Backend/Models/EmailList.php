@@ -6,10 +6,10 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\File;
-use Juzaweb\CMS\Contracts\HookActionContract;
-use Juzaweb\CMS\Models\Model;
-use Juzaweb\Network\Interfaces\RootNetworkModelInterface;
-use Juzaweb\Network\Traits\RootNetworkModel;
+use Dply\CMS\Contracts\HookActionContract;
+use Dply\CMS\Models\Model;
+use Dply\Network\Interfaces\RootNetworkModelInterface;
+use Dply\Network\Traits\RootNetworkModel;
 use TwigBridge\Facade\Twig;
 
 /**

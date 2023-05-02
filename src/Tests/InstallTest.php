@@ -10,8 +10,8 @@
 
 namespace Dply\Tests;
 
-use Juzaweb\CMS\Models\User;
-use Juzaweb\CMS\Support\Installer;
+use Dply\CMS\Models\User;
+use Dply\CMS\Support\Installer;
 
 class InstallTest extends TestCase
 {

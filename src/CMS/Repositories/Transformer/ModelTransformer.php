@@ -1,6 +1,6 @@
 <?php namespace Dply\CMS\Repositories\Transformer;
 
-use Juzaweb\CMS\Repositories\Contracts\Transformable;
+use Dply\CMS\Repositories\Contracts\Transformable;
 use League\Fractal\TransformerAbstract;
 
 /**

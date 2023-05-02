@@ -11,8 +11,8 @@
 namespace Dply\Tests\Feature\Backend;
 
 use Faker\Generator as Faker;
-use Juzaweb\Backend\Models\Menu;
-use Juzaweb\Tests\TestCase;
+use Dply\Backend\Models\Menu;
+use Dply\Tests\TestCase;
 
 class MenuTest extends TestCase
 {

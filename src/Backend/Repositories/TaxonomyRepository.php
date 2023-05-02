@@ -3,9 +3,9 @@
 namespace Dply\Backend\Repositories;
 
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
-use Juzaweb\Backend\Models\Taxonomy;
-use Juzaweb\CMS\Repositories\BaseRepository;
-use Juzaweb\CMS\Repositories\Exceptions\RepositoryException;
+use Dply\Backend\Models\Taxonomy;
+use Dply\CMS\Repositories\BaseRepository;
+use Dply\CMS\Repositories\Exceptions\RepositoryException;
 
 interface TaxonomyRepository extends BaseRepository
 {

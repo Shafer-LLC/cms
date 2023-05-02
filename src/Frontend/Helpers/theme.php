@@ -12,15 +12,15 @@ use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Str;
-use Juzaweb\Backend\Http\Resources\CommentResource;
-use Juzaweb\Backend\Models\Comment;
-use Juzaweb\Backend\Models\Menu;
-use Juzaweb\CMS\Facades\HookAction;
-use Juzaweb\CMS\Facades\Plugin;
-use Juzaweb\CMS\Facades\ThemeLoader;
-use Juzaweb\CMS\Facades\ThemeConfig;
-use Juzaweb\CMS\Support\Theme\BackendMenuBuilder;
-use Juzaweb\CMS\Support\Theme\MenuBuilder;
+use Dply\Backend\Http\Resources\CommentResource;
+use Dply\Backend\Models\Comment;
+use Dply\Backend\Models\Menu;
+use Dply\CMS\Facades\HookAction;
+use Dply\CMS\Facades\Plugin;
+use Dply\CMS\Facades\ThemeLoader;
+use Dply\CMS\Facades\ThemeConfig;
+use Dply\CMS\Support\Theme\BackendMenuBuilder;
+use Dply\CMS\Support\Theme\MenuBuilder;
 use TwigBridge\Facade\Twig;
 
 function body_class($class = '')

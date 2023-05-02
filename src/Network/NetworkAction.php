@@ -10,9 +10,9 @@
 
 namespace Dply\Network;
 
-use Juzaweb\CMS\Abstracts\Action;
-use Juzaweb\CMS\Facades\HookAction;
-use Juzaweb\Network\Facades\Network;
+use Dply\CMS\Abstracts\Action;
+use Dply\CMS\Facades\HookAction;
+use Dply\Network\Facades\Network;
 
 class NetworkAction extends Action
 {

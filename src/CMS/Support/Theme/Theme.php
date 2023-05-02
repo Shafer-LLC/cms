@@ -8,8 +8,8 @@ use Illuminate\Contracts\Translation\Translator;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\File;
 use Illuminate\View\ViewFinderInterface;
-use Juzaweb\CMS\Contracts\ThemeLoaderContract;
-use Juzaweb\CMS\Exceptions\ThemeNotFoundException;
+use Dply\CMS\Contracts\ThemeLoaderContract;
+use Dply\CMS\Exceptions\ThemeNotFoundException;
 use Noodlehaus\Config;
 
 class Theme implements ThemeLoaderContract

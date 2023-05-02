@@ -14,7 +14,7 @@ use Illuminate\Filesystem\FilesystemAdapter;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
-use Juzaweb\CMS\Contracts\StorageDataContract;
+use Dply\CMS\Contracts\StorageDataContract;
 
 class StorageData implements StorageDataContract
 {

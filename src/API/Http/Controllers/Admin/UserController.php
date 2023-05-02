@@ -15,11 +15,11 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
-use Juzaweb\Backend\Http\Requests\User\StoreUserRequest;
-use Juzaweb\Backend\Http\Requests\User\UpdateUserRequest;
-use Juzaweb\Backend\Repositories\UserRepository;
-use Juzaweb\CMS\Http\Controllers\ApiController;
-use Juzaweb\CMS\Models\User;
+use Dply\Backend\Http\Requests\User\StoreUserRequest;
+use Dply\Backend\Http\Requests\User\UpdateUserRequest;
+use Dply\Backend\Repositories\UserRepository;
+use Dply\CMS\Http\Controllers\ApiController;
+use Dply\CMS\Models\User;
 use OpenApi\Annotations as OA;
 
 class UserController extends ApiController

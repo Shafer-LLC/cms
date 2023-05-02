@@ -4,7 +4,7 @@ namespace Dply\CMS\Support;
 
 use Exception;
 use Illuminate\Support\Facades\Mail;
-use Juzaweb\Backend\Models\EmailList;
+use Dply\Backend\Models\EmailList;
 
 class SendEmail
 {

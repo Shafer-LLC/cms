@@ -14,12 +14,12 @@ use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Validation\Rule;
-use Juzaweb\CMS\Abstracts\DataTable;
-use Juzaweb\CMS\Http\Controllers\BackendController;
-use Juzaweb\CMS\Traits\ResourceController;
-use Juzaweb\Network\Contracts\SiteManagerContract;
-use Juzaweb\Network\Http\Datatables\SiteDatatable;
-use Juzaweb\Network\Models\Site;
+use Dply\CMS\Abstracts\DataTable;
+use Dply\CMS\Http\Controllers\BackendController;
+use Dply\CMS\Traits\ResourceController;
+use Dply\Network\Contracts\SiteManagerContract;
+use Dply\Network\Http\Datatables\SiteDatatable;
+use Dply\Network\Models\Site;
 
 class SiteController extends BackendController
 {

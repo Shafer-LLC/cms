@@ -3,7 +3,7 @@
 namespace Dply\CMS\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Juzaweb\CMS\Contracts\ThemeLoaderContract;
+use Dply\CMS\Contracts\ThemeLoaderContract;
 
 /**
  * @method static void set(string $theme)

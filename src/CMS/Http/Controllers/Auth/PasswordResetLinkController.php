@@ -2,7 +2,7 @@
 
 namespace Dply\CMS\Http\Controllers\Auth;
 
-use Juzaweb\CMS\Http\Controllers\Controller;
+use Dply\CMS\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Password;
 use Illuminate\Validation\ValidationException;

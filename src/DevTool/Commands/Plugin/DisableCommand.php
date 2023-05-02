@@ -3,7 +3,7 @@
 namespace Dply\DevTool\Commands\Plugin;
 
 use Illuminate\Console\Command;
-use Juzaweb\CMS\Support\Plugin;
+use Dply\CMS\Support\Plugin;
 use Symfony\Component\Console\Input\InputArgument;
 
 class DisableCommand extends Command

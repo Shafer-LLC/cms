@@ -10,9 +10,9 @@
 
 namespace Dply\Tests\Feature\Frontend;
 
-use Juzaweb\Backend\Models\Taxonomy;
-use Juzaweb\CMS\Facades\HookAction;
-use Juzaweb\Tests\TestCase;
+use Dply\Backend\Models\Taxonomy;
+use Dply\CMS\Facades\HookAction;
+use Dply\Tests\TestCase;
 
 class TaxonomyTest extends TestCase
 {

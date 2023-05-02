@@ -14,17 +14,17 @@ use Illuminate\Http\JsonResponse;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Auth;
-use Juzaweb\Backend\Events\PostViewed;
-use Juzaweb\Backend\Http\Resources\CommentResource;
-use Juzaweb\Backend\Http\Resources\PostResource;
-use Juzaweb\Backend\Http\Resources\PostResourceCollection;
-use Juzaweb\Backend\Models\Comment;
-use Juzaweb\Backend\Models\Post;
-use Juzaweb\Backend\Repositories\PostRepository;
-use Juzaweb\CMS\Facades\Facades;
-use Juzaweb\CMS\Facades\HookAction;
-use Juzaweb\CMS\Http\Controllers\FrontendController;
-use Juzaweb\Frontend\Http\Requests\CommentRequest;
+use Dply\Backend\Events\PostViewed;
+use Dply\Backend\Http\Resources\CommentResource;
+use Dply\Backend\Http\Resources\PostResource;
+use Dply\Backend\Http\Resources\PostResourceCollection;
+use Dply\Backend\Models\Comment;
+use Dply\Backend\Models\Post;
+use Dply\Backend\Repositories\PostRepository;
+use Dply\CMS\Facades\Facades;
+use Dply\CMS\Facades\HookAction;
+use Dply\CMS\Http\Controllers\FrontendController;
+use Dply\Frontend\Http\Requests\CommentRequest;
 
 class PostController extends FrontendController
 {

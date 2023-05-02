@@ -3,10 +3,10 @@
 namespace Dply\Frontend\Http\Controllers;
 
 use Illuminate\Support\Facades\App;
-use Juzaweb\Backend\Models\Post;
-use Juzaweb\Backend\Models\Taxonomy;
-use Juzaweb\CMS\Facades\HookAction;
-use Juzaweb\CMS\Http\Controllers\Controller;
+use Dply\Backend\Models\Post;
+use Dply\Backend\Models\Taxonomy;
+use Dply\CMS\Facades\HookAction;
+use Dply\CMS\Http\Controllers\Controller;
 
 class SitemapController extends Controller
 {

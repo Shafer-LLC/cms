@@ -12,10 +12,10 @@ namespace Dply\Backend\Http\Datatables;
 
 use Illuminate\Database\Query\Builder;
 use Illuminate\Support\Arr;
-use Juzaweb\CMS\Abstracts\DataTable;
-use Juzaweb\CMS\Jobs\SendEmailJob;
-use Juzaweb\Backend\Models\EmailList;
-use Juzaweb\CMS\Support\SendEmail;
+use Dply\CMS\Abstracts\DataTable;
+use Dply\CMS\Jobs\SendEmailJob;
+use Dply\Backend\Models\EmailList;
+use Dply\CMS\Support\SendEmail;
 
 class EmailLogDatatable extends DataTable
 {

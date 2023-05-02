@@ -3,8 +3,8 @@
 namespace Dply\CMS\Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use Juzaweb\Backend\Models\Post;
-use Juzaweb\Backend\Models\Taxonomy;
+use Dply\Backend\Models\Post;
+use Dply\Backend\Models\Taxonomy;
 
 class PostTableSeeder extends Seeder
 {

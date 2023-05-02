@@ -13,8 +13,8 @@ namespace Dply\API\Http\Controllers\Admin;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Arr;
-use Juzaweb\CMS\Facades\HookAction;
-use Juzaweb\CMS\Models\User;
+use Dply\CMS\Facades\HookAction;
+use Dply\CMS\Models\User;
 use OpenApi\Annotations as OA;
 
 class GeneralController extends AdminApiController

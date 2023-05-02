@@ -3,7 +3,7 @@
 namespace Dply\CMS\Support;
 
 use Illuminate\Support\Arr;
-use Juzaweb\CMS\Contracts\GlobalDataContract;
+use Dply\CMS\Contracts\GlobalDataContract;
 
 class GlobalData implements GlobalDataContract
 {
