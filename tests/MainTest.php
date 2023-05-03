@@ -2,7 +2,7 @@
 
 class MainTest extends \Tests\TestCase
 {
-//    use \Illuminate\Foundation\Testing\DatabaseTransactions;
+    //    use \Illuminate\Foundation\Testing\DatabaseTransactions;
 
     /*
      *
@@ -111,7 +111,7 @@ class MainTest extends \Tests\TestCase
         $response = $this->get($admin_panel_url);
         $response->assertStatus(401);
 
-//        $user = new \App\User();
+        //        $user = new \App\User();
 
         $user = $this->create_admin_user();
 
@@ -131,7 +131,7 @@ class MainTest extends \Tests\TestCase
         $response->assertSee('Add Category');
 
         $admin_panel_url = config('binshopsblog.admin_prefix', 'blog_admin');
-//        $user=$this->create_admin_user();
+        //        $user=$this->create_admin_user();
 
         $this->assertTrue($user->canManageBinshopsBlogPosts());
 
@@ -142,7 +142,7 @@ class MainTest extends \Tests\TestCase
 
         $new_object_vals['is_published'] = 1;
         $new_object_vals['posted_at'] = \Carbon\Carbon::now();
-//        $new_object_vals['use_view_file'] = "";
+        //        $new_object_vals['use_view_file'] = "";
 
         $new_object_vals['_token'] = csrf_token();
 
@@ -150,7 +150,7 @@ class MainTest extends \Tests\TestCase
         $response = $this->post($admin_panel_url.'/add_post', $new_object_vals);
 
         $response->assertSessionHasNoErrors();
-//        dump($response);
+        //        dump($response);
 
         $response->assertStatus(302); // redirect
         $this->assertDatabaseHas('binshops_posts', $search_for_obj);
@@ -201,7 +201,7 @@ class MainTest extends \Tests\TestCase
 
         $new_object_vals['is_published'] = 1;
         $new_object_vals['posted_at'] = \Carbon\Carbon::now();
-//        $new_object_vals['use_view_file'] = "";
+        //        $new_object_vals['use_view_file'] = "";
 
         $new_object_vals['_token'] = csrf_token();
 
@@ -239,7 +239,7 @@ class MainTest extends \Tests\TestCase
 
         $new_object_vals['is_published'] = 1;
         $new_object_vals['posted_at'] = \Carbon\Carbon::now();
-//        $new_object_vals['use_view_file'] = "";
+        //        $new_object_vals['use_view_file'] = "";
 
         $new_object_vals['_token'] = csrf_token();
 
@@ -361,7 +361,7 @@ class MainTest extends \Tests\TestCase
 
         $new_object_vals['is_published'] = 1;
         $new_object_vals['posted_at'] = \Carbon\Carbon::now();
-//        $new_object_vals['use_view_file'] = "";
+        //        $new_object_vals['use_view_file'] = "";
 
         $new_object_vals['_token'] = csrf_token();
 
@@ -504,7 +504,7 @@ class MainTest extends \Tests\TestCase
 
         $new_object_vals['is_published'] = 1;
         $new_object_vals['posted_at'] = \Carbon\Carbon::now();
-//        $new_object_vals['use_view_file'] = "";
+        //        $new_object_vals['use_view_file'] = "";
 
         $new_object_vals['_token'] = csrf_token();
 
@@ -559,7 +559,7 @@ class MainTest extends \Tests\TestCase
 
         $new_object_vals['is_published'] = 1;
         $new_object_vals['posted_at'] = \Carbon\Carbon::now();
-//        $new_object_vals['use_view_file'] = "";
+        //        $new_object_vals['use_view_file'] = "";
 
         $new_object_vals['_token'] = csrf_token();
 
@@ -615,7 +615,7 @@ class MainTest extends \Tests\TestCase
 
         $new_object_vals['is_published'] = 1;
         $new_object_vals['posted_at'] = \Carbon\Carbon::now();
-//        $new_object_vals['use_view_file'] = "";
+        //        $new_object_vals['use_view_file'] = "";
 
         $new_object_vals['_token'] = csrf_token();
 
@@ -675,7 +675,7 @@ class MainTest extends \Tests\TestCase
 
         $new_object_vals['is_published'] = 1;
         $new_object_vals['posted_at'] = \Carbon\Carbon::now();
-//        $new_object_vals['use_view_file'] = "";
+        //        $new_object_vals['use_view_file'] = "";
 
         $new_object_vals['_token'] = csrf_token();
 
@@ -857,7 +857,7 @@ class MainTest extends \Tests\TestCase
 
         $new_object_vals['is_published'] = 1;
         $new_object_vals['posted_at'] = \Carbon\Carbon::now();
-//        $new_object_vals['use_view_file'] = "";
+        //        $new_object_vals['use_view_file'] = "";
 
         $new_object_vals['_token'] = csrf_token();
 

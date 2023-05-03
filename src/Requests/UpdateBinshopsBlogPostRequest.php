@@ -19,7 +19,7 @@ class UpdateBinshopsBlogPostRequest extends BaseBinshopsBlogPostRequest
     public function rules()
     {
         $return = $this->baseBlogPostRules();
-//        $return['slug'] [] = Rule::unique("binshops_post_translations", "slug")->ignore($this->route()->parameter("blogPostId"));
+        //        $return['slug'] [] = Rule::unique("binshops_post_translations", "slug")->ignore($this->route()->parameter("blogPostId"));
         return $return;
     }
 }

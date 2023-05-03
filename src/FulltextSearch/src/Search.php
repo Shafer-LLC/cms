@@ -53,7 +53,7 @@ class Search implements SearchInterface
                 '('.$titleWeight.' * (MATCH (indexed_title) AGAINST (?)) +
               '.$contentWeight.' * (MATCH (indexed_title, indexed_content) AGAINST (?))
              ) DESC',
-                  [$termsMatch, $termsMatch])
+                [$termsMatch, $termsMatch])
             ->limit(config('binshopsblog.search.limit-results'));
 
         $query->with(['indexable' => function ($query) {

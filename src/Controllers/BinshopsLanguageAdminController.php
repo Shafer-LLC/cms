@@ -70,7 +70,7 @@ class BinshopsLanguageAdminController extends Controller
         try {
             $language = BinshopsLanguage::findOrFail($languageId);
             //todo
-//        event(new CategoryWillBeDeleted($category));
+            //        event(new CategoryWillBeDeleted($category));
             $language->delete();
             Helpers::flash_message('The language is successfully deleted!');
 
