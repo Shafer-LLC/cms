@@ -1,36 +1,64 @@
 <?php
 
-namespace Dply\Cms\Tests;
+namespace Tests;
 
-use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
-use Dply\Cms\CmsServiceProvider;
-
-class TestCase extends Orchestra
+class TestCase extends \Orchestra\Testbench\TestCase
 {
-    protected function setUp(): void
+    /**
+     * Define environment setup.
+     *
+     * @param \Illuminate\Foundation\Application $app
+     */
+    protected function getEnvironmentSetUp($app)
     {
-        parent::setUp();
+        $app['config']->set('database.default', 'testbench');
+        $app['config']->set('cms.load-modules', false);
+        $app['config']->set('database.connections.testbench', [
+            'driver' => 'sqlite',
+            'database' => ':memory:',
+            'prefix' => '',
+        ]);
 
-        Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Dply\\Cms\\Database\\Factories\\'.class_basename($modelName).'Factory'
-        );
+        $app['config']->set('minify.config.ignore_environments', ['local', 'testing']);
+        $app->make('Illuminate\Contracts\Http\Kernel')->pushMiddleware('Illuminate\Session\Middleware\StartSession');
+
+        $app['Illuminate\Contracts\Auth\Access\Gate']->define('cms', function ($user) {
+            return true;
+        });
     }
 
+    /**
+     * getPackageProviders.
+     *
+     * @param App $app
+     *
+     * @return array
+     */
     protected function getPackageProviders($app)
     {
         return [
-            CmsServiceProvider::class,
+            \Grafite\Cms\GrafiteCmsProvider::class,
+            \Collective\Html\HtmlServiceProvider::class,
+            \Grafite\FormMaker\FormMakerProvider::class,
         ];
     }
 
-    public function getEnvironmentSetUp($app)
+    /**
+     * Setup the test environment.
+     */
+    public function setUp(): void
     {
-        config()->set('database.default', 'testing');
+        parent::setUp();
+        $this->withFactories(__DIR__.'/factories');
 
-        /*
-        $migration = include __DIR__.'/../database/migrations/create_cms_table.php.stub';
-        $migration->up();
-        */
+        $this->artisan('vendor:publish', [
+            '--provider' => 'Grafite\Cms\GrafiteCmsProvider',
+            '--force' => true,
+        ]);
+        $this->artisan('migrate', [
+            '--database' => 'testbench',
+        ]);
+        $this->withoutMiddleware();
+        $this->withoutEvents();
     }
 }
