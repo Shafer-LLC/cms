@@ -1,1 +1,0 @@
-@extends('cms::layouts.dashboard')
